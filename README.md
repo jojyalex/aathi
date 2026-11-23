@@ -14,11 +14,11 @@ Progress is saved on this computer in `data/aathi.db` (SQLite), so refreshing th
 - Moving old progress across: in the old version open Parent → *Download backup*, then in the new one Parent → *Restore*.
 
 ## Deploy with Coolify
-1. Add this repository as an application in Coolify and select the **Dockerfile** build pack (Dockerfile path: `Dockerfile`).
-2. Set the exposed port to **8000** and attach your domain.
-3. Add persistent storage mounted at **`/data`** so saved progress survives redeploys.
+1. Add this repository as an application in Coolify and select the **Docker Compose** build pack (compose file: `/docker-compose.yaml`, branch `main`, base directory `/`).
+2. On the `aathi` service set the domain to `http://aathi.home` (plain HTTP, since it is a LAN-only DNS name).
+3. Deploy. Saved progress lives in the named volume `aathi-data` (mounted at `/data`), so it survives redeploys.
 
-The container serves the app on `0.0.0.0:8000`; its SQLite database is stored at `/data/aathi.db`.
+The container serves the app on port 8000 (exposed, not published; Coolify's proxy routes the domain to it). Its SQLite database is `/data/aathi.db`, and `/api/health` is used for the healthcheck.
 
 ## Lessons
 All 16 lessons of the book (5 units) are in the **📚 Lessons** tab. Each lesson has its own path of days (3–7 days, by difficulty; the Aathi story keeps its 15-day plan), its own read-along story with animated scenes, word games, questions, sentence builder, writing and a final challenge. Progress is saved separately per lesson. Pick any lesson at any time.
