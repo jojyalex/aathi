@@ -1,0 +1,159 @@
+{
+ "title": "ഒരു സ്വപ്നമുണ്ടായിരുന്നു...",
+ "credit": "From the novel Aathi by Sara Joseph (Kerala Padavali, Class 6, pages 48–54)",
+ "speakers": {
+  "N":  {"name": "Storyteller", "ml": "കഥ പറയുന്നയാൾ", "emoji": "📖", "voice": "ml-IN-SobhanaNeural", "rate": "-12%", "pitch": "+0Hz"},
+  "D":  {"name": "Dinakaran", "ml": "ദിനകരൻ", "emoji": "👨‍🌾", "voice": "ml-IN-MidhunNeural", "rate": "-10%", "pitch": "+0Hz"},
+  "DV": {"name": "Devaki", "ml": "ദേവകി", "emoji": "👩", "voice": "ml-IN-SobhanaNeural", "rate": "-4%", "pitch": "+8Hz"},
+  "AM": {"name": "Amma (Mother)", "ml": "അമ്മ", "emoji": "👩‍🍳", "voice": "ml-IN-SobhanaNeural", "rate": "-14%", "pitch": "-6Hz"},
+  "KM": {"name": "Kunjimathvamma", "ml": "കുഞ്ഞിമാത്വമ്മ", "emoji": "👵", "voice": "ml-IN-SobhanaNeural", "rate": "-26%", "pitch": "-14Hz"},
+  "KD": {"name": "The children", "ml": "കുട്ടികൾ", "emoji": "🧒", "voice": "ml-IN-SobhanaNeural", "rate": "+0%", "pitch": "+22Hz"},
+  "TR": {"name": "The water treaty", "ml": "ജലഉടമ്പടി", "emoji": "💧", "voice": "ml-IN-MidhunNeural", "rate": "-22%", "pitch": "-8Hz"}
+ },
+ "scenes": [
+  {"id": "dream", "title": "Dinakaran's dream", "ml": "ദിനകരന്റെ സ്വപ്നം", "art": "wetland", "sents": [
+   ["N", "ദിനകരന് ഒരു സ്വപ്നമുണ്ടായിരുന്നു.", "Dinakaran had a dream."],
+   ["N", "പുറംലോകം എങ്ങനെയൊക്കെ മാറിമറിഞ്ഞാലും ആരും കൈനീട്ടിത്തൊടാനിടയില്ലാത്ത ചതുപ്പും കാടും വെള്ളവുമായിക്കിടക്കുന്ന ദേശത്ത് കൃഷിചെയ്തും മീൻപിടിച്ചും കക്കവാരിയുമൊക്കെ സമാധാനമായിട്ട് ജീവിക്കുക എന്ന സ്വപ്നം.", "His dream: however much the outside world changed, to live in peace in a land of swamp, forest and water that nobody would ever reach out to touch — farming, fishing and gathering clams.", "boat"],
+   ["N", "ദിനകരനു മാത്രമല്ല, ആതിയിൽ അധികം പേർക്കും അതുതന്നെയാണ് ആഗ്രഹം.", "Not only Dinakaran — most people in Aathi wished for the same thing."],
+   ["N", "സമാധാനം!", "Peace!", "glow"],
+   ["N", "ഒഴുക്കും തണുപ്പും നിശ്ശബ്ദതയും അവരെ പഠിപ്പിച്ചത് അതാണ്.", "That is what the flowing water, the coolness and the silence had taught them."],
+   ["N", "അത് നിലനിൽക്കണമെന്ന് ദിനകരൻ ആഗ്രഹിച്ചു.", "Dinakaran wished it would last forever."]
+  ]},
+  {"id": "outside", "title": "The outside world reaches out", "ml": "പുറംലോകം കൈനീട്ടുന്നു", "art": "excavator", "sents": [
+   ["N", "പുറംലോകം പക്ഷേ, സ്വയം മാറിമറിയുക മാത്രമല്ല, കൈനീട്ടുകകൂടിയാണ്.", "But the outside world doesn't only change by itself — it also reaches out its hands.", "reach"],
+   ["N", "എന്തും വേരോടെ പറിച്ചെടുക്കാൻ ശേഷിയുള്ള ഉരുക്കുകൈകൾകൊണ്ട് പുറംലോകം കൊച്ചുപ്രദേശങ്ങളെ കോരിമാറ്റിക്കളയുന്നു.", "With steel hands strong enough to pull anything out by its roots, the outside world scoops small places away.", "scoop"]
+  ]},
+  {"id": "hungry", "title": "The hungry giant", "ml": "വിശപ്പടങ്ങാത്ത പുറംലോകം", "art": "giant", "sents": [
+   ["N", "അതിവേഗം ദുർമ്മേദസ്സ് പെരുകുന്ന, എന്തു തിന്നാലും വിശപ്പടങ്ങാത്ത മഹാരോഗിയെപ്പോലെയാണ് പുറംലോകം.", "The outside world is like a very sick giant who keeps getting fatter and fatter, and whose hunger never ends, whatever it eats."],
+   ["N", "അതിന്റെ വായിൽ എന്തും കൊള്ളും.", "Anything at all fits in its mouth.", "chomp"],
+   ["N", "കുന്നും മലയും കാടും പുഴയും വയലും ചതുപ്പും ഒക്കെ അത് വെട്ടിവിഴുങ്ങും.", "Hills, mountains, forests, rivers, fields and swamps — it chops them all up and swallows them.", "eat"],
+   ["N", "എന്നിട്ട് മഹാനഗരങ്ങളെ വിസർജ്ജിച്ചുവയ്ക്കും.", "And then it leaves huge cities behind as its waste.", "city"]
+  ]},
+  {"id": "truth", "title": "The farmer's simple truth", "ml": "കൃഷിക്കാരന്റെ സത്യം", "art": "farm", "sents": [
+   ["N", "മണ്ണിൽ പണിയെടുക്കുമ്പോൾ ദിനകരൻ സത്യമാണ് തേടിയത്.", "When he worked in the soil, Dinakaran was searching for the truth."],
+   ["N", "മണ്ണും വെള്ളവും വെയിലും വിയർപ്പും കൂടിയാണ് വിത്തിനെ മുളപ്പിക്കുന്നത്.", "Soil, water, sunshine and sweat together make a seed sprout.", "sprout"],
+   ["N", "മണ്ണിൽ ഒരു വിത്തിട്ടാൽ അത് മുളയ്ക്കുന്നു.", "Put a seed in the soil, and it sprouts.", "sprout"],
+   ["N", "ലളിതമായ സത്യം!", "A simple truth!", "glow"],
+   ["N", "നൂറുമേനി വിളയിക്കുന്നവനാണ് കൃഷിക്കാരൻ.", "A farmer is someone who grows a hundredfold harvest.", "harvest"],
+   ["N", "ദിനകരൻ എന്നും കൃഷിക്കാരനാവാൻ ആഗ്രഹിച്ചു.", "Dinakaran always wanted to be a farmer.", "harvest"],
+   ["N", "അതേ അവനറിയൂ.", "That is all he knows.", "harvest"],
+   ["KD", "“സത്യത്തിലേക്കുള്ള വഴിയേതാണ്?”", "“Which is the way to the truth?”", "kids"],
+   ["N", "കുട്ടികൾ ചോദിക്കുന്നു.", "the children ask.", "kids"],
+   ["D", "“മണ്ണ്, വെള്ളം, വെയില്, വിയർപ്പ്, വിത്ത്...”", "“Soil, water, sunshine, sweat, seed...”", "five"],
+   ["N", "ദിനകരൻ പഠിപ്പിക്കുന്നു.", "Dinakaran teaches them.", "five"]
+  ]},
+  {"id": "stuck", "title": "No way forward", "ml": "വഴികൾ അടഞ്ഞു", "art": "home", "sents": [
+   ["N", "ഇപ്പോൾ വഴികൾ അടഞ്ഞ് ഉത്തരംമുട്ടി ദിനകരൻ നിൽക്കുന്നു.", "Now every path is closed, and Dinakaran stands there with no answer.", "sad"],
+   ["N", "അമ്മ അവസാനത്തെ പിടി നെല്ലും പുഴുങ്ങിയുണക്കി കുത്തും.", "Mother will boil, dry and pound the very last handful of paddy.", "pot"],
+   ["N", "ചോറുവയ്ക്കും... അതും തീരും.", "She will cook the rice... and then that will run out too.", "pot"]
+  ]},
+  {"id": "devaki", "title": "Devaki comes running", "ml": "ദേവകി ഓടിവരുന്നു", "art": "home", "sents": [
+   ["DV", "“ദിനകരാ!”", "“Dinakara!”", "devaki"],
+   ["N", "ഏതാണ്ടൊരു നിലവിളിപോലെ ദേവകി വിളിച്ചു.", "Devaki called out, almost like a scream.", "devaki"],
+   ["N", "കിതച്ചുകൊണ്ട് അവൾ ദിനകരന്റെ മുന്നിൽ നിന്നു.", "Panting, she stood in front of Dinakaran.", "devaki"],
+   ["AM", "“എന്താ ദേവ്വോ?”", "“What is it, Devu?”", "amma"],
+   ["N", "അമ്മ അടുക്കളയിൽനിന്ന് എത്തിനോക്കി.", "Mother peeped out from the kitchen.", "amma"],
+   ["DV", "“കുഞ്ഞിമാതു...”", "“Kunjimathu...”", "amma"],
+   ["N", "ദേവകി കരഞ്ഞു.", "Devaki cried.", "amma"],
+   ["AM", "“എന്തേ കുഞ്ഞിമാതൂന്?”", "“What happened to Kunjimathu?”", "amma"],
+   ["DV", "“അവള് വെള്ളത്തീന്ന് കേറ്ണില്യ.”", "“She won't come out of the water.” (village way of speaking)", "amma"],
+   ["AM", "“വെള്ളത്തീന്ന് കേറ്ണില്ല്യേ?”", "“Won't come out of the water?”", "amma"],
+   ["DV", "“എന്റെകൂടെ ഒന്ന് വായോ മോനേ!”", "“Please come with me, son!”", "amma"],
+   ["N", "ദേവകി തിരിച്ചോടി.", "Devaki ran back.", "runoff"],
+   ["DV", "“വേഗം വായോ...”", "“Come quickly...”", "runoff"],
+   ["N", "ഓടുന്നതിനിടയിൽ അവൾ വിളിച്ചുപറഞ്ഞു.", "she shouted as she ran.", "runoff"],
+   ["AM", "“ഒന്ന് ചെന്നുനോക്ക്.”", "“Go and have a look.”", "runoff"],
+   ["N", "അമ്മയ്ക്ക് പരിഭ്രമമായി.", "Mother became worried.", "runoff"],
+   ["N", "എന്തെങ്കിലും കുഴപ്പമില്ലാതെ ദേവകി ഇങ്ങനെ കൂക്കിവിളിച്ച് വരില്ല.", "Devaki would never come shouting like this unless something was wrong.", "runoff"],
+   ["AM", "വെള്ളത്തീന്ന് കേറ്ണില്ല്യാന്നാ? എന്നുവെച്ചാൽ?", "Won't come out of the water? What does that mean? (Mother thinks)", "runoff"],
+   ["N", "അമ്മയ്ക്കത് വിചിത്രമായി തോന്നി.", "It seemed very strange to Mother.", "runoff"]
+  ]},
+  {"id": "run", "title": "Across the fields", "ml": "വയലുകൾ കടന്ന്", "art": "fields", "sents": [
+   ["N", "ദേവകി ഓടുന്നത് കുഞ്ഞിമാത്വമ്മയുടെ വീട്ടിലേക്കാവുമെന്നാണ് ദിനകരൻ വിചാരിച്ചത്.", "Dinakaran thought Devaki was running to Kunjimathvamma's house."],
+   ["N", "പക്ഷേ, വയലുകളും വരമ്പുകളും കടന്ന്, മുട്ടോളം മുങ്ങിയ ചളിയിലും ചതുപ്പിലും ചവിട്ടി, നീളൻപുല്ലുകളും കുറ്റിച്ചെടികളും വകഞ്ഞുമാറ്റി ദേവകി ഗണേശസുബ്രഹ്മണ്യത്തിന്റെ സ്ഥലത്തേക്ക് കയറിപ്പോകുന്നതു കണ്ടപ്പോൾ അയാൾക്ക് അസ്വസ്ഥത തോന്നി.", "But he felt uneasy when he saw Devaki cross the fields and the bunds, wade through knee-deep mud and swamp, push aside tall grass and bushes, and climb into Ganesha Subrahmanyam's land.", "run"]
+  ]},
+  {"id": "filled", "title": "The buried wetland", "ml": "മണ്ണിട്ടുമൂടിയ തണ്ണീർത്തടം", "art": "construction", "sents": [
+   ["N", "ആരും ഇപ്പോൾ ഈ ഭാഗത്തേക്ക് വരാറില്ല.", "Nobody comes this way any more."],
+   ["N", "മണ്ണിട്ടു നശിപ്പിച്ച തണ്ണീർത്തടത്തിനു മീതെ പലമാതിരി സൗധങ്ങളുടെ അസ്ഥിവാരങ്ങൾ ഉയരുന്നുണ്ട്.", "On top of the wetland, ruined by filling it with soil, the foundations of all kinds of big buildings are rising.", "rise"],
+   ["N", "വെള്ളത്തിൽ വരച്ച വര പോലെയല്ല മണ്ണിൽ വരയ്ക്കുന്ന വരകൾ.", "Lines drawn on land are not like lines drawn on water.", "lines"],
+   ["N", "ദൃഢമായതും സുനിശ്ചിതവുമായ അതിരുകൾ.", "Firm, fixed boundaries.", "fence"],
+   ["N", "കൃത്യമായി അളന്നുതിരിച്ച് ചിലതിന് കമ്പിവേലി, ചിലതിനു മതിൽക്കെട്ട്.", "Measured exactly and divided up — some with wire fences, some with walls.", "fence"]
+  ]},
+  {"id": "treaty", "title": "The water treaty", "ml": "ജലഉടമ്പടി", "art": "treaty", "sents": [
+   ["N", "മണ്ണിനടിയിൽ കുഴിച്ചുമൂടപ്പെട്ടത് ദേശത്തിനു മുഴുവൻ അന്നം തന്നിരുന്ന തണ്ണീർത്തടമാണ്.", "What lies buried under the soil is the wetland that once gave food to the whole land."],
+   ["N", "ആഴമേറിയ സ്നേഹത്തിന്റെ ഉടമ്പടിയിലായിരുന്നു അവരും ആ തടാകവും.", "The people and that lake were bound together by a treaty of deep love.", "glow"],
+   ["N", "അവർ മാത്രമല്ല, മീനുകളും തവളകളും ഞണ്ടുകളും കക്കകളും പക്ഷികളും ശലഭങ്ങളും ഇഴജന്തുക്കളും പുല്ലും ചെടിയും കണ്ടലുമൊക്കെ ആ ജലഉടമ്പടിയിൽ ഒപ്പിട്ടവരാണ്.", "Not only them — fish, frogs, crabs, clams, birds, butterflies, creeping creatures, grass, plants and mangroves had all signed that water treaty.", "animals"],
+   ["TR", "നീ ഞങ്ങൾക്ക് വെള്ളവും ഉപജീവനവും തരും.", "“You will give us water and a way to live.”", "scroll"],
+   ["TR", "ഞങ്ങൾ നിന്നിൽ വേല ചെയ്യുകയും നിന്നെ പരിപാലിക്കുകയും ചെയ്യും.", "“We will work in you, and we will take care of you.”", "scroll"]
+  ]},
+  {"id": "guilt", "title": "A broken promise", "ml": "ലംഘിച്ച ഉടമ്പടി", "art": "buried", "sents": [
+   ["N", "ഉടമ്പടി ലംഘിച്ചവന്റെ കുറ്റബോധത്തോടെയും ആത്മനിന്ദയോടെയും ദിനകരൻ നിൽക്കുന്നു.", "Dinakaran stands there feeling the guilt and shame of someone who broke the treaty.", "sad"],
+   ["N", "മണ്ണിനടിയിൽ കിടക്കുന്നത് അനേകം തലമുറകളെ ഊട്ടിവളർത്തിയ മഹാനീർത്തടമാണ്.", "Under the soil lies the great wetland that fed and raised many, many generations.", "xray"],
+   ["N", "ഇനിയും അനേകം തലമുറകളെ ഊട്ടിവളർത്താൻ കെല്പുണ്ടായിരുന്നവളാണ്.", "She still had the strength to feed many more generations.", "xray"],
+   ["N", "ജീവൻ കൊടുത്തും പരിപാലിക്കേണ്ടതായിരുന്നു... പരിപാലിച്ചില്ല.", "She should have been protected, even at the cost of our lives... but she was not.", "xray"]
+  ]},
+  {"id": "mangroves", "title": "To the star mangroves", "ml": "നക്ഷത്രക്കണ്ടലുകൾ", "art": "mangroves", "sents": [
+   ["DV", "“വേഗം വായോ കുട്ടീ...”", "“Come quickly, child...”"],
+   ["N", "ദേവകി വിളിച്ചുപറഞ്ഞു.", "Devaki called out."],
+   ["D", "“എങ്ങടാ നിങ്ങള് ഓടണേ ദേവ്വോമ്മേ?”", "“Where are you running to, Devu-amma?”"],
+   ["N", "ദിനകരൻ അസ്വസ്ഥനായി ചോദിച്ചു.", "Dinakaran asked, worried."],
+   ["N", "ദേവകി അത് കേട്ടില്ല.", "Devaki didn't hear him."],
+   ["N", "കുമാരന്റെ ഭൂമിയുടെ അതിരിലെ നക്ഷത്രക്കണ്ടലുകളുടെ കരിംപച്ചക്കൂട്ടിൽ ദൂരന്നേ കാണാമായിരുന്നു, കുഞ്ഞിമാത്വമ്മയുടെ വെളുത്ത വസ്ത്രങ്ങൾ.", "Far away, in the dark-green clump of star mangroves at the edge of Kumaran's land, they could see Kunjimathvamma's white clothes.", "spot"],
+   ["D", "“അവരവിടെ എന്തെടുക്വാ?”", "“What is she doing there?”", "spot"],
+   ["DV", "“വെറ്തെ വെള്ളത്തില് ഇങ്ങനെ കുത്തിരിക്കാ അവള്!”", "“She's just sitting there in the water like this, for nothing!”", "spot"],
+   ["DV", "“വിളിച്ചാ കേക്കില്ല, മിണ്ടാട്ടോല്യാ ഉരിയാട്ടോല്യ.”", "“She won't listen when you call — not a word, not a sound.”", "spot"],
+   ["N", "തോളത്തിട്ട തോർത്തുകൊണ്ട് കണ്ണുതുടച്ച് ഓട്ടം നിർത്തി ദേവകി ദിനകരന്റെ ഒപ്പം നടന്നു.", "Wiping her eyes with the towel on her shoulder, Devaki stopped running and walked beside Dinakaran.", "spot"],
+   ["DV", "“പത്തു പതിനാല് ദിവസായി, ഏറ്റം വര്ണില്യ, വര്ണില്യാന്നും പറഞ്ഞ് കുഞ്ഞിമാതു വെസനിച്ഛ്ണൂ.”", "“For ten or fourteen days now Kunjimathu has been grieving, saying the tide isn't coming, the tide isn't coming.”", "spot"],
+   ["DV", "“ആ മണ്ണുംതിണ്ടേമ്മേന്ന് എന്ത്ചെയ്ത്താ എഴുന്നേറ്റ് പോരില്ല.”", "“Whatever you do, she won't get up off that mud mound.”", "spot"],
+   ["DV", "“ഏറ്റം വന്നിട്ട് മുങ്ങാൻ കാത്തിരിക്കാത്രേ!”", "“She says she's waiting for the tide to come, so she can go under!”", "spot"]
+  ]},
+  {"id": "tide", "title": "Waiting for the tide", "ml": "വേലിയേറ്റം", "art": "tide", "sents": [
+   ["N", "വേലിയേറ്റത്തിൽ മുങ്ങിപ്പോകുന്ന ആ മൺതിണ്ടിന്മേൽ ഇരുന്ന് ദിനകരനും വേലിയേറ്റം കണ്ടിട്ടുണ്ട്, അറിഞ്ഞിട്ടുണ്ട്.", "Dinakaran too has sat on that mud mound that goes under at high tide. He has seen the tide, and felt it."],
+   ["N", "കാത്തുകാത്തിരിക്കണം.", "You have to wait, and wait."],
+   ["N", "അങ്ങനെ ഇരിക്കുമ്പോൾ മെല്ലെ കേൾക്കാൻ തുടങ്ങും, മൺതിണ്ടിന്മേൽ വെള്ളം വന്നലയ്ക്കുന്ന മൃദുശബ്ദം.", "As you sit, slowly you begin to hear it — the soft sound of water lapping against the mound.", "ripple"],
+   ["N", "മർമ്മരംപോലെ ഗ്ള്..ഗ്ള്..ഗ്ള്...", "Like a whisper: glug.. glug.. glug...", "ripple"],
+   ["N", "നോക്കിക്കൊണ്ടിരിക്കെയാണ് വെള്ളം പൊങ്ങുക.", "The water rises right while you are watching.", "rise"],
+   ["N", "വെള്ളം പൊങ്ങി മൺതിണ്ട് മുങ്ങും.", "The water rises, and the mound goes under.", "under"],
+   ["N", "ദിനകരൻ മുങ്ങും.", "Dinakaran goes under too.", "under"],
+   ["N", "വെള്ളം തലയ്ക്കുമീതെക്കൂടി കടന്നുപോകാൻ ശ്വാസം പിടിച്ചിരിക്കുന്നത് ഒരു പരിശീലനമാണ്.", "Holding your breath while the water passes over your head is a kind of training.", "under"],
+   ["N", "അതൊരാഘോഷമാണ്, വെള്ളത്തെ അറിയലാണ്.", "It is a celebration. It is getting to know the water.", "under"],
+   ["N", "ആ വരവില്ലെങ്കിൽ ജീവിതമില്ല, നെല്ലില്ല, മീനില്ല.", "Without the tide coming in, there is no life, no rice, no fish.", "under"]
+  ]},
+  {"id": "km", "title": "Kunjimathvamma in the water", "ml": "വെള്ളത്തിലിരിക്കുന്ന കുഞ്ഞിമാത്വമ്മ", "art": "km", "sents": [
+   ["N", "എത്ര ഏറ്റവുമിറക്കവും കണ്ടവളാണ് കുഞ്ഞിമാത്വമ്മ!", "Kunjimathvamma has seen so many high tides and low tides!"],
+   ["N", "ഇനി ദേശത്തേക്ക് വെള്ളം കേറിവരില്ലെന്ന തോന്നൽ അവരെ അമ്പരപ്പിച്ചിട്ടുണ്ടാവും.", "The feeling that water will never flow into the land again must have shocked her."],
+   ["DV", "“എന്തിനാത്? തലയ്ക്കുമീതെ വെള്ളം വന്നാ അതുക്കു മീതെ തോണി!”", "“Why all this? If water comes over your head, then put a boat on top of it!”", "boat"],
+   ["DV", "“അല്ലാണ്ടെന്താ? വെള്ളം വന്നാ വന്നപോലെ ജീവിക്കും.”", "“What else? If the water comes, we live the way it comes.”", "boat"],
+   ["DV", "“വന്നില്ലെങ്കിൽ വരാത്തപോലെ ജീവിക്കണം.”", "“If it doesn't come, we must live the way it doesn't.”", "boat"],
+   ["DV", "“അതിനുപകരം ഇങ്ങനെ വെള്ളത്തില് കുത്തിര്ന്ന്ട്ട് എന്താ കാര്യം?”", "“Instead, what's the use of sitting in the water like this?”"],
+   ["N", "കണ്ടലിന്റെ വേരിൽ പിടിച്ചുതൂങ്ങി വെള്ളത്തിലേക്കിറങ്ങുമ്പോൾ ദേവകി പറഞ്ഞുകൊണ്ടേയിരുന്നു.", "Devaki kept talking as she held on to the mangrove roots and climbed down into the water.", "devakiin"],
+   ["N", "കുഞ്ഞിമാത്വമ്മയുടെ മുഖത്ത് ഭാവഭേദങ്ങളൊന്നുമില്ല.", "Kunjimathvamma's face showed no change at all.", "close"],
+   ["N", "അരയ്ക്കൊപ്പം വെള്ളത്തിലാണ് ഇരിപ്പ്.", "She was sitting in water up to her waist.", "close"],
+   ["N", "നനഞ്ഞ ഉടൽ വിറയ്ക്കുന്നുണ്ട്.", "Her wet body was shivering.", "shiver"],
+   ["N", "കൈകൾ നെഞ്ചത്ത് പിണച്ചു കെട്ടിയിരിക്കുന്നു.", "Her arms were folded tight across her chest.", "shiver"],
+   ["N", "ചത്ത മത്സ്യങ്ങളെപ്പോലെ വിളറിവെളുത്ത വിരലുകൾ.", "Her fingers were pale and white, like dead fish.", "shiver"],
+   ["N", "ചുണ്ടുകൾ കറുത്തുപോയിട്ടുണ്ട്.", "Her lips had turned dark.", "shiver"],
+   ["N", "കാർത്ത്യാനി വിഷാദത്തോടെ അടുത്തിരിക്കുന്നുണ്ട്.", "Karthyani sat sadly beside her.", "karthyani"]
+  ]},
+  {"id": "end", "title": "“I'm not going”", "ml": "ഞാനെങ്ങടൂല്യ", "art": "walls", "sents": [
+   ["D", "“പോവാം, കുഞ്ഞിമാത്വമ്മേ?”", "“Shall we go, Kunjimathvamma?”"],
+   ["N", "ദിനകരൻ ചോദിച്ചു.", "Dinakaran asked."],
+   ["N", "കുഞ്ഞിമാത്വമ്മ അവനെ സൂക്ഷിച്ചുനോക്കി.", "Kunjimathvamma looked at him closely."],
+   ["KM", "“എങ്ങോട്ട്?”", "“Where to?”"],
+   ["D", "“വീട്ടിലേക്ക്.”", "“Home.”"],
+   ["KM", "“ഒറ്റയ്ക്കാ?”", "“Alone?”"],
+   ["D", "“ഒറ്റയ്ക്കല്ലല്ലോ. ഞങ്ങളൊക്കെ ഇല്യേ?”", "“You're not alone. Aren't we all here with you?”"],
+   ["KM", "“അതന്യാ ചോദിച്ചേ. നമ്മള് ഒറ്റയ്ക്കങ്ങട് പോയാ പറ്റ്വോ?”", "“That's just what I'm asking. Can we simply go off on our own?” (and leave the water behind)"],
+   ["N", "ദിനകരന് മനസ്സിലായില്ല.", "Dinakaran didn't understand."],
+   ["N", "അവൻ കാർത്ത്യാനിയുടെ മുഖത്തേയ്ക്ക് നോക്കി.", "He looked at Karthyani's face."],
+   ["N", "കാർത്ത്യാനി മൂക്കത്ത് വിരൽ വെച്ചു.", "Karthyani put a finger on her nose, amazed."],
+   ["KM", "“അത് കണ്ടാ!”", "“Look at that!”", "point"],
+   ["N", "കുഞ്ഞിമാത്വമ്മ കുമാരൻ കെട്ടിപ്പൊക്കിയ കരിങ്കൽക്കെട്ടുകളിലേക്ക് ചൂണ്ടിക്കാട്ടി.", "Kunjimathvamma pointed at the granite walls that Kumaran had built up.", "point"],
+   ["KM", "“ചെന്നു നോക്ക്.”", "“Go and look.”", "point"],
+   ["N", "ദിനകരൻ കണ്ടു.", "Dinakaran saw it.", "crash"],
+   ["N", "കരിങ്കൽക്കെട്ടുകളിൽ വന്നലച്ചു നിലവിളിക്കുന്ന വെള്ളം.", "The water, crashing against the granite walls and crying out.", "crash"],
+   ["KM", "“ഞാനെങ്ങടൂല്യ... നിങ്ങള് പൊയ്ക്കോ.”", "“I'm not going anywhere... you all go.”", "crash"],
+   ["N", "കുഞ്ഞിമാത്വമ്മ പറഞ്ഞു.", "said Kunjimathvamma.", "crash"]
+  ]}
+ ]
+}

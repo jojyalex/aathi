@@ -1,0 +1,225 @@
+/* ---------- read-along story ---------- */
+.story{animation:slideUp .4s both}
+.st-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 10px}
+.st-stage{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;border:3px solid var(--line);box-shadow:var(--shadow);background:#fff8e8}
+.st-layer{position:absolute;inset:0;opacity:0;transition:opacity .8s ease}
+.st-layer.on{opacity:1}
+.st-layer svg{width:100%;height:100%;display:block}
+.st-paper{position:absolute;inset:0;pointer-events:none;mix-blend-mode:multiply;opacity:.5;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' seed='5'/><feColorMatrix values='0 0 0 0 .6  0 0 0 0 .5  0 0 0 0 .4  0 0 0 .14 0'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>");
+  box-shadow:inset 0 0 60px rgba(120,80,30,.25)}
+.st-book{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fffaf0;opacity:0;transition:opacity .6s;pointer-events:none}
+.st-stage.book .st-book{opacity:1;animation:kenburns 18s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.18) translate(-3%,2%)}}
+.st-chip{position:absolute;left:10px;top:10px;background:rgba(255,255,255,.88);color:#17323a;border-radius:99px;padding:3px 12px;font-size:13px;font-weight:800;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.st-chip b{color:var(--blue-d)}
+.st-bookbtn{position:absolute;right:10px;top:10px;border:0;border-radius:99px;padding:5px 12px;font:inherit;font-size:13px;font-weight:800;background:rgba(255,255,255,.9);color:#17323a;cursor:pointer}
+
+.st-text{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:14px 16px;margin:12px 0;box-shadow:var(--shadow)}
+.st-text.pop{animation:slideUp .35s both}
+.st-who{display:flex;align-items:center;gap:8px;font-size:15px;margin-bottom:6px}
+.st-av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:20px;background:var(--soft);border:2px solid var(--line)}
+.sp-D{border-color:#3a7bd5}.sp-DV{border-color:#2e9e6a}.sp-AM{border-color:#e07b39}.sp-KM{border-color:#bbb}.sp-KD{border-color:#f2b134}.sp-TR{border-color:#1cb0f6}
+.st-line{line-height:1.2;display:flex;flex-wrap:wrap;gap:4px 2px;align-items:flex-start;max-height:min(34vh,260px);overflow-y:auto;position:relative;scrollbar-width:thin}
+.st-w{display:inline-flex;flex-direction:column;align-items:center;border:0;background:transparent;color:var(--ink);font:inherit;padding:4px 6px;border-radius:12px;cursor:pointer;transition:background .15s,transform .15s,color .2s}
+.st-w .w{font-size:26px;font-weight:800}
+.st-w .r{font-size:13px;color:var(--mut);font-weight:700;margin-top:2px}
+.st-w:hover{background:var(--soft)}
+.st-w.done .w{color:var(--green-d)}
+.st-w.on{background:var(--yellow);transform:translateY(-3px) scale(1.06);box-shadow:0 4px 0 var(--yellow-d)}
+.st-w.on .w,.st-w.on .r{color:#3b2a00}
+.no-rom .st-w .r{display:none}
+.st-en{margin-top:10px;padding-top:10px;border-top:2px dashed var(--line);font-size:17px;color:var(--ink)}
+.no-en .st-en{display:none}
+
+.st-controls{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow)}
+.st-main{display:flex;justify-content:center;align-items:center;gap:18px}
+.st-play{width:72px;height:72px;border-radius:50%;border:0;background:var(--green);color:#fff;font-size:30px;cursor:pointer;box-shadow:0 6px 0 var(--green-d);transition:transform .08s}
+.st-play:active{transform:translateY(4px);box-shadow:0 2px 0 var(--green-d)}
+.playing .st-play{animation:nodePulse 1.4s ease-in-out infinite}
+.st-ctl{width:52px;height:52px;border-radius:50%;border:2px solid var(--line);background:var(--card);color:var(--ink);font-size:20px;cursor:pointer;box-shadow:0 4px 0 var(--line)}
+.st-ctl:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
+.st-prog{height:10px;margin:12px 4px}
+.st-toggles{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.st-tog{border:2px solid var(--line);background:var(--card);color:var(--mut);font:inherit;font-size:13px;font-weight:800;border-radius:99px;padding:5px 12px;cursor:pointer}
+.st-tog.on{border-color:var(--blue);color:var(--blue-d);background:rgba(28,176,246,.12)}
+
+.st-strip{display:flex;gap:8px;overflow-x:auto;padding:12px 2px;scrollbar-width:thin}
+.st-scene{flex:none;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:13px;font-weight:800;border-radius:14px;padding:8px 12px;cursor:pointer;box-shadow:0 3px 0 var(--line);white-space:nowrap}
+.st-scene b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--gray);font-size:12px;margin-right:2px}
+.st-scene.on{border-color:var(--orange);box-shadow:0 3px 0 var(--orange-d)}
+.st-scene.on b{background:var(--orange);color:#fff}
+.st-all{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:10px 14px;margin:6px 0}
+.st-all summary{cursor:pointer;font-weight:900}
+.st-list{max-height:380px;overflow:auto;margin-top:8px;position:relative}
+.st-lh{position:sticky;top:0;background:var(--card);padding:8px 0 4px;font-weight:900;color:var(--orange-d);font-size:14px;z-index:1}
+.st-row{display:flex;gap:10px;width:100%;text-align:left;border:0;border-radius:12px;background:transparent;color:var(--ink);font:inherit;padding:8px;cursor:pointer;align-items:flex-start}
+.st-row:hover{background:var(--soft)}
+.st-row.on{background:rgba(255,200,0,.22)}
+.st-row small{display:block;color:var(--mut);font-size:13px}
+.st-sp{font-size:18px}
+
+/* ---------- SVG scene animation ---------- */
+.st-svg *{transform-box:view-box}
+.st-svg .fxg{opacity:0;transition:opacity .9s}
+.st-svg .fxg.show{opacity:1}
+.st-svg .fxg:not(.show) *{animation-play-state:paused!important}
+.sway{animation:sway 4s ease-in-out infinite;transform-origin:0 0}
+@keyframes sway{50%{transform:rotate(2.5deg)}}
+.shake{animation:sway .5s ease-in-out infinite}
+.wave{animation:wave 4s linear infinite}.wave.slow{animation-duration:7s}
+@keyframes wave{to{transform:translateX(40px)}}
+.swim{animation:swim var(--d,14s) linear infinite}
+.swim.rev{animation-direction:reverse}
+@keyframes swim{from{transform:translateX(-500px)}to{transform:translateX(500px)}}
+.wiggle{animation:wiggle .5s ease-in-out infinite alternate}
+@keyframes wiggle{to{transform:skewY(4deg)}}
+.fly{animation:fly var(--d,18s) linear infinite}
+@keyframes fly{from{transform:translate(-400px,30px)}50%{transform:translate(200px,-20px)}to{transform:translate(900px,10px)}}
+.flap{animation:flap .45s ease-in-out infinite alternate;transform-origin:0 0}
+@keyframes flap{to{transform:scaleY(-.5)}}
+.flutter{animation:flutter 7s ease-in-out infinite}
+@keyframes flutter{25%{transform:translate(30px,-20px)}50%{transform:translate(60px,10px)}75%{transform:translate(20px,20px)}}
+.wings{animation:wings .25s ease-in-out infinite alternate;transform-origin:0 0}
+@keyframes wings{to{transform:scaleX(.4)}}
+.hop{animation:hop 2.4s ease-in-out infinite}
+@keyframes hop{0%,60%,100%{transform:translateY(0)}75%{transform:translateY(-18px)}}
+.scuttle{animation:scuttle 6s ease-in-out infinite}
+@keyframes scuttle{50%{transform:translateX(60px)}}
+.peck{animation:peck 5s ease-in-out infinite;transform-origin:0 0}
+@keyframes peck{0%,70%,100%{transform:rotate(0)}80%{transform:rotate(22deg)}}
+.bob{animation:bob 3s ease-in-out infinite}
+.drift{animation:drift var(--d,60s) linear infinite}
+@keyframes drift{from{transform:translateX(-120px)}to{transform:translateX(160px)}}
+.spin{animation:spin 30s linear infinite;transform-origin:0 0}
+.spin-slow{animation:spin 12s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{50%{opacity:.25}}
+.pulse{animation:pulseO 2.4s ease-in-out infinite}
+@keyframes pulseO{50%{opacity:.45}}
+.beat{animation:beat 1s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes beat{30%{transform:scale(1.18)}}
+.breathe{animation:breathe 3s ease-in-out infinite;transform-origin:0 0}
+@keyframes breathe{50%{transform:scaleY(1.02)}}
+.bounce{animation:bounceK 1s ease-in-out infinite;transform-origin:0 0}
+@keyframes bounceK{50%{transform:translateY(-8px)}}
+.legA{animation:legA .5s ease-in-out infinite alternate;transform-origin:0 -44px}
+.legB{animation:legA .5s ease-in-out infinite alternate-reverse;transform-origin:0 -44px}
+@keyframes legA{from{transform:rotate(-22deg)}to{transform:rotate(22deg)}}
+.armA{animation:legA .5s ease-in-out infinite alternate-reverse;transform-origin:-14px -78px}
+.armB{animation:legA .5s ease-in-out infinite alternate;transform-origin:14px -78px}
+.wavearm{animation:waveArm .6s ease-in-out infinite alternate;transform-origin:14px -78px}
+@keyframes waveArm{to{transform:rotate(-30deg)}}
+.pointarm{animation:point 1.2s ease-in-out infinite alternate;transform-origin:0 0}
+@keyframes point{to{transform:rotate(-6deg)}}
+.smoke circle,.steam path{animation:smoke 3s ease-out infinite}
+@keyframes smoke{from{transform:translateY(10px);opacity:0}40%{opacity:.9}to{transform:translateY(-30px);opacity:0}}
+.flame{animation:flame .4s ease-in-out infinite alternate;transform-origin:0 14px}
+.drip{animation:drip 1s linear infinite}
+@keyframes drip{from{transform:translateY(0);opacity:1}to{transform:translateY(40px);opacity:0}}
+.ripple{animation:ripple 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes ripple{from{transform:scale(.4);opacity:1}to{transform:scale(2.6);opacity:0}}
+.float-txt{animation:floatTxt 3s ease-in-out infinite}
+@keyframes floatTxt{50%{transform:translateY(-14px)}}
+.bubbles-up circle{animation:bubUp 2.4s ease-in infinite}
+@keyframes bubUp{from{transform:translateY(40px);opacity:0}30%{opacity:1}to{transform:translateY(-200px);opacity:0}}
+/* scene specific */
+.arm{animation:armIdle 6s ease-in-out infinite}
+@keyframes armIdle{50%{transform:rotate(3deg)}}
+.on-reach .arm{animation:reach 2.5s ease-in-out infinite alternate}
+@keyframes reach{to{transform:rotate(-10deg)}}
+.on-scoop .arm{animation:dig 4s ease-in-out infinite}
+@keyframes dig{0%,100%{transform:rotate(0)}40%{transform:rotate(14deg)}70%{transform:rotate(-12deg)}}
+.on-scoop .arm2{animation:dig2 4s ease-in-out infinite}
+@keyframes dig2{40%{transform:rotate(-14deg)}70%{transform:rotate(10deg)}}
+.fall{animation:fall2 3s ease-in infinite}
+@keyframes fall2{from{transform:translateY(-40px);opacity:0}30%{opacity:1}to{transform:translateY(120px);opacity:0}}
+.giant{animation:breatheG 3s ease-in-out infinite;transform-origin:230px 450px}
+@keyframes breatheG{50%{transform:scale(1.03)}}
+.on-city .giant{animation:fatter 2s ease-in-out forwards;transform-origin:230px 450px}
+@keyframes fatter{to{transform:scale(1.14)}}
+.look{animation:look 3s ease-in-out infinite}
+@keyframes look{50%{transform:translateX(8px)}}
+.on-chomp .jaw,.on-eat .jaw{animation:chomp .5s ease-in-out infinite alternate;transform-origin:230px 290px}
+@keyframes chomp{to{transform:scaleY(.25)}}
+.on-eat .eatme{animation:eaten 5s ease-in forwards;transform-origin:420px 300px}
+@keyframes eaten{to{transform:translateX(-120px) scale(.15);opacity:0}}
+.crumbs circle{animation:crumb 1.2s ease-in infinite}
+@keyframes crumb{to{transform:translateX(-160px);opacity:0}}
+.rise-up{animation:riseUp 2.4s cubic-bezier(.2,1.2,.4,1) both}
+@keyframes riseUp{from{transform:translateY(260px)}}
+.grow{animation:grow 2.4s cubic-bezier(.2,1.3,.4,1) both;transform-origin:0 0}
+@keyframes grow{from{transform:scaleY(0)}}
+.grow-all{animation:growY 2.4s ease-out both;transform-origin:0 450px}
+@keyframes growY{from{transform:scaleY(0)}}
+.drops path{animation:drip 1.4s linear infinite}
+.pop-row text,.pop-ring>g{animation:popIn .6s cubic-bezier(.2,1.6,.4,1) both;transform-box:fill-box;transform-origin:center}
+@keyframes popIn{from{transform:scale(0)}}
+.unroll{animation:unroll 1.2s ease-out both;transform-origin:0 0}
+@keyframes unroll{from{transform:scaleX(0)}}
+.draw path{stroke-dashoffset:600;animation:draw 3s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.fade-line{animation:fadeLine 3s ease-in-out infinite}
+@keyframes fadeLine{50%{opacity:0}}
+.slide-in{animation:slideIn 1.4s cubic-bezier(.2,1.2,.4,1) both}
+@keyframes slideIn{from{transform:translateX(-360px)}}
+.on-runoff .fx-devaki{opacity:0}
+.run-off{animation:runOff 2.6s ease-in forwards}
+@keyframes runOff{to{transform:translateX(-420px)}}
+.peek{animation:fadeIn 1s both}
+.fade-in{animation:fadeIn 1.4s both}
+@keyframes fadeIn{from{opacity:0}}
+.rainy{animation:fadeIn 1.5s both}
+.cross{animation:cross 10s linear infinite}
+.cross.late{animation-delay:-2.2s}
+@keyframes cross{from{transform:translate(-80px,420px)}to{transform:translate(880px,340px)}}
+.walk-in{animation:walkIn 3s ease-out both}
+.walk-in.late{animation-delay:.6s}
+@keyframes walkIn{from{transform:translateX(-320px)}}
+.km-far{animation:bob 3s ease-in-out infinite}
+.tidewater{transition:transform 3s ease-in-out}
+.on-rise .tidewater{transform:translateY(-50px)}
+.on-under .tidewater{transform:translateY(-150px)}
+.scene-tide.on-under .mound{opacity:.6}
+.shiver-g{transform-origin:400px 300px}
+.on-shiver .shiver-g{animation:shiver .12s linear infinite}
+@keyframes shiver{25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
+.climb{animation:climb 2.6s ease-out both}
+@keyframes climb{from{transform:translate(80px,-70px)}}
+.splash path{animation:splash 1.3s ease-out infinite;transform-box:fill-box;transform-origin:right center}
+@keyframes splash{from{transform:scale(.3);opacity:0}30%{opacity:1}to{transform:scale(1.4) translateX(-20px);opacity:0}}
+.tidewater-hi .wave{animation-duration:1.6s}
+@media (prefers-reduced-motion:reduce){.st-svg *{animation:none!important}}
+@media (max-width:520px){.st-w .w{font-size:22px}.st-play{width:62px;height:62px}.st-main{gap:12px}}
+/* animations for composed scenes (lesson.json "anim") */
+.ca{transform-box:fill-box;transform-origin:center bottom}
+.ca-bob{animation:bob 3s ease-in-out infinite}
+.ca-sway{animation:sway 3s ease-in-out infinite}
+.ca-spin{animation:spin 8s linear infinite;transform-origin:center}
+.ca-hop{animation:hop 1.8s ease-in-out infinite}
+.ca-fly{animation:fly 16s linear infinite}
+.ca-swim{animation:swim 14s linear infinite}
+.ca-drive{animation:drive 9s linear infinite}
+@keyframes drive{from{transform:translateX(-900px)}to{transform:translateX(900px)}}
+.ca-walk{animation:walk 12s linear infinite}
+@keyframes walk{from{transform:translateX(-160px)}to{transform:translateX(160px)}}
+.ca-pulse{animation:pulseO 2s ease-in-out infinite}
+.ca-beat{animation:beat 1s ease-in-out infinite;transform-origin:center}
+.ca-grow{animation:grow 2.4s cubic-bezier(.2,1.3,.4,1) both}
+.ca-rise{animation:riseUp 2.4s cubic-bezier(.2,1.2,.4,1) both}
+.ca-fall{animation:fall2 3s ease-in infinite}
+.ca-shake{animation:shiver .25s linear infinite}
+.ca-float{animation:floatTxt 3s ease-in-out infinite}
+.ca-flutter{animation:flutter 6s ease-in-out infinite}
+.ca-wiggle{animation:wiggle .4s ease-in-out infinite alternate}
+.ca-slidein{animation:slideIn 1.6s cubic-bezier(.2,1.2,.4,1) both}
+.ca-slideout{animation:runOff 3s ease-in forwards}
+.ca-pop{animation:popIn .7s cubic-bezier(.2,1.6,.4,1) both;transform-origin:center}
+.ca-flicker{animation:flickerO .3s ease-in-out infinite alternate}
+@keyframes flickerO{to{opacity:.7;transform:scale(1.04)}}
+.ca-zoom{animation:zoomIn 3s ease-out both;transform-origin:center}
+@keyframes zoomIn{from{transform:scale(.3);opacity:0}}
+.roll{animation:roll 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes roll{50%{transform:translateX(10px) rotate(180deg)}}
+.prop{animation:spin .25s linear infinite}

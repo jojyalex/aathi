@@ -1,0 +1,171 @@
+{
+  "id": "u3-l1-vayal",
+  "unit": 3, "unitMl": "നൽകുകിൽ നേടാം", "unitEn": "Give, and you will get",
+  "order": 1,
+  "title": "വയൽക്കാഴ്ചകൾ", "titleEn": "Sights of the Fields",
+  "pages": "41–43", "kind": "poem",
+  "author": "Idaikkadanar (old Tamil Akam poem), Malayalam by N. V. Krishna Warrier",
+  "level": "medium",
+  "icon": "🦚",
+  "summaryEn": "<p>This is a very old poem from the Tamil <b>Akam</b> poems, put into Malayalam by N. V. Krishna Warrier. It shows farming long, long ago, when people worked <b>together with nature</b>.</p><p>Heavy rain falls at dark dawn. Bulls plough the red soil. Seeds sprout. Farmers with palm-leaf umbrellas pull out weeds to the beat of a drum. Then the millet grows ripe, and beautiful <b>peacocks</b> come to eat it, spread their feathers, and sit proudly on a big tree.</p><p>After the poem there is a short piece from Cherukad's novel <i>Manninte Maaril</i>: the first rain comes, frogs start to croak, and the farmer Konderan jumps with joy!</p>",
+  "speakers": {
+    "N": {"name": "Poem reader", "ml": "കവിത ചൊല്ലുന്നയാൾ", "emoji": "📜", "voice": "ml-IN-SobhanaNeural", "rate": "-15%", "pitch": "+0Hz"},
+    "S": {"name": "Storyteller", "ml": "കഥ പറയുന്നയാൾ", "emoji": "📖", "voice": "ml-IN-MidhunNeural", "rate": "-12%", "pitch": "+0Hz"}
+  },
+  "scenes": [
+    {"id": "rain", "title": "Rainy dawn, ploughing", "ml": "മഴയുള്ള പുലർകാലം", "book": "img/book/p041_1.jpg",
+     "art": {"bg": "grey", "ground": "soil",
+      "items": [["cloud", 180, 80, 1.3, {"anim": "float"}], ["cloud", 560, 70, 1.5, {"anim": "float", "delay": 1}], ["rain"],
+                ["tree", 90, 330, 0.9], ["palm", 720, 330, 1.0, {"anim": "sway"}],
+                ["e", "🌱", 400, 300, 34]],
+      "fx": {
+        "plough": [["e", "🐂", 330, 330, 80, {"anim": "walk"}], ["e", "🐂", 420, 335, 80, {"anim": "walk", "delay": 0.3}], ["p", "farmer", 520, 335, 1.0, "stand"]],
+        "furrow": [["e", "💧", 250, 390, 34, {"anim": "fall"}], ["e", "💧", 560, 400, 34, {"anim": "fall", "delay": 0.5}], ["text", "ചാല്", 400, 420, 26, "#5b3a1a"]]
+      }},
+     "sents": [
+      ["N", "പ്രകൃതിയോടു ചേർന്നുനിന്നും പ്രകൃതിയിലിടപെട്ടുമാണ് കൃഷി മുന്നോട്ടുപോയത്...", "Farming grew by staying close to nature, and by working with nature..."],
+      ["N", "പേമഴ പെയ്ക്കേ പാരമിരുളും പുലർകാലം പൂഴി കീഴ്മേലായ് രണ്ടു ഭാഗത്തും മറിയവേ,", "At dawn, very dark while heavy rain pours, the soil is turned upside down on both sides (by the plough),", "plough"],
+      ["N", "കാളയെപ്പൂട്ടിത്തയ്യാറാക്കിയ ചെമ്മണ്മേട്ടിൽ കീറിയോരിച്ചിപോൽ നീർവാലും കരിച്ചാലിൽ,", "on the red-soil high ground, made ready by yoking the bulls, in the dark furrows where water drains away (part of this line's meaning is not fully clear),", "furrow"]
+     ]},
+    {"id": "sprout", "title": "The seeds sprout", "ml": "വിത്തു മുളച്ചു",
+     "art": {"bg": "dawn", "ground": "soil",
+      "items": [["sun", 650, 90], ["tree", 80, 330, 0.9], ["bush", 740, 330, 1.0],
+                ["e", "🌱", 260, 330, 40, {"anim": "grow"}], ["e", "🌱", 340, 330, 40, {"anim": "grow", "delay": 0.4}],
+                ["e", "🌱", 420, 330, 40, {"anim": "grow", "delay": 0.8}], ["e", "🌱", 500, 330, 40, {"anim": "grow", "delay": 1.2}]],
+      "fx": {
+        "deer": [["e", "🦌", 160, 330, 80, {"anim": "slidein"}], ["e", "🦌", 620, 335, 70, {"anim": "hop"}], ["e", "🦌", 700, 340, 60, {"anim": "hop", "delay": 0.5}]]
+      }},
+     "sents": [
+      ["N", "ഊന്നിയ വിത്തൊക്കെയും മുളച്ചു പൊന്തീടുമ്പോൾ തിന്നുവാൻ വന്നെത്തിയ കലമാൻപറ്റംപോലെ,", "When all the planted seeds sprout up — like a herd of deer that has come to eat them,", "deer"]
+     ]},
+    {"id": "weeding", "title": "Farmers pull the weeds", "ml": "കള പറിക്കുന്നു",
+     "art": {"bg": "day", "ground": "field",
+      "items": [["sun", 700, 80], ["cloud", 200, 80, 1.0, {"anim": "float"}], ["palm", 60, 330, 1.0, {"anim": "sway"}],
+                ["e", "🌿", 300, 360, 40], ["e", "🌿", 470, 370, 40], ["e", "🌿", 620, 360, 40]],
+      "fx": {
+        "farmers": [["p", "farmer", 260, 340, 1.0, "stand"], ["e", "☂️", 260, 210, 60, {"anim": "bob"}],
+                    ["p", "farmer", 420, 345, 1.0, "stand"], ["e", "☂️", 420, 215, 60, {"anim": "bob", "delay": 0.4}],
+                    ["p", "woman", 580, 340, 1.0, "stand"], ["e", "☂️", 580, 210, 60, {"anim": "bob", "delay": 0.8}]],
+        "drum": [["e", "🪘", 140, 380, 60, {"anim": "beat"}], ["text", "ധും ധും!", 150, 290, 26, "#8a3b12"],
+                 ["e", "🌿", 330, 300, 36, {"anim": "rise"}], ["e", "🌿", 500, 300, 36, {"anim": "rise", "delay": 0.5}]]
+      }},
+     "sents": [
+      ["N", "പനയോലയാൽത്തീർത്തു കാൽനിണ്ട കുട ചൂടി- പ്പണിയാനുത്സാഹംപൂണ്ടെത്തിയ കൃഷിവളർ", "the farmers come, eager to work, holding long-handled umbrellas made of palm leaves,", "farmers"],
+      ["N", "പറകൊട്ടിടും താളമൊപ്പിച്ചു കൊത്തിക്കിള- ച്ചടിവേരോടേ കളക്കുറ്റികൾ പറിക്കുന്നൂ.", "and keeping time with the beat of the para drum, they dig and hoe, and pull out the weeds, roots and all.", "drum"]
+     ]},
+    {"id": "millet", "title": "Ripe millet, hungry peacocks", "ml": "വരക് വിളഞ്ഞു",
+     "art": {"bg": "day", "ground": "field",
+      "items": [["sun", 120, 80], ["tree", 720, 330, 1.0],
+                ["e", "🌾", 220, 340, 60, {"anim": "sway"}], ["e", "🌾", 320, 345, 60, {"anim": "sway", "delay": 0.3}],
+                ["e", "🌾", 420, 340, 60, {"anim": "sway", "delay": 0.6}], ["e", "🌾", 520, 345, 60, {"anim": "sway", "delay": 0.9}]],
+      "fx": {
+        "peacock": [["e", "🦚", 600, 330, 90, {"anim": "slidein"}], ["e", "🦚", 140, 335, 80, {"anim": "walk"}]]
+      }},
+     "sents": [
+      ["N", "വിസ്തൃതം പുനം; അതിൽ വിളഞ്ഞൂ വരക്; ഇനി- യെത്രയും രുചിയെഴുമതിന്റെ കതിരുകൾ", "The hill field is wide; in it the varagu millet is ripe; now its very tasty ears of grain —"],
+      ["N", "ഉണ്ണുവാനിങ്ങെത്തീടും തലയിൽ കുടുമയും വർണ്ണചിത്രമാം വാലുമിയലും മയിലുകൾ.", "peacocks, with crests on their heads and colourful painted tails, will come here to eat them.", "peacock"]
+     ]},
+    {"id": "peacock", "title": "Proud peacocks on the tree", "ml": "മരക്കൊമ്പിലെ മയിലുകൾ", "book": "img/book/p041_1.jpg",
+     "art": {"bg": "day", "ground": "field",
+      "items": [["sun", 100, 80], ["tree", 560, 330, 1.4], ["e", "🌾", 200, 340, 50, {"anim": "sway"}], ["e", "🌾", 290, 345, 50, {"anim": "sway", "delay": 0.5}],
+                ["e", "🦚", 240, 330, 80, {"anim": "bob"}]],
+      "fx": {
+        "spread": [["e", "🦚", 380, 330, 110, {"anim": "zoom"}], ["glow", 380, 280, 70]],
+        "lunch": [["p", "farmer", 600, 335, 0.9, "sit"], ["p", "farmer", 690, 335, 0.9, "sit", true], ["e", "🍚", 645, 330, 36]],
+        "branch": [["e", "🦚", 600, 150, 70, {"anim": "hop"}], ["e", "🦚", 680, 170, 60, {"anim": "hop", "delay": 0.4}]]
+      }},
+     "sents": [
+      ["N", "പുറമേ കറുപ്പെഴും വരകിൻ കതിർ തിന്നി- ട്ടവ പീലികൾ വിരിച്ചെത്രയും പുളപ്പോടെ,", "After eating the varagu grain, which is black on the outside, they spread their feathers, oh so proudly,", "spread"],
+      ["N", "കൊല്ലയിലുഴുന്നവരുച്ചയ്ക്കു ചോറുണ്ണുമ്പോൾ തെല്ലൊരു തണൽ കിട്ടാൻ വെട്ടാതെ നിർത്തീടുള്ള", "(there is a tree left uncut, so that the people ploughing the field can get a little shade when they eat rice at noon)", "lunch"],
+      ["N", "വലുതാമിലയെഴും കുരുന്തമരത്തിന്റെ വളഞ്ഞ കൊമ്പിൽക്കേറിയന്തസ്സാർന്നിരുന്നീടും.", "and they climb onto the curved branch of that big-leaved kurunthu tree and sit there very grandly.", "branch"]
+     ]},
+    {"id": "firstrain", "title": "Another farm scene: the first rain", "ml": "മറ്റൊരു കൃഷിക്കാഴ്ച",
+     "art": {"bg": "grey", "ground": "soil",
+      "items": [["cloud", 200, 80, 1.3, {"anim": "float"}], ["cloud", 560, 70, 1.4, {"anim": "float", "delay": 1}],
+                ["e", "⛰️", 640, 300, 120], ["p", "farmer", 200, 335, 1.1, "stand"]],
+      "fx": {
+        "rain": [["rain"]],
+        "ash": [["e", "💧", 560, 340, 36, {"anim": "fall"}], ["e", "💧", 470, 370, 36, {"anim": "fall", "delay": 0.4}], ["e", "🌫️", 400, 400, 50, {"anim": "pulse"}]]
+      }},
+     "sents": [
+      ["S", "തന്റെ കൃഷിസ്ഥലത്തെ വിത്തിറക്കാൻ പാകപ്പെടുത്തി കൃഷിക്കാരനായ കൊണ്ടേരൻ കാത്തിരിക്കുമ്പോൾ.......", "Konderan, a farmer, got his farm land ready for sowing seeds, and was waiting......."],
+      ["S", "പുതുമഴ പെയ്തു.", "The first new rain fell.", "rain"],
+      ["S", "കാടു കത്തിയ പന്നിക്കോടൻമലയുടെ ചാരവെള്ളം ചാലുകളിൽക്കൂടെ ഒലിച്ചിറങ്ങി അത്തിക്കോട്ടിൽ തളംകെട്ടിവന്നു.", "Ash-water from Pannikkodan hill, where the forest had burned, ran down the channels and made pools at Athikkottu.", "ash"]
+     ]},
+    {"id": "joy", "title": "Konderan jumps for joy", "ml": "കൊണ്ടേരന്റെ സന്തോഷം",
+     "art": {"bg": "day", "ground": "grass",
+      "items": [["cloud", 600, 70, 1.0, {"anim": "float"}], ["tree", 680, 330, 1.1, {"anim": "sway"}]],
+      "fx": {
+        "breeze": [["e", "🍃", 200, 160, 40, {"anim": "fly"}], ["e", "🍃", 350, 120, 34, {"anim": "fly", "delay": 0.5}]],
+        "insects": [["butterflies"], ["e", "🦋", 420, 180, 36, {"anim": "flutter"}]],
+        "konna": [["flowertree", 120, 330, 1.2, "#f6d365"], ["e", "🌼", 120, 280, 36, {"anim": "sway"}]],
+        "frogs": [["e", "🐸", 420, 360, 50, {"anim": "hop"}], ["e", "🐸", 520, 370, 44, {"anim": "hop", "delay": 0.3}], ["text", "പ്ലോം!", 470, 300, 24, "#2a7a2a"]],
+        "jump": [["p", "farmer", 300, 330, 1.1, "wave"], ["e", "🎉", 300, 160, 50, {"anim": "pop"}]]
+      }},
+     "sents": [
+      ["S", "വേർപ്പണിഞ്ഞ ഭൂമീദേവിയെ കെട്ടിപ്പണർന്നുകൊണ്ടു കുളിർകാറ്റു വീശി.", "A cool breeze blew, hugging Mother Earth, who was wet as if with sweat.", "breeze"],
+      ["S", "പാറ്റകൾ പറന്നുയർന്നു.", "Little winged insects flew up into the air.", "insects"],
+      ["S", "പൂക്കുറ്റിപ്പൊരിപോലെ നിലത്തു വീണിഴഞ്ഞു തൂങ്ങിക്കിടക്കുന്ന കൊന്നക്കുലകൾ.", "Bunches of golden konna flowers hung down to the ground, like sparks from a firework.", "konna"],
+      ["S", "കുളിർത്തു പച്ചിലപ്പടർപ്പായ അത്തികൾ, ചിലയ്ക്കാൻ തുടങ്ങുന്ന തവളകൾ!", "Fig trees, cool and covered in green leaves; frogs starting to croak!", "frogs"],
+      ["S", "എല്ലാം കണ്ടും കേട്ടും കൊണ്ടേരൻ തുള്ളിച്ചാടി.", "Seeing and hearing all this, Konderan jumped for joy.", "jump"]
+     ]}
+  ],
+  "words": [
+    {"id": "mazha", "ml": "മഴ", "rom": "mazha", "en": "rain", "emoji": "🌧️", "set": "A"},
+    {"id": "kaala", "ml": "കാള", "rom": "kaala", "en": "bull / ox", "emoji": "🐂", "set": "A"},
+    {"id": "vithu", "ml": "വിത്ത്", "rom": "vithu", "en": "seed", "emoji": "🌰", "set": "A"},
+    {"id": "mulachu", "ml": "മുളച്ചു", "rom": "mulachu", "en": "sprouted", "emoji": "🌱", "set": "A"},
+    {"id": "maan", "ml": "മാൻ", "rom": "maan", "en": "deer", "emoji": "🦌", "set": "A"},
+    {"id": "kuda", "ml": "കുട", "rom": "kuda", "en": "umbrella", "emoji": "☂️", "set": "A"},
+    {"id": "kala", "ml": "കള", "rom": "kala", "en": "weed", "emoji": "🌿", "set": "A"},
+    {"id": "mayil", "ml": "മയിൽ", "rom": "mayil", "en": "peacock", "emoji": "🦚", "set": "B"},
+    {"id": "kathir", "ml": "കതിര്", "rom": "kathiru", "en": "ear of grain", "emoji": "🌾", "set": "B"},
+    {"id": "maram", "ml": "മരം", "rom": "maram", "en": "tree", "emoji": "🌳", "set": "B"},
+    {"id": "kombu", "ml": "കൊമ്പ്", "rom": "kombu", "en": "branch", "emoji": "🪵", "set": "B"},
+    {"id": "thanal", "ml": "തണൽ", "rom": "thanal", "en": "shade", "emoji": "⛱️", "set": "B"},
+    {"id": "choru", "ml": "ചോറ്", "rom": "choru", "en": "cooked rice", "emoji": "🍚", "set": "B"},
+    {"id": "thavala", "ml": "തവള", "rom": "thavala", "en": "frog", "emoji": "🐸", "set": "B"}
+  ],
+  "quiz": [
+    {"q": "പുലർകാലത്ത് എന്താണ് പെയ്തത്?", "qe": "What was pouring at dawn?", "o": ["വെയിൽ", "പേമഴ", "മഞ്ഞ്", "പൂക്കൾ"], "oe": ["Sunshine", "Heavy rain", "Snow", "Flowers"], "a": 1, "sec": "A"},
+    {"q": "മണ്ണ് ഉഴുതത് ഏതു മൃഗത്തെ പൂട്ടിയാണ്?", "qe": "Which animal was yoked to plough the soil?", "o": ["ആന", "കുതിര", "പശു", "കാള"], "oe": ["Elephant", "Horse", "Cow", "Bull"], "a": 3, "sec": "A"},
+    {"q": "മുളച്ച വിത്തുകൾ തിന്നാൻ വന്നത് പോലെ ഏതു മൃഗക്കൂട്ടം?", "qe": "The sprouting seeds are compared to a herd of which animal coming to eat?", "o": ["കലമാൻ", "ആട്", "പന്നി", "കുരങ്ങ്"], "oe": ["Deer", "Goats", "Pigs", "Monkeys"], "a": 0, "sec": "A"},
+    {"q": "കൃഷിക്കാർ ചൂടിയ കുട എന്തുകൊണ്ടാണ് ഉണ്ടാക്കിയത്?", "qe": "What were the farmers' umbrellas made of?", "o": ["തുണി", "പ്ലാസ്റ്റിക്", "പനയോല", "കടലാസ്"], "oe": ["Cloth", "Plastic", "Palm leaves", "Paper"], "a": 2, "sec": "A"},
+    {"q": "കള പറിക്കുമ്പോൾ ഏതിന്റെ താളത്തിനൊപ്പമാണ് പണിയെടുത്തത്?", "qe": "To the beat of what did they work while weeding?", "o": ["പാട്ട്", "പറ (ചെണ്ട)", "മണി", "കൈകൊട്ട്"], "oe": ["A song", "The para drum", "A bell", "Clapping"], "a": 1, "sec": "A"},
+    {"q": "പുനത്തിൽ എന്താണ് വിളഞ്ഞത്?", "qe": "What grew ripe in the hill field?", "o": ["വരക്", "ഗോതമ്പ്", "മാങ്ങ", "തേങ്ങ"], "oe": ["Varagu millet", "Wheat", "Mango", "Coconut"], "a": 0, "sec": "B"},
+    {"q": "കതിരു തിന്നാൻ വന്ന പക്ഷികൾ ഏവ?", "qe": "Which birds came to eat the grain?", "o": ["കാക്കകൾ", "തത്തകൾ", "മയിലുകൾ", "കോഴികൾ"], "oe": ["Crows", "Parrots", "Peacocks", "Hens"], "a": 2, "sec": "B"},
+    {"q": "കുരുന്തമരം വെട്ടാതെ നിർത്തിയത് എന്തിനാണ്?", "qe": "Why was the kurunthu tree left uncut?", "o": ["പഴത്തിന്", "വിറകിന്", "മയിലുകൾക്ക്", "ഉച്ചയ്ക്ക് തണൽ കിട്ടാൻ"], "oe": ["For its fruit", "For firewood", "For the peacocks", "For shade at lunchtime"], "a": 3, "sec": "B"},
+    {"q": "മയിലുകൾ എവിടെയാണ് കയറിയിരുന്നത്?", "qe": "Where did the peacocks sit?", "o": ["വീടിന്റെ മേൽക്കൂരയിൽ", "മരത്തിന്റെ വളഞ്ഞ കൊമ്പിൽ", "വേലിയിൽ", "പാറയിൽ"], "oe": ["On a roof", "On a curved tree branch", "On a fence", "On a rock"], "a": 1, "sec": "B"},
+    {"q": "പുതുമഴ കണ്ടും കേട്ടും കൊണ്ടേരൻ എന്തു ചെയ്തു?", "qe": "What did Konderan do when he saw and heard the first rain?", "o": ["കരഞ്ഞു", "ഉറങ്ങി", "ഓടിപ്പോയി", "തുള്ളിച്ചാടി"], "oe": ["Cried", "Slept", "Ran away", "Jumped for joy"], "a": 3, "sec": "B"}
+  ],
+  "build": [
+    {"ch": ["പുതുമഴ", "പെയ്തു."], "en": "The first rain fell.", "rom": "puthumazha peythu"},
+    {"ch": ["പാറ്റകൾ", "പറന്നുയർന്നു."], "en": "Insects flew up.", "rom": "paattakal parannuyarnnu"},
+    {"ch": ["എല്ലാം", "കണ്ടും", "കേട്ടും", "കൊണ്ടേരൻ", "തുള്ളിച്ചാടി."], "en": "Seeing and hearing everything, Konderan jumped for joy.", "rom": "ellaam kandum kettum konderan thullichaadi"},
+    {"ch": ["അതിൽ", "വിളഞ്ഞൂ", "വരക്"], "en": "In it, the millet grew ripe.", "rom": "athil vilanjoo varaku"}
+  ],
+  "retell": [
+    "Heavy rain falls at a dark dawn, and bulls plough the red soil.",
+    "The seeds sprout up, like a herd of deer coming to eat.",
+    "Farmers with palm-leaf umbrellas pull out weeds to the beat of a drum.",
+    "The millet ripens and peacocks come to eat it, spread their feathers, and sit proudly on a tree left for shade.",
+    "In Cherukad's story, the first rain comes, frogs croak, and Konderan jumps for joy."
+  ],
+  "write": {
+    "title": "✍️ My field picture",
+    "prompt": "കവിതയിലെ ഒരു വയൽക്കാഴ്ച ചിത്രം വരച്ച് രണ്ടു വാക്യം എഴുതൂ.",
+    "en": "Draw one sight from the poem (rain, bulls, farmers, peacocks...). Then write 2 short sentences about it. Malayalam, English or mixed is fine.",
+    "starters": ["വയലിൽ മഴ പെയ്യുന്നു.", "മയിൽ മരത്തിൽ ഇരിക്കുന്നു.", "In the field I can see..."],
+    "min": 30
+  },
+  "plan": [
+    {"title": "Rain on the fields", "ml": "മഴയും വയലും", "icon": "🌧️", "mode": "game",
+     "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 2]}, {"t": "cards", "set": "A"}]},
+    {"title": "Here come the peacocks", "ml": "മയിലുകൾ വരുന്നു", "icon": "🦚", "mode": "game",
+     "steps": [{"t": "story", "scenes": [3, 6]}, {"t": "cards", "set": "B"}, {"t": "match", "set": "A"}]},
+    {"title": "Word games and quiz", "ml": "കളിയും ചോദ്യവും", "icon": "🎮", "mode": "game",
+     "steps": [{"t": "warmup", "sets": ["A", "B"]}, {"t": "quiz", "sec": "A"}, {"t": "quiz", "sec": "B"}, {"t": "builder"}]},
+    {"title": "Poem champion", "ml": "കവിതാ ചാമ്പ്യൻ", "icon": "🏆", "mode": "classic",
+     "steps": [{"t": "story"}, {"t": "write"}, {"t": "retell"}, {"t": "final"}]}
+  ]
+}

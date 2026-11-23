@@ -1,0 +1,419 @@
+{
+ "id": "u1-l2-chattipathiri",
+ "unit": 1, "unitMl": "അമൃതം നുകരാം", "unitEn": "Taste the nectar (food)",
+ "order": 2,
+ "title": "ചട്ടിപ്പത്തിരി", "titleEn": "Chatti Pathiri (the layered pan cake)",
+ "pages": "11–17", "kind": "story",
+ "author": "P. A. Mohammed Koya",
+ "level": "hard",
+ "icon": "🥮",
+ "summaryEn": "<p>This story comes from a big Malabar family house full of children. Grandma <b>Bichayishe Thaatha</b> is going to make <b>chatti pathiri</b> — a sweet cake made of twenty thin sheets of dough, stacked in a pot with a filling of nuts and raisins and a sweet egg mix between the layers.</p><p>Her daughter <b>Kalmeyi</b>, Kalmeyi's sister <b>Beerambi</b> and Kalmeyi's daughter <b>Kachcheyi</b> roll out the sheets. Kids like <b>Abu</b> and <b>Usman</b> keep sneaking in to grab almonds. Grandma is strict and a little grumpy — but she wants the young ones to <b>learn</b> to cook too.</p><p>When she builds the layers, she is so focused she hears nothing else. She sweats, she prays, she puts the pot on the fire with trembling hands... and then finally relaxes. The writer calls the cake a <b>'Taj' of sweets</b> — like the Taj Mahal! The people speak in a Malabar dialect, so many words sound different from school Malayalam.</p>",
+ "speakers": {
+  "N": {"name": "Storyteller", "ml": "കഥ പറയുന്നയാൾ", "emoji": "📖", "voice": "ml-IN-SobhanaNeural", "rate": "-12%", "pitch": "+0Hz"},
+  "BT": {"name": "Bichayishe Thaatha (Grandma)", "ml": "ബിച്ചായിശേയിത്താത്ത", "emoji": "👵", "voice": "ml-IN-SobhanaNeural", "rate": "-16%", "pitch": "-12Hz"},
+  "KL": {"name": "Kalmeyi", "ml": "കൽമേയി", "emoji": "👩", "voice": "ml-IN-SobhanaNeural", "rate": "-6%", "pitch": "+4Hz"},
+  "BR": {"name": "Beerambi", "ml": "ബീരാമ്പി", "emoji": "👧", "voice": "ml-IN-SobhanaNeural", "rate": "-4%", "pitch": "+12Hz"},
+  "PT": {"name": "Pathummeyi Thaatha", "ml": "പാത്തുമ്മേയിത്താത്ത", "emoji": "👩‍🍳", "voice": "ml-IN-SobhanaNeural", "rate": "-10%", "pitch": "-4Hz"},
+  "AB": {"name": "Abu", "ml": "അബു", "emoji": "👦", "voice": "ml-IN-MidhunNeural", "rate": "+0%", "pitch": "+20Hz"},
+  "KD": {"name": "A child", "ml": "ഒരു കുട്ടി", "emoji": "🧒", "voice": "ml-IN-SobhanaNeural", "rate": "+0%", "pitch": "+22Hz"}
+ },
+ "scenes": [
+  {"id": "shopping", "title": "Counting the shopping", "ml": "സാധനങ്ങൾ എണ്ണുന്നു",
+   "art": {"bg": "dusk", "ground": "floor", "items": [
+     ["house", 650, 330, 1],
+     ["table", 330, 330, 320],
+     ["p", "oldwoman", 170, 360, 1, "point"],
+     ["e", "🛍️", 250, 280, 44, {"anim": "pop"}],
+     ["p", "boy", 560, 380, 0.6, "run", {"anim": "hop"}],
+     ["p", "girl", 620, 385, 0.55, "wave", {"anim": "hop", "delay": 0.4}]
+   ], "fx": {
+     "hands": [["e", "🤚", 470, 250, 44, {"anim": "wiggle"}], ["e", "✋", 520, 230, 40, {"anim": "wiggle", "delay": 0.3}]],
+     "list": [["e", "🌾", 290, 285, 34], ["e", "🥚", 330, 285, 34, {"anim": "pop"}], ["e", "🍇", 370, 285, 34], ["e", "🥜", 410, 285, 34], ["e", "🧈", 450, 285, 34], ["e", "🍬", 300, 240, 30, {"anim": "pop", "delay": 0.3}], ["e", "🌹", 360, 240, 30, {"anim": "pop", "delay": 0.5}]],
+     "milk": [["e", "🥛", 430, 240, 44, {"anim": "pulse"}], ["text", "?", 470, 200, 40, "#c0392b"]]
+   }},
+   "sents": [
+    ["N", "അത്തമാൻപിയ്യാപ്പിള വൈകുന്നേരംതന്നെ സാമാനങ്ങളൊക്കെ വരുത്തിച്ചു.", "Athamaan Piyyaappila (the son-in-law of the house) had all the things brought home that very evening."],
+    ["N", "പിറ്റേന്നു രാവിലെ ചട്ടിപ്പത്തിരിയുടെ ഇതിഹാസം ആരംഭിക്കുന്നു.", "The next morning, the great epic of the chatti pathiri begins!"],
+    ["N", "വാങ്ങിയ സാധനങ്ങളൊക്കെ എണ്ണം നോക്കി.", "All the things they bought were counted."],
+    ["N", "നോക്കേണ്ടതാണ്.", "They had to be counted."],
+    ["N", "ഏറെ കുട്ടികളുള്ള പുരയാണ്.", "It's a house with lots of children."],
+    ["N", "കുട്ടികളുടെ കൈകൾ എല്ലായിടത്തും എത്തും.", "Children's hands reach everywhere! (Things go missing.)", "hands"],
+    ["N", "രണ്ടു റാത്തൽ കോതമ്പുപൊടി, മുപ്പതു കോഴിമുട്ട, അര റാത്തൽ വെള്ളക്കിസ്മിസ്, അര റാത്തൽ കസ്കസ്, കാൽ റാത്തൽ ബദം,", "Two raathal (an old weight unit) of wheat flour, thirty eggs, half a raathal of white raisins, half a raathal of kaskas (tiny seeds), a quarter raathal of almonds,", "list"],
+    ["N", "അര റാത്തൽ നല്ല പശുവിൻനെയ്യ്, ഒന്നര റാത്തൽ പഞ്ചസാര, അഞ്ചുറുപ്പികത്തൂക്കം ഏലത്തിരി, കാൽക്കുപ്പി പനിനീർ - എല്ലാം കണക്കുപോലെയുണ്ട്.", "half a raathal of good cow's ghee, one and a half raathal of sugar, five rupees' weight of cardamom, a quarter bottle of rose water — everything is there, just right.", "list"],
+    ["N", "ഇനി വേണ്ടത് കാൽസേർ പാലാണ്.", "Now all they need is a quarter ser (a measure) of milk.", "milk"],
+    ["N", "നേരത്തെ വാങ്ങിവെച്ചാൽ തെരത്തുപോകും.", "If you buy it too early, it will go sour."]
+   ]},
+  {"id": "milk", "title": "Has the milk come?", "ml": "പാലു വന്നോ?",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["p", "oldwoman", 220, 350, 1.05, "stand"],
+     ["p", "woman", 520, 350, 1, "point", true],
+     ["e", "🪢", 640, 120, 50, {"anim": "sway"}],
+     ["e", "🫙", 640, 175, 46, {"anim": "sway"}]
+   ], "fx": {
+     "bring": [["e", "🥛", 430, 260, 50, {"anim": "slidein"}]]
+   }},
+   "sents": [
+    ["BT", "“പക്കീർച്ചിത്താത്ത പയ്യുമ്പാല് കൊണ്ടാന്നോ?”", "“Has Pakkeerchi Thaatha brought the cow's milk?”"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത ചോദിച്ചു.", "Bichayishe Thaatha asked."],
+    ["KL", "“മൂപ്പത്തി എപ്പം കൊണ്ടാന്ന്ക്ക്ണ്. ഞാൻ ഉറിമ്മൽ മൂടി ബെച്ച്ക്ക്ണ്.”", "“The old lady brought it ages ago. I've covered it and kept it on the hanging rope shelf (uri).”"],
+    ["N", "കൽമേയി പറഞ്ഞു.", "Kalmeyi said."],
+    ["N", "കൽമേയി പാലും അടുത്തുതന്നെ കൊണ്ടുവന്നുവെച്ചു.", "Kalmeyi brought the milk and put it close by.", "bring"]
+   ]},
+  {"id": "dough", "title": "Dough, almonds and eggs", "ml": "മാവും ബദവും മുട്ടയും",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["table", 400, 330, 420],
+     ["p", "oldwoman", 220, 380, 1, "stand"],
+     ["e", "🥣", 250, 280, 48, {"anim": "wiggle"}],
+     ["p", "woman", 420, 380, 0.95, "stand"],
+     ["p", "woman", 600, 380, 1, "stand", true]
+   ], "fx": {
+     "almond": [["e", "🥜", 420, 280, 36, {"anim": "fall"}], ["e", "💧", 450, 290, 26]],
+     "eggs": [["e", "🥚", 580, 260, 36, {"anim": "pop"}], ["e", "🥚", 620, 260, 36, {"anim": "pop", "delay": 0.2}], ["e", "🥣", 600, 290, 44]],
+     "rose": [["e", "🌹", 520, 250, 36, {"anim": "slidein"}], ["e", "🧴", 545, 280, 34]],
+     "beat": [["e", "🌀", 600, 230, 44, {"anim": "spin"}]]
+   }},
+   "sents": [
+    ["N", "ബിച്ചായിശേയിത്താത്ത കോതമ്പുപൊടിയെടുത്ത് വെള്ളം ചേർത്തു കുഴച്ച് മാവാക്കിവെച്ചു.", "Bichayishe Thaatha took the wheat flour, added water, kneaded it and made a dough."],
+    ["N", "അതിന്നിടസ്സ് കൽമേയി വെള്ളം നിറച്ച ഒരു പിഞ്ഞാണത്തിൽ ബദമെടുത്തിട്ടു.", "Meanwhile, Kalmeyi put the almonds into a plate filled with water.", "almond"],
+    ["N", "പൊതിരട്ടെ.", "Let them soak!", "almond"],
+    ["N", "പാത്തുമ്മേയിത്താത്ത മുപ്പത് കോഴിമുട്ടയും ഉടച്ച് സാനിൽ പാർന്നു.", "Pathummeyi Thaatha broke all thirty eggs and poured them into a basin.", "eggs"],
+    ["N", "പഞ്ചാരപ്പൊതിയഴിച്ച് കുറച്ച് പഞ്ചാര ഉടച്ച മുട്ടയിലിട്ടു.", "She opened the sugar packet and put some sugar into the broken eggs.", "eggs"],
+    ["N", "ഏലത്തിരിയും എടുത്തിട്ടു.", "She added cardamom too.", "eggs"],
+    ["PT", "“അതാ പനിനീരിന്റെ കുപ്പി. ഇങ്ങോട്ടെട് മോളെ.”", "“There's the rose-water bottle. Pass it here, dear.”", "eggs"],
+    ["N", "കൽമേയി പനിനീരിന്റെ കുപ്പി നീക്കിവെച്ചപ്പോൾ കുറച്ചു പനിനീരും ആ മുട്ടയിൽച്ചേർത്തു.", "When Kalmeyi pushed the bottle over, she added some rose water to the eggs too.", "rose"],
+    ["N", "ആസ്സ തിരിക്കുന്നമാതിരി വലതുകൈ ചലിപ്പിച്ച് മുട്ടയുടച്ചത് അടിക്കാൻ തുടങ്ങി.", "Moving her right hand round and round (like turning an 'aassa' — meaning not fully clear), she started beating the eggs.", "beat"]
+   ]},
+  {"id": "rolling", "title": "Rolling twenty sheets", "ml": "ഇരുപതു തോലു പരത്തുന്നു",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["p", "woman", 200, 360, 0.9, "sit"],
+     ["p", "girl", 400, 360, 0.85, "sit"],
+     ["p", "girl", 600, 360, 0.75, "sit"],
+     ["e", "🟤", 200, 400, 60],
+     ["e", "🟤", 400, 400, 60],
+     ["e", "🟤", 600, 400, 60]
+   ], "fx": {
+     "balls": [["e", "⚪", 170, 385, 26, {"anim": "pop"}], ["e", "⚪", 370, 385, 26, {"anim": "pop", "delay": 0.2}], ["e", "⚪", 570, 385, 26, {"anim": "pop", "delay": 0.4}], ["e", "🍎", 700, 250, 40]],
+     "roll": [["e", "🥖", 230, 380, 40, {"anim": "wiggle"}], ["e", "🥖", 430, 380, 40, {"anim": "wiggle", "delay": 0.3}], ["e", "🥖", 630, 380, 40, {"anim": "wiggle", "delay": 0.6}]],
+     "ear": [["e", "🐘", 720, 200, 60, {"anim": "bob"}]],
+     "stick": [["text", "!", 430, 300, 40, "#c0392b"], ["e", "☁️", 470, 330, 30, {"anim": "pop"}]]
+   }},
+   "sents": [
+    ["BT", "“മോളേ, അതാ മാവ് കൊയച്ചത്. എല്ലാരുംകൂടി ഇരുപത് തോല് പരത്തിക്കോളീ.”", "“Dears, there's the kneaded dough. All of you together, roll out twenty sheets.”"],
+    ["N", "കൽമേയി ഇരുന്നു.", "Kalmeyi sat down."],
+    ["N", "അനുജത്തി ബീരാമ്പി ഇരുന്നു.", "Her younger sister Beerambi sat down."],
+    ["N", "കൽമേയിയുടെ മൂത്ത മോൾ കച്ചേയിയും ഇരുന്നു.", "Kalmeyi's eldest daughter Kachcheyi sat down too."],
+    ["N", "ചെറിയ മുട്ടിപ്പലകളിലാണ് ഇരുന്നത്.", "They sat on small low wooden stools."],
+    ["N", "ഓരോരുത്തരും മുമ്പിൽ പത്തിരി പരത്തുന്ന വലിയ വട്ടപ്പലകൾ വലിച്ചിട്ടു.", "Each one pulled a big round rolling board in front of her."],
+    ["N", "കുറച്ചു പൊടിയെടുത്ത് ആദ്യം പലകമേൽ വിതറി.", "First they sprinkled a little flour on the board."],
+    ["N", "കുഴച്ച മാവെടുത്ത് മൂന്നുപേരുംകൂടി ഇരുപത് ഉരുളകളാക്കി ഉരുട്ടി.", "The three of them took the dough and rolled it into twenty balls.", "balls"],
+    ["N", "ഓരോന്നും വലിയ ആപ്പിളിന്റെ വലുപ്പമുണ്ട്.", "Each one was as big as a large apple.", "balls"],
+    ["N", "പത്തിരിക്കുഴലുകൾ തുടച്ച് ഉരുളകളിൽ അമർത്തി റോളർ ഉരുട്ടുംപോലെ ഉരുട്ടിക്കൊണ്ട് പരത്താൻ തുടങ്ങി.", "They wiped their rolling pins, pressed them on the balls and began rolling them flat, like a road roller.", "roll"],
+    ["N", "അമർത്തി ഉരുട്ടുംതോറും മാവ് ആനച്ചെവിയുടെ രൂപത്തിൽ പലകമേൽ പരക്കുന്നു.", "The more they pressed and rolled, the more the dough spread on the board like an elephant's ear!", "ear"],
+    ["BR", "“ഇത് കൊയലിമ്മല് ഒട്ടിപ്പുടിക്ക്ണ്. കൊറച്ച പൊടി മേണം.”", "“It's sticking to the rolling pin. I need a little flour.”", "stick"],
+    ["N", "ബാക്കിയുള്ള പൊടിയുടെ പൊതി കൽമേയി നീക്കിക്കൊടുത്തു.", "Kalmeyi pushed the packet of leftover flour over to her.", "stick"],
+    ["N", "ബീരാമ്പി പൊടിപ്പൊതിയെടുത്ത് പലകമേലും കുഴലിന്മേലും ഒന്നുപൂശി.", "Beerambi took the flour packet and dusted it on the board and on the rolling pin.", "roll"],
+    ["N", "എന്നിട്ടൊന്നു പരത്തിനോക്കി.", "Then she tried rolling again.", "roll"],
+    ["N", "ഇപ്പോൾ ഒട്ടുപ്പില്ല.", "Now it doesn't stick.", "roll"],
+    ["N", "കച്ചേയിയും അതുതന്നെ ചെയ്തു.", "Kachcheyi did the same thing.", "roll"]
+   ]},
+  {"id": "size", "title": "How big?", "ml": "എത്ര വലുപ്പം?",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 650, 330, 1],
+     ["fire", 650, 320, 0.8, {"anim": "flicker"}],
+     ["p", "oldwoman", 230, 350, 1.05, "point"],
+     ["p", "woman", 430, 350, 1, "stand", true],
+     ["e", "🫓", 380, 250, 60, {"anim": "pulse"}]
+   ], "fx": {
+     "griddle": [["e", "🍳", 650, 255, 50, {"anim": "pop"}]],
+     "bigger": [["e", "🫓", 380, 250, 90, {"anim": "grow"}]],
+     "pot": [["e", "🥘", 560, 380, 60, {"anim": "slidein"}]]
+   }},
+   "sents": [
+    ["N", "ബിച്ചായിശേയിത്താത്ത പറഞ്ഞു:", "Bichayishe Thaatha said:"],
+    ["BT", "“മൂന്നാൾ പരത്താനിരുന്നാൽ സരിയാവൂല. ഒരാള് അത് ഓട്ടിലിട്ട് ബാട്ടിയെടുക്കാനിരിക്കട്ടെ.”", "“If all three of you sit rolling, it won't work. Let one person sit and warm the sheets on the clay pan.”", "griddle"],
+    ["N", "ആനച്ചെവി വലുപ്പത്തിൽ നേർമ്മയിൽ പരത്തിയ ആദ്യത്തെ തോല് ഉമ്മയെ കാണിച്ചുകൊണ്ട് കൽമേയി ചോദിച്ചു:", "Showing her mother (Umma) the first thin sheet, rolled as big as an elephant's ear, Kalmeyi asked:"],
+    ["KL", "“ബലിപ്പം ഇത് മതിയോ?”", "“Is this size enough?”"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത നോക്കിയിട്ടു പറഞ്ഞു:", "Bichayishe Thaatha looked and said:"],
+    ["BT", "“ചെനമ്പംകൂടി വലുപ്പമിരുന്നോട്ടെ. വല്യ ചട്ടിപ്പത്തിരി അല്ലേ?”", "“Let it be a little bigger. It's a big chatti pathiri, isn't it?”", "bigger"],
+    ["N", "പലക നിറയൽതന്നെ കണക്ക്.", "The right size is filling the whole board.", "bigger"],
+    ["BT", "“അല്ലാ, അച്ചെമ്പ് ഇങ്ങോട്ട് നീക്ക്.”", "“Oh, push that pot over here.”", "pot"],
+    ["N", "കൽമേയി വട്ടച്ചെമ്പ് നീക്കിക്കൊടുത്തു.", "Kalmeyi pushed the round copper pot over to her.", "pot"]
+   ]},
+  {"id": "raisins", "title": "Frying in ghee", "ml": "നെയ്യിൽ പൊരിക്കുന്നു",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 420, 330, 1.1],
+     ["fire", 420, 320, 0.9, {"anim": "flicker"}],
+     ["pot", 420, 250, 1.1],
+     ["p", "oldwoman", 240, 350, 1.05, "point"],
+     ["p", "girl", 620, 350, 0.9, "stand", true]
+   ], "fx": {
+     "seeds": [["e", "⚪", 400, 210, 20, {"anim": "hop"}], ["e", "⚪", 430, 205, 20, {"anim": "hop", "delay": 0.2}], ["e", "⚪", 455, 212, 20, {"anim": "hop", "delay": 0.4}]],
+     "ghee": [["e", "🧈", 330, 200, 40, {"anim": "pop"}], ["e", "💨", 420, 160, 40, {"anim": "rise"}]],
+     "raisin": [["e", "🍇", 440, 200, 36, {"anim": "hop"}]],
+     "worry": [["e", "😟", 240, 180, 44, {"anim": "shake"}]],
+     "poke": [["e", "🥄", 560, 230, 44, {"anim": "wiggle"}]],
+     "ok": [["e", "👍", 620, 180, 44, {"anim": "pop"}]],
+     "nuts": [["e", "🥜", 300, 270, 30, {"anim": "pop"}], ["e", "🔪", 330, 260, 30, {"anim": "wiggle"}]]
+   }},
+   "sents": [
+    ["N", "വേഗം ചെമ്പെടുത്ത് കഴുകി അടുപ്പത്തുവെച്ചിട്ട് ബിച്ചായിശേയിത്താത്ത വെള്ള കസ്കസ് കഴുകി ഈറ്റി ചെമ്പിലിട്ടു.", "Quickly, Bichayishe Thaatha washed the pot, put it on the stove, then washed and drained the white kaskas and put it in the pot.", "seeds"],
+    ["N", "എന്നിട്ടു പറഞ്ഞു:", "Then she said:", "seeds"],
+    ["BT", "“നെയ്യിങ്ങോട്ടെടുക്ക്. കസ്കസ് പൊരിയണ്ണ്ട്.”", "“Pass the ghee. The kaskas needs frying.”", "ghee"],
+    ["N", "അതിൽ കുറച്ചു നെയ്യൊഴിച്ച് വാങ്ങിവെച്ചു.", "She poured a little ghee into it, then took it off the fire.", "ghee"],
+    ["BT", "“കിസ്മിസെടുക്ക്.”", "“Get the raisins.”", "ghee"],
+    ["N", "കിസ്മിസ് എടുത്ത് നെയ്യിൽ പൊരിച്ച് കോരിയെടുത്തു.", "She fried the raisins in the ghee and scooped them out.", "raisin"],
+    ["BT", "“കരിഞ്ഞുപോയോ?”", "“Did they burn?”", "worry"],
+    ["N", "ബേജാറോടെ മൂപ്പത്തി ചോദിച്ചു.", "the old lady asked, worried.", "worry"],
+    ["N", "ബീരാമ്പി എണീറ്റ് കയിൽക്കണകൊണ്ട് പൊരിഞ്ഞ കിസ്മിസിൽ കുത്തിനോക്കി.", "Beerambi got up and poked the fried raisins with the handle of a ladle.", "poke"],
+    ["BR", "“ഇല്ല, കണക്കാണ്.”", "“No, they're just right.”", "ok"],
+    ["N", "സമാധാനം.", "Phew, what a relief!", "ok"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത പിഞ്ഞാണത്തിൽനിന്ന് പൊതിരാനിട്ട ബദമെടുത്ത് തോലുരിച്ച് ചെറിയ ചെറിയ കഷണങ്ങളാക്കി നുറുക്കാൻ തുടങ്ങി.", "Bichayishe Thaatha took the soaked almonds from the plate, peeled off their skins and began chopping them into tiny pieces.", "nuts"]
+   ]},
+  {"id": "forgot", "title": "Kalmeyi forgot!", "ml": "കൽമേയി മറന്നു!",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["p", "oldwoman", 230, 350, 1.05, "point"],
+     ["p", "woman", 480, 350, 1, "sad", true],
+     ["e", "🥛", 360, 270, 44]
+   ], "fx": {
+     "oops": [["e", "😬", 480, 180, 50, {"anim": "shake"}]],
+     "cross": [["e", "😠", 230, 180, 50, {"anim": "pulse"}]],
+     "stir": [["e", "🍬", 330, 230, 30, {"anim": "fall"}], ["e", "🌀", 360, 250, 40, {"anim": "spin"}]],
+     "hurry": [["p", "girl", 650, 350, 0.85, "sit"], ["e", "💨", 700, 300, 40, {"anim": "slideout"}]],
+     "fire": [["stove", 650, 330, 0.8], ["fire", 650, 320, 0.7, {"anim": "flicker"}]]
+   }},
+   "sents": [
+    ["N", "അപ്പോൾ ചോദിച്ചു:", "Then she asked:"],
+    ["BT", "“പാലും പഞ്ചാരേം കലക്കിബെച്ചോ?”", "“Have you mixed the milk and sugar?”"],
+    ["N", "കൽമേയി വിരൽ കടിച്ചു.", "Kalmeyi bit her finger (oops!).", "oops"],
+    ["KL", "“ഞാനത് മരിച്ചപോലെ മറന്ന്വോയി!”", "“I totally forgot it! (literally: I forgot it like I was dead)”", "oops"],
+    ["BT", "“നല്ല മരതിയാ! എല്ലാത്തിനും ഞാന്തന്നെ മേണംന്ന് ബെച്ചാലോ?”", "“What a forgetful head! If I have to do everything myself, then what?”", "cross"],
+    ["BT", "“ഞങ്ങളൊക്കെ ഇതൊക്കെ പടിക്കണ്ടേ? എല്ലാ കാലത്തും ചട്ടിപ്പത്തിരി ചുടാൻ ഉമ്മണ്ടാവ്വോ?”", "“Don't you all need to learn this? Will Umma (your mother) always be around to make chatti pathiri?”", "cross"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത പശുവിൻപാലെടുത്ത് പഞ്ചസാരയിട്ട് നന്നായി ഇളക്കി വേറൊരു വലിയ സാനിലൊഴിച്ചു.", "Bichayishe Thaatha took the cow's milk, added sugar, stirred it well and poured it into another big basin.", "stir"],
+    ["BT", "“ബാട്ടിയ തോലൊക്കെ ഇതിലിട്. പതം ബരട്ടെ.”", "“Put all the warmed sheets in this. Let them get soft.”", "stir"],
+    ["BT", "“അല്ലാ, രണ്ടാളുംകൂടി ഇതുവരെ രണ്ടു തോലാ പരത്തീത്? ഇക്കണക്കിന് ഇതാവാൻ മോന്തിയാവോലോ!”", "“Hey, the two of you have only rolled two sheets so far? At this speed it'll be night before this is done!”", "cross"],
+    ["KL", "“ഇല്ലുമ്മാ, ഇപ്പം പരത്തിത്തരാ.”", "“No, Umma, we'll roll them right now.”", "hurry"],
+    ["N", "അവർ പണിക്ക് വേഗം കൂട്ടി.", "They worked faster.", "hurry"],
+    ["BT", "“അടുപ്പ് പോണ്. ചെമ്പെടുത്ത് അടുപ്പത്തു ബെക്കീ.”", "“The fire is going to waste. Put the pot on the stove.”", "fire"],
+    ["N", "അടുപ്പിൽ വെറുതെ തീ കത്തുന്നതു കണ്ടപ്പോൾ ബിച്ചായിശേയിത്താത്ത പറഞ്ഞു.", "Bichayishe Thaatha said this when she saw the fire burning in the stove for nothing.", "fire"]
+   ]},
+  {"id": "abu", "title": "Abu sneaks in", "ml": "അബു വരുന്നു",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["wall", 40, 120, 30, 210],
+     ["table", 330, 330, 260],
+     ["e", "🥣", 330, 270, 60],
+     ["p", "oldwoman", 200, 350, 1.05, "stand"],
+     ["p", "boy", 600, 360, 0.8, "wave", true, {"anim": "slidein"}]
+   ], "fx": {
+     "filling": [["e", "🥜", 300, 240, 26, {"anim": "pop"}], ["e", "🍇", 330, 235, 26, {"anim": "pop", "delay": 0.2}], ["e", "⚪", 360, 240, 22, {"anim": "pop", "delay": 0.4}]],
+     "angry": [["e", "😤", 200, 170, 50, {"anim": "shake"}]],
+     "song": [["e", "🎵", 640, 220, 34, {"anim": "float"}], ["e", "🎶", 690, 200, 34, {"anim": "float", "delay": 0.4}], ["e", "🥜", 610, 270, 26]]
+   }},
+   "sents": [
+    ["N", "നെയ്യിൽ പൊരിച്ചെടുത്ത വെള്ള കസ്കസും കിസ്മിസും ബദം നുറുക്കിയ കഷണങ്ങളും കൂട്ടിക്കുഴച്ചു പണ്ടമാക്കി ഒരു വലിയ കാസയിൽ മാറ്റിവെച്ചു.", "The white kaskas and raisins fried in ghee and the chopped almond pieces were mixed together to make the filling (pandam), and kept aside in a big bowl.", "filling"],
+    ["AB", "“ബല്ലിമ്മാ, കോളായോ?”", "“Grandma, is it ready? (meaning not fully clear)”", "filling"],
+    ["N", "കൽമേയിയുടെ മകൻ അബു അടുക്കളയിൽ കടന്നിട്ട് ചോദിച്ചു.", "Kalmeyi's son Abu came into the kitchen and asked.", "filling"],
+    ["BT", "“എത്തിയോ? ആളെ തലപ്പിരാതെടുപ്പിക്കാണ്ട് അപ്പുറം പോയിരുന്നാട്ടെ.”", "“Here already? Go and sit over there, and don't drive people crazy.”", "angry"],
+    ["BT", "“ഇത് ങ്ങക്കൊന്നും തിന്നാനല്ല, ഒരുത്തീല് കൊടുക്കാനാ.”", "“This isn't for you lot to eat — it's to give away at someone's house. (meaning not fully clear)”", "angry"],
+    ["AB", "“അപ്പം ഞമ്മക്കില്ല, അല്ലേ?”", "“So there's none for us, then?”", "angry"],
+    ["N", "ബിച്ചായിശേയിത്താത്തയ്ക്ക് ഈറയാണ് പിടിച്ചത്.", "That really annoyed Bichayishe Thaatha.", "angry"],
+    ["BT", "“എന്താ, ജനിച്ചിട്ട് ചട്ടിപ്പത്തിരി കാണാത്തതല്ലേ? ഹല്ല പിന്നെ!”", "“What, like you've never seen chatti pathiri since the day you were born? Honestly!”", "angry"],
+    ["N", "ഗ്രാമഫോണിൽ വന്ന ഒരു പാട്ടും മൂളിക്കൊണ്ട് ഒരു കഷണം ബദവും കടിച്ച് അബു പോയി.", "Humming a song he'd heard on the gramophone, and munching a piece of almond, Abu went off.", "song"]
+   ]},
+  {"id": "usman", "title": "Hands off the almonds!", "ml": "ബദം തൊടല്ലേ!",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 640, 330, 1],
+     ["fire", 640, 320, 0.8, {"anim": "flicker"}],
+     ["pot", 640, 250, 1],
+     ["table", 300, 330, 240],
+     ["e", "🥣", 300, 270, 56],
+     ["p", "woman", 520, 350, 0.95, "stand"]
+   ], "fx": {
+     "tin": [["e", "🥫", 560, 280, 40, {"anim": "pop"}], ["e", "🧈", 600, 230, 30, {"anim": "fall"}]],
+     "clock": [["e", "⏰", 400, 120, 50, {"anim": "shake"}], ["text", "3–4 hrs", 470, 125, 26, "#7f4f24"]],
+     "kids": [["p", "boy", 120, 360, 0.7, "point"], ["p", "girl", 60, 365, 0.65, "stand"], ["e", "🥜", 160, 260, 26, {"anim": "hop"}]],
+     "look": [["p", "oldwoman", 400, 360, 1, "point", true], ["e", "👀", 400, 180, 40, {"anim": "pulse"}]],
+     "raisin": [["e", "🍇", 120, 220, 34, {"anim": "pop"}], ["text", "?", 150, 200, 34, "#c0392b"]]
+   }},
+   "sents": [
+    ["N", "കൽമേയി കുറച്ചു നെയ്യിട്ട് വട്ടച്ചമ്പെടുത്ത് അടുപ്പത്തു വെച്ചു.", "Kalmeyi put a little ghee in the round pot and set it on the stove."],
+    ["N", "നെയ്യുരുകിയപ്പോൾ കുറച്ചു നെയ്യ് ചെമ്പിൻമൂട്ടിൽ ബാക്കിയാക്കി ശേഷിച്ചതു മുഴുവൻ കോരിയെടുത്ത് ഒരു തകരപ്പാട്ടയിലേക്കു പകർന്നു.", "When the ghee melted, she left a little at the bottom of the pot and scooped all the rest into a tin can.", "tin"],
+    ["N", "ചെമ്പു താഴെ ഇറക്കിവെച്ചു.", "She took the pot down.", "tin"],
+    ["N", "ഇരുപതു തോലും പരത്തിക്കഴിയുമ്പോഴേക്ക് മണിക്കൂർ മൂന്നുനാല് കഴിഞ്ഞിരുന്നു.", "By the time all twenty sheets were rolled out, three or four hours had passed!", "clock"],
+    ["N", "വേറെയും ചില കുട്ടികൾ അടുക്കളയിലേക്കു വന്നു.", "Some other children came into the kitchen.", "kids"],
+    ["N", "കാസയിൽ പണ്ടം കുഴച്ചുവെച്ചതിൽനിന്ന് ഒരു കഷണം ബദമെടുത്ത് ഉസ്മാൻ വായിലിട്ടു.", "From the filling mixed in the bowl, Usman took a piece of almond and popped it in his mouth.", "kids"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത അവനെ ഒരു നോട്ടംനോക്കി.", "Bichayishe Thaatha gave him a LOOK.", "look"],
+    ["BT", "“അങ്ങളെല്ലാരുംകൂടി പണിയെടുക്കാമ്മനാല് ഇപ്പണി തീരൂല്ല.”", "“If all of you come 'helping' like this, this job will never get done.”", "look"],
+    ["BT", "“ഒരു കണ്ടം ബദമെടുത്തില്ലേ? ഇഞ്ഞി അപ്പുറം പോയി കളിച്ചോളീ.”", "“You took a piece of almond, didn't you? Now go and play over there.”", "look"],
+    ["N", "വേറൊരുത്തൻ ചോദിച്ചു:", "Another boy asked:", "raisin"],
+    ["KD", "“ഒരു കണ്ടം കിസ്മിസ്?”", "“One piece of raisin?”", "raisin"]
+   ]},
+  {"id": "layers", "title": "Building the layers", "ml": "അട്ടിയായി വെക്കുന്നു",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["pot", 400, 330, 1.4],
+     ["p", "oldwoman", 230, 350, 1.05, "point"],
+     ["p", "woman", 600, 350, 1, "stand", true]
+   ], "fx": {
+     "count": [["text", "1 2 3 ... 20", 400, 120, 34, "#7f4f24"]],
+     "sheets": [["e", "🫓", 400, 250, 70, {"anim": "fall"}], ["e", "🫓", 400, 240, 70, {"anim": "fall", "delay": 0.4}]],
+     "filling": [["e", "🥜", 380, 225, 24, {"anim": "fall"}], ["e", "🍇", 410, 222, 24, {"anim": "fall", "delay": 0.2}], ["e", "⚪", 440, 228, 20, {"anim": "fall", "delay": 0.4}]],
+     "egg": [["e", "🥚", 400, 160, 36, {"anim": "pop"}], ["e", "💛", 400, 210, 30, {"anim": "fall"}]],
+     "pray": [["e", "🤲", 230, 170, 50, {"anim": "pulse"}]]
+   }},
+   "sents": [
+    ["N", "മാവു പരത്തി തോലാക്കിയവരും പരത്തിയ തോല് ഓട്ടിലിട്ട് വാട്ടിയവരും എണീറ്റ് പത്തിരിപ്പലകകൾ മാറ്റിവെച്ചപ്പോൾ ബിച്ചായിശേയിത്താത്ത ചോദിച്ചു:", "When the ones who rolled the sheets and the one who warmed them on the pan got up and put the boards away, Bichayishe Thaatha asked:"],
+    ["BT", "“ഇരുപത് തോല് തെഹച്ചും ഇല്ലേ?”", "“Are all twenty sheets there?”", "count"],
+    ["N", "അവർ ഒരിക്കൽക്കൂടി എണ്ണി.", "They counted one more time.", "count"],
+    ["N", "ഉണ്ട്.", "Yes, all there.", "count"],
+    ["BT", "“ഇഞ്ഞി കയ്യാക്കത്തിന് ഒരാള് ഇബിടെ നിന്നാ മതി.”", "“Now, just one person needs to stay here to help.”"],
+    ["N", "കൽമേയി നിന്നു.", "Kalmeyi stayed."],
+    ["N", "മറ്റു രണ്ടുപേർ അടുക്കളയിൽനിന്നു പോയി.", "The other two left the kitchen."],
+    ["N", "ബിച്ചായിശേയിത്താത്ത പാലിൽ പതം വരാനിട്ട വാട്ടിയ രണ്ടു തോലുകൾ ഒന്നിനു മുകളിൽ മറ്റൊന്നായി നെയ്യുള്ള ചെമ്പിലിട്ടു.", "Bichayishe Thaatha took two warmed sheets that were softening in the milk and laid them one on top of the other in the greasy pot.", "sheets"],
+    ["BT", "“പണ്ടം ഇങ്ങോട്ടെടുക്ക്.”", "“Pass me the filling.”", "sheets"],
+    ["N", "കസ്കസും കിസ്മിസും ചേർത്തു കുഴച്ച പണ്ടം കൽമേയി എടുത്തു നീട്ടി.", "Kalmeyi picked up the filling of kaskas and raisins and held it out.", "sheets"],
+    ["N", "അട്ടിയായി വെച്ച രണ്ടു തോലിന്റെ മീതെ മൂപ്പത്തി കുറച്ചു പണ്ടം വിതറി.", "The old lady sprinkled some filling over the two stacked sheets.", "filling"],
+    ["N", "എന്നിട്ടു പഞ്ചസാരയും ഏലത്തിരിയും പനിനീരും ചേർത്തു കലക്കി അടിച്ചുവെച്ച കോഴിമുട്ടക്കൊഴുപ്പിൽനിന്നു കുറച്ചെടുത്ത് പണ്ടത്തിന്റെമേൽ പാർന്നു.", "Then she took some of the beaten egg mix (with sugar, cardamom and rose water) and poured it over the filling.", "egg"],
+    ["N", "ചാഞ്ഞും ചെരിഞ്ഞും നോക്കി.", "She leaned this way and that to look.", "egg"],
+    ["N", "മുട്ട കലക്കിയത് തോലിന്റെ എല്ലാ ഭാഗവും എത്തിയോ?", "Had the egg mix reached every part of the sheet?", "egg"],
+    ["N", "അതിനുമീതെ പിന്നെ ഒറ്റത്തോലാണ് എടുത്തുവെച്ചത്.", "On top of that, she placed just one sheet.", "egg"],
+    ["N", "അതിനുമീതേയും പണ്ടമിട്ടു.", "On that too, she put filling.", "filling"],
+    ["N", "മുട്ടകലക്കിയതും പാർന്നു.", "And poured egg mix.", "egg"],
+    ["BT", "“പടച്ചോനേ, ഇതു നന്നാകണേ! ആളുകളെക്കൊണ്ടു പറയിക്കരുതേ.”", "“O God, let this turn out well! Don't let people say bad things about it.”", "pray"]
+   ]},
+  {"id": "focus", "title": "Super focus", "ml": "മനസ്സ് ചെമ്പിനകത്ത്",
+   "book": "img/book/p015_2.jpg",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["wall", 40, 120, 30, 210],
+     ["pot", 420, 330, 1.4],
+     ["glow", 420, 260, 110],
+     ["p", "oldwoman", 260, 350, 1.1, "point"],
+     ["p", "girl", 90, 360, 0.6, "stand", {"anim": "hop"}]
+   ], "fx": {
+     "ask": [["text", "ആയോ?", 110, 180, 30, "#2c3e50"]],
+     "eyes": [["e", "👀", 420, 170, 50, {"anim": "pulse"}], ["e", "❤️", 470, 190, 34, {"anim": "beat"}]],
+     "sweat": [["e", "💧", 245, 150, 26, {"anim": "fall"}], ["e", "💧", 285, 150, 26, {"anim": "fall", "delay": 0.5}]],
+     "circle": [["e", "🌀", 420, 230, 60, {"anim": "spin"}]],
+     "stack": [["e", "🫓", 420, 270, 70, {"anim": "fall"}], ["text", "4 ... 19 ... 20!", 600, 140, 30, "#7f4f24"]]
+   }},
+   "sents": [
+    ["KD", "“ആയോ?”", "“Is it done?”", "ask"],
+    ["N", "ഏതോ കുട്ടി അടുക്കളവാതിൽക്കൽനിന്ന് ചോദിച്ചു.", "some child asked from the kitchen door.", "ask"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത അതു കേട്ടില്ല.", "Bichayishe Thaatha didn't hear it."],
+    ["N", "അതെന്നല്ല ലോകത്തിലെ മറ്റൊരൊച്ചയും കേട്ടില്ല.", "Not just that — she didn't hear any other sound in the whole world."],
+    ["N", "കണ്ണും കൽബും ആത്മാവും ഒക്കെ ചെമ്പിനകത്തു രൂപംപ്രാപിച്ചുവരുന്ന ചട്ടിപ്പത്തിരിയുടെ സൃഷ്ടികർമ്മത്തിൽ തറച്ചുനില്ക്കുന്നു.", "Her eyes, her heart (kalb) and her soul were all fixed on creating the chatti pathiri taking shape inside the pot.", "eyes"],
+    ["N", "കണ്ണോ മനസ്സോ ഒന്നു തെറ്റിയാൽ...!", "If her eyes or her mind slipped, even once...!", "eyes"],
+    ["N", "കുപ്പായം വിയർപ്പിലൊട്ടി.", "Her top stuck to her with sweat.", "sweat"],
+    ["N", "നെറ്റിയുടെ രണ്ടറ്റങ്ങളിലും പളുങ്കിന്റെ മണിപോലെ വിയർപ്പിന്റെ തുള്ളികൾ ഉരുണ്ടുകൂടിനിന്നു.", "On both sides of her forehead, drops of sweat gathered like little crystal beads.", "sweat"],
+    ["N", "മനസ്സ് വട്ടച്ചെമ്പിനകത്തുമാത്രം വട്ടമിട്ടു പറക്കുന്നു.", "Her mind flew round and round only inside the round pot.", "circle"],
+    ["BT", "“നന്നായാൽ മതി, റബ്ബേ!”", "“Just let it turn out well, O Lord!”", "circle"],
+    ["N", "ബിച്ചായിശേയിത്താത്ത ആദ്യം ചെയ്തതുതന്നെ ആവർത്തിക്കുന്നു.", "Bichayishe Thaatha repeats exactly what she did first.", "stack"],
+    ["N", "നാലാമത്തെ തോല് വച്ചു.", "She put on the fourth sheet.", "stack"],
+    ["N", "എല്ലാം ക്രമമനുസരിച്ചു നടക്കുന്നു.", "Everything goes in the right order.", "stack"],
+    ["N", "പത്തൊമ്പതാമത്തെ തോലാണ് ... ഇരുപതു തികയുന്നു!", "This is the nineteenth sheet... and now twenty, done!", "stack"]
+   ]},
+  {"id": "fire", "title": "Into the fire", "ml": "ചെമ്പ് അടുപ്പത്ത്",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 430, 330, 1.2],
+     ["fire", 430, 320, 1, {"anim": "flicker"}],
+     ["p", "oldwoman", 250, 350, 1.1, "stand"]
+   ], "fx": {
+     "pour": [["e", "🫓", 430, 210, 70], ["e", "💛", 430, 170, 34, {"anim": "fall"}]],
+     "scarf": [["e", "🧕", 250, 160, 44, {"anim": "pop"}]],
+     "pot": [["pot", 430, 245, 1.2, {"anim": "shake"}], ["e", "🫕", 430, 190, 50, {"anim": "fall"}], ["fire", 430, 175, 0.6, {"anim": "flicker"}], ["e", "🥥", 560, 330, 36]],
+     "ok": [["text", "ബറാബർ!", 600, 140, 40, "#27ae60"], ["e", "👌", 650, 200, 50, {"anim": "pop"}]],
+     "pray": [["e", "🤲", 250, 150, 50, {"anim": "pulse"}], ["glow", 250, 220, 80]]
+   }},
+   "sents": [
+    ["N", "നിവർന്നുനിന്നു നോക്കി.", "She stood up straight and looked."],
+    ["N", "ബാക്കിയുള്ള പണ്ടം മുഴുവൻ ഇരുപതാമത്തെ തോലിന്റെ മുകളിൽ വിതറി.", "She sprinkled all the leftover filling on top of the twentieth sheet.", "pour"],
+    ["N", "ചാഞ്ഞും ചെരിഞ്ഞും നോക്കി.", "She leaned this way and that to look.", "pour"],
+    ["N", "എല്ലാം സമമായി പതിഞ്ഞിരിക്കുന്നു.", "Everything has settled evenly.", "pour"],
+    ["N", "മുട്ട കലക്കിയ സാൻ കൈയിലെടുത്തു.", "She picked up the basin of egg mix.", "pour"],
+    ["N", "അതു മുഴുവൻ വടിച്ച് അവസാനത്തെ തോലിനു മീതെ നടുവിൽ പാർന്നു.", "She scraped out every bit and poured it in the middle of the last sheet.", "pour"],
+    ["N", "എല്ലാ ഭാഗത്തേക്കും ഒലിച്ച് സമമാകുന്നു.", "It flows out to every side and spreads evenly.", "pour"],
+    ["N", "മൂപ്പത്തി ഒന്നു നിവർന്ന് കൈ കുടഞ്ഞു.", "The old lady straightened up and shook out her hands.", "pour"],
+    ["N", "ഊർന്നുവീണ തട്ടം നേരെയാക്കി. എന്നിട്ട് -", "She fixed her head scarf (thattam), which had slipped down. And then —", "scarf"],
+    ["BT", "“ബിസ്മില്ലാ...”", "“Bismillah... (In the name of God...)”", "scarf"],
+    ["N", "വിറയ്ക്കുന്ന കൈകളോടെ ചെമ്പ് അടുപ്പത്തു കയറ്റുന്നു.", "With trembling hands, she lifts the pot onto the stove.", "pot"],
+    ["N", "മൂടിയെടുത്ത് ചെമ്പിനു മുകളിൽ വെച്ചു.", "She put the lid on the pot.", "pot"],
+    ["N", "അടുപ്പിലെ ചകിരിത്തീയിൽനിന്ന് കുറച്ചെടുത്ത് ചെമ്പിനു മുകളിലിട്ടു.", "She took some of the burning coconut husk from the stove and put it on top of the lid.", "pot"],
+    ["N", "പുതിയ ചകിരിയുമിട്ടു.", "She added fresh coconut husk too.", "pot"],
+    ["N", "അടുപ്പിലെ തീയൊന്ന് ഉള്ളോട്ടു തള്ളി.", "She pushed the fire in the stove further inside.", "pot"],
+    ["N", "മാറിനിന്ന് അടിയിലും മുകളിലും തീ ശരിയായ നിലയിലാണോ എന്നു നോക്കി.", "She stepped back and checked if the fire below and on top was just right.", "pot"],
+    ["N", "ബറാബർ!", "Perfect!", "ok"],
+    ["BT", "റബ്ബേ, ഇതു നന്നാകണേ!", "O Lord, let this turn out well!", "pray"],
+    ["N", "നെറ്റിയിൽ ഉരുണ്ടുകൂടിയ വിയർപ്പുതുള്ളികൾ ചൂണ്ടുവിരൽ മടക്കി തുടച്ച് അവര് പ്രാർത്ഥനാഭാവത്തിൽ നിന്നു.", "Wiping the sweat drops off her forehead with a bent finger, she stood there as if praying.", "pray"],
+    ["N", "നന്നാവും!", "It will be good!", "ok"]
+   ]},
+  {"id": "rest", "title": "A Taj of sweets", "ml": "പലഹാരങ്ങളുടെ താജ്",
+   "art": {"bg": "dusk", "ground": "floor", "items": [
+     ["p", "oldwoman", 300, 360, 1.1, "sit"],
+     ["e", "🥮", 520, 300, 90, {"anim": "pulse"}],
+     ["glow", 520, 270, 100]
+   ], "fx": {
+     "betel": [["e", "🍃", 400, 260, 40, {"anim": "pop"}], ["e", "🌰", 430, 280, 30, {"anim": "pop", "delay": 0.3}]],
+     "taj": [["e", "🕌", 650, 170, 80, {"anim": "zoom"}], ["e", "😌", 300, 160, 50, {"anim": "bob"}]]
+   }},
+   "sents": [
+    ["BT", "“മോളേ, ഒരു ബായീക്ക് ബെത്തിലടക്ക!”", "“Dear, bring me some betel leaf and areca nut to chew!”", "betel"],
+    ["N", "ഇനിയൊന്നു മുറുക്കണം.", "Now she wants a betel chew.", "betel"],
+    ["N", "പലഹാരങ്ങളുടെ ‘താജ്’ പണിത ആ കൈകൾക്ക് ആശ്വാസം തോന്നി.", "Those hands, which had built a 'Taj' of sweets (as wonderful as the Taj Mahal), felt relief.", "taj"],
+    ["N", "മനസ്സിൽ നിറഞ്ഞ നിർവൃതി.", "Her heart was full of deep happiness.", "taj"]
+   ]}
+ ],
+ "words": [
+  {"id": "pathiri", "ml": "പത്തിരി", "rom": "pathiri", "en": "pathiri (thin flat bread / sheet)", "emoji": "🫓", "set": "A"},
+  {"id": "mutta", "ml": "കോഴിമുട്ട", "rom": "kozhimutta", "en": "hen's egg", "emoji": "🥚", "set": "A"},
+  {"id": "panchasara", "ml": "പഞ്ചസാര", "rom": "panchasaara", "en": "sugar", "emoji": "🍬", "set": "A"},
+  {"id": "neyyu", "ml": "നെയ്യ്", "rom": "neyyu", "en": "ghee", "emoji": "🧈", "set": "A"},
+  {"id": "paal", "ml": "പാൽ", "rom": "paal", "en": "milk", "emoji": "🥛", "set": "A"},
+  {"id": "maavu", "ml": "മാവ്", "rom": "maavu", "en": "dough", "emoji": "🥣", "set": "A"},
+  {"id": "badam", "ml": "ബദം", "rom": "badam", "en": "almond", "emoji": "🥜", "set": "A"},
+  {"id": "kismis", "ml": "കിസ്മിസ്", "rom": "kismis", "en": "raisin", "emoji": "🍇", "set": "A"},
+  {"id": "kuttikal", "ml": "കുട്ടികൾ", "rom": "kuttikal", "en": "children", "emoji": "🧒", "set": "A"},
+  {"id": "umma", "ml": "ഉമ്മ", "rom": "umma", "en": "mother (Umma)", "emoji": "👩", "set": "B"},
+  {"id": "chembu", "ml": "ചെമ്പ്", "rom": "chembu", "en": "big metal pot", "emoji": "🥘", "set": "B"},
+  {"id": "thol", "ml": "തോല്", "rom": "thol", "en": "sheet (here: a rolled dough sheet)", "emoji": "📄", "set": "B"},
+  {"id": "aduppu", "ml": "അടുപ്പ്", "rom": "aduppu", "en": "stove / fireplace", "emoji": "🔥", "set": "B"},
+  {"id": "viyarppu", "ml": "വിയർപ്പ്", "rom": "viyarppu", "en": "sweat", "emoji": "💧", "set": "B"},
+  {"id": "thattam", "ml": "തട്ടം", "rom": "thattam", "en": "head scarf", "emoji": "🧕", "set": "B"},
+  {"id": "irupathu", "ml": "ഇരുപത്", "rom": "irupathu", "en": "twenty", "emoji": "🔢", "set": "B"}
+ ],
+ "quiz": [
+  {"q": "സാധനങ്ങൾ എണ്ണം നോക്കേണ്ടത് എന്തുകൊണ്ട്?", "qe": "Why did the things have to be counted?", "o": ["കള്ളൻ വരും", "കുട്ടികളുടെ കൈകൾ എല്ലായിടത്തും എത്തും", "കടക്കാരൻ പറഞ്ഞു", "മഴ പെയ്യും"], "oe": ["A thief may come", "Children's hands reach everywhere", "The shopkeeper said so", "It will rain"], "a": 1, "sec": "A"},
+  {"q": "എത്ര കോഴിമുട്ട വാങ്ങി?", "qe": "How many eggs were bought?", "o": ["പത്ത്", "ഇരുപത്", "മുപ്പത്", "അഞ്ച്"], "oe": ["Ten", "Twenty", "Thirty", "Five"], "a": 2, "sec": "A"},
+  {"q": "പാൽ നേരത്തെ വാങ്ങാത്തത് എന്തുകൊണ്ട്?", "qe": "Why wasn't the milk bought early?", "o": ["പണമില്ല", "പൂച്ച കുടിക്കും", "പശു ഇല്ല", "തെരത്തുപോകും (കേടാവും)"], "oe": ["No money", "The cat would drink it", "No cow", "It would go sour"], "a": 3, "sec": "A"},
+  {"q": "പരത്തിയ മാവിന്റെ രൂപം എന്തുപോലെ?", "qe": "What did the rolled dough look like?", "o": ["ആനച്ചെവി", "പൂച്ചയുടെ വാൽ", "ചന്ദ്രൻ", "ഇല"], "oe": ["An elephant's ear", "A cat's tail", "The moon", "A leaf"], "a": 0, "sec": "A"},
+  {"q": "എത്ര തോല് പരത്തണം?", "qe": "How many sheets had to be rolled?", "o": ["പത്ത്", "ഇരുപത്", "മുപ്പത്", "നൂറ്"], "oe": ["Ten", "Twenty", "Thirty", "A hundred"], "a": 1, "sec": "A"},
+  {"q": "കൽമേയി എന്താണ് മറന്നത്?", "qe": "What did Kalmeyi forget?", "o": ["പാലും പഞ്ചസാരയും കലക്കാൻ", "തീ കത്തിക്കാൻ", "ബദം വാങ്ങാൻ", "കുട്ടികളെ വിളിക്കാൻ"], "oe": ["To mix the milk and sugar", "To light the fire", "To buy almonds", "To call the kids"], "a": 0, "sec": "A"},
+  {"q": "അബു ആരുടെ മകനാണ്?", "qe": "Whose son is Abu?", "o": ["ബീരാമ്പിയുടെ", "പാത്തുമ്മേയിയുടെ", "കൽമേയിയുടെ", "ഉസ്മാന്റെ"], "oe": ["Beerambi's", "Pathummeyi's", "Kalmeyi's", "Usman's"], "a": 2, "sec": "B"},
+  {"q": "ഉസ്മാൻ കാസയിൽനിന്ന് എന്തെടുത്തു?", "qe": "What did Usman take from the bowl?", "o": ["മുട്ട", "പഞ്ചസാര", "പാൽ", "ഒരു കഷണം ബദം"], "oe": ["An egg", "Sugar", "Milk", "A piece of almond"], "a": 3, "sec": "B"},
+  {"q": "‘ആയോ?’ എന്ന ചോദ്യം ബിച്ചായിശേയിത്താത്ത കേൾക്കാത്തത് എന്തുകൊണ്ട്?", "qe": "Why didn't Grandma hear 'Is it done?'", "o": ["അവർ ഉറങ്ങുകയായിരുന്നു", "മനസ്സ് മുഴുവൻ ചെമ്പിനകത്തായിരുന്നു", "പാട്ട് കേൾക്കുകയായിരുന്നു", "പുറത്തുപോയിരുന്നു"], "oe": ["She was asleep", "Her whole mind was inside the pot", "She was listening to music", "She had gone out"], "a": 1, "sec": "B"},
+  {"q": "ചെമ്പിനു മുകളിൽ എന്തിട്ടു?", "qe": "What did she put on top of the pot's lid?", "o": ["ചകിരിത്തീ", "വെള്ളം", "ഐസ്", "പൂക്കൾ"], "oe": ["Burning coconut husk", "Water", "Ice", "Flowers"], "a": 0, "sec": "B"},
+  {"q": "ചട്ടിപ്പത്തിരിയെ എന്തിനോടാണ് ഉപമിച്ചത്?", "qe": "What is the chatti pathiri compared to?", "o": ["ഒരു കപ്പൽ", "ഒരു പൂന്തോട്ടം", "ഒരു മല", "താജ്"], "oe": ["A ship", "A garden", "A mountain", "The Taj (Mahal)"], "a": 3, "sec": "B"},
+  {"q": "പണി കഴിഞ്ഞ് ബിച്ചായിശേയിത്താത്ത എന്താണ് ചോദിച്ചത്?", "qe": "After the work, what did Grandma ask for?", "o": ["ചായ", "വെറ്റിലയും അടക്കയും", "ഉറക്കം", "പത്രം"], "oe": ["Tea", "Betel leaf and areca nut", "Sleep", "The newspaper"], "a": 1, "sec": "B"}
+ ],
+ "build": [
+  {"ch": ["ഏറെ", "കുട്ടികളുള്ള", "പുരയാണ്."], "en": "It's a house with lots of children.", "rom": "ere kuttikalulla purayaanu"},
+  {"ch": ["കുട്ടികളുടെ", "കൈകൾ", "എല്ലായിടത്തും", "എത്തും."], "en": "Children's hands reach everywhere.", "rom": "kuttikalude kaikal ellaayidathum ethum"},
+  {"ch": ["ഓരോന്നും", "വലിയ", "ആപ്പിളിന്റെ", "വലുപ്പമുണ്ട്."], "en": "Each one is as big as a large apple.", "rom": "oronnum valiya aappilinte valuppamundu"},
+  {"ch": ["അബു", "ഒരു", "കഷണം", "ബദവും", "കടിച്ച്", "പോയി."], "en": "Abu went off munching a piece of almond.", "rom": "Abu oru kashanam badavum kadichu poyi"},
+  {"ch": ["മനസ്സിൽ", "നിറഞ്ഞ", "നിർവൃതി."], "en": "Deep happiness filled her heart.", "rom": "manassil niranja nirvruthi"}
+ ],
+ "retell": [
+  "Named what chatti pathiri needs (flour, eggs, sugar, ghee, nuts, raisins, rose water, milk)",
+  "Told who rolled the twenty sheets and what they looked like (elephant ears!)",
+  "Told the funny part where Kalmeyi forgot the milk and Grandma grumbled",
+  "Told how Abu and Usman tried to grab almonds",
+  "Explained how Grandma built the layers and was so focused she heard nothing",
+  "Said why the cake is called a 'Taj' of sweets"
+ ],
+ "write": {"title": "✍️ Meet the Taj-maker", "prompt": "ബിച്ചായിശേയിത്താത്തയെ ഒരു കൂട്ടുകാരന് പരിചയപ്പെടുത്തൂ.", "en": "Write a short note to a friend introducing Bichayishe Thaatha: who she is, what she made, and one thing you liked about her. Malayalam, English or mixed is fine.", "starters": ["ബിച്ചായിശേയിത്താത്ത ഒരു ...", "Bichayishe Thaatha is a grandma who ..."], "min": 50},
+ "plan": [
+  {"title": "Meet the kitchen crew", "ml": "അടുക്കളയിലെ കൂട്ടം", "icon": "🎧", "mode": "game", "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 2]}, {"t": "cards", "set": "A"}]},
+  {"title": "Rolling elephant ears", "ml": "ആനച്ചെവി പരത്തൽ", "icon": "🫓", "mode": "game", "steps": [{"t": "story", "scenes": [3, 5]}, {"t": "match", "set": "A"}, {"t": "quiz", "sec": "A"}]},
+  {"title": "Oops and sneaky snackers", "ml": "മറവിയും കള്ളക്കുട്ടികളും", "icon": "🥜", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [6, 8]}, {"t": "cards", "set": "B"}]},
+  {"title": "Building the layers", "ml": "അട്ടിയായി വെക്കാം", "icon": "🧱", "mode": "game", "steps": [{"t": "story", "scenes": [9, 10]}, {"t": "memory", "set": "B"}, {"t": "quiz", "sec": "B"}]},
+  {"title": "Into the fire", "ml": "ചെമ്പ് അടുപ്പത്ത്", "icon": "🔥", "mode": "classic", "steps": [{"t": "story", "scenes": [11, 12]}, {"t": "warmup", "sets": ["A", "B"]}, {"t": "builder"}]},
+  {"title": "Tell it, write it, win it", "ml": "പറയാം, എഴുതാം, ജയിക്കാം", "icon": "🏆", "mode": "classic", "steps": [{"t": "retell"}, {"t": "write"}, {"t": "final"}]}
+ ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "u3-l2-athijeevanam",
+  "unit": 3, "unitMl": "നൽകുകിൽ നേടാം", "unitEn": "Give, and you will get",
+  "order": 2,
+  "title": "അതിജീവനത്തിന്റെ തുടക്കം", "titleEn": "The Beginning of Survival",
+  "pages": "43–46", "kind": "essay",
+  "author": "Maina Umaiban",
+  "level": "hard",
+  "icon": "🌍",
+  "summaryEn": "<p>The writer, Maina Umaiban, grew up in <b>Deviyar Colony</b>, a village in a valley between four hills, with a river flowing through the middle. As a child she loved swimming in the river all day, like a frog!</p><p>But now the river is almost dry. People broke its stones, scooped away its sand, pumped out its water and threw rubbish into it. So the rain water just rushes away. Everyone talks about saving nature, but not much really changes.</p><p>Then she talks about the whole Earth: its amazing mountains, seas, rainforests and deserts are in danger. A book called <b>Silent Spring</b> by Rachel Carson woke the world up. Long before that, <b>Chief Seattle</b> asked: “How can you buy or sell the sky?”</p><p>Big idea: humans are only one small part of nature — but only humans can choose to <b>save</b> it or <b>destroy</b> it.</p>",
+  "speakers": {
+    "N": {"name": "The writer", "ml": "എഴുത്തുകാരി", "emoji": "👩", "voice": "ml-IN-SobhanaNeural", "rate": "-12%", "pitch": "+0Hz"},
+    "SE": {"name": "Chief Seattle", "ml": "സിയാറ്റിൽ മൂപ്പൻ", "emoji": "🪶", "voice": "ml-IN-MidhunNeural", "rate": "-20%", "pitch": "-10Hz"}
+  },
+  "scenes": [
+    {"id": "village", "title": "My village by the river", "ml": "എന്റെ ഗ്രാമം",
+     "art": {"bg": "day", "ground": "river",
+      "items": [["sun", 700, 70], ["e", "⛰️", 120, 250, 130], ["e", "⛰️", 300, 230, 150], ["e", "⛰️", 520, 230, 150], ["e", "⛰️", 690, 250, 130],
+                ["house", 150, 330, 0.8], ["tree", 640, 330, 1.0, {"anim": "sway"}], ["fish", 420, 390, 0.8, {"anim": "swim"}]],
+      "fx": {
+        "girl": [["p", "girl", 300, 335, 0.9, "wave"], ["school", 560, 330, 0.6], ["text", "അവധി!", 560, 170, 28, "#c0392b", {"anim": "pop"}]],
+        "periyar": [["e", "✨", 420, 380, 40, {"anim": "flicker"}], ["bush", 250, 330, 0.9], ["bush", 560, 330, 0.9], ["birds"]]
+      }},
+     "sents": [
+      ["N", "ദേവിയാർകോളനി എന്ന ഗ്രാമം നാലു മലകളുടെ താഴ്‌വരയിലാണ്.", "The village called Deviyar Colony is in a valley between four hills."],
+      ["N", "നടുവിലൂടെ ആറ് ഒഴുകുന്നു.", "A river flows right through the middle."],
+      ["N", "ഇപ്പോഴും മധ്യവേനലവധിക്ക് സ്കൂൾ പൂട്ടാൻ കാത്തിരിക്കുന്ന കുട്ടിയാണ് ഞാൻ.", "Even now, I am a child waiting for school to close for the summer holidays.", "girl"],
+      ["N", "വീടിനടുത്ത് ആറ്, പുറകിൽ മല, മലയ്ക്കുമുകളിൽ കയറിയാൽ പിന്നെയും പിന്നെയും മലനിരകൾ.", "A river near the house, a hill behind it, and if you climb the hill — more and more rows of hills.", "girl"],
+      ["N", "രണ്ടു മലകൾക്കിടയിലൂടെ വെള്ളിയരഞ്ഞാണം പോലൊഴുകുന്ന പെരിയാർ, എങ്ങും പച്ചപ്പ്, കൈത്തോടുകൾ...", "The Periyar river flowing between two hills like a silver waist-chain, green everywhere, little streams...", "periyar"]
+     ]},
+    {"id": "swim", "title": "Swimming like frogs", "ml": "ആറ്റിലെ നീന്തൽ",
+     "art": {"bg": "day", "ground": "river",
+      "items": [["sun", 680, 70], ["tree", 80, 330, 1.0], ["e", "🪨", 640, 360, 60], ["e", "🪨", 200, 365, 50]],
+      "fx": {
+        "kids": [["e", "🏊", 360, 395, 60, {"anim": "swim"}], ["e", "🏊", 480, 405, 54, {"anim": "swim", "delay": 0.5}], ["e", "💦", 420, 380, 40, {"anim": "pop"}]],
+        "frog": [["p", "boy", 640, 335, 0.7, "sit"], ["e", "🐸", 560, 380, 50, {"anim": "hop"}], ["e", "🐸", 250, 380, 44, {"anim": "hop", "delay": 0.4}]],
+        "dry": [["e", "🟫", 400, 420, 80], ["e", "☕", 400, 400, 50, {"anim": "pulse"}], ["text", "വെള്ളം വറ്റി", 400, 300, 26, "#5b3a1a"]]
+      }},
+     "sents": [
+      ["N", "ആറ്റിൽ നീന്തണം എന്നാണ് എക്കാലത്തേയും ഏറ്റവും വലിയ മോഹം.", "My biggest wish, always, was to swim in the river.", "kids"],
+      ["N", "ഒരിക്കൽ ആറ്റിൽനിന്നു കയറുന്ന പരിപാടിയില്ലായിരുന്നു.", "Once, there was no plan of ever coming out of the river!", "kids"],
+      ["N", "കണ്ണു ചുവന്ന് ചുറ്റും മഞ്ഞുപോലെ തോന്നിക്കുമ്പോൾ കരയിലെ കല്ലുകളിൽ കയറിയിരുന്ന് ഉണങ്ങുകയും പിന്നെയും ആറ്റിലേക്കു ചാടുകയും ചെയ്യുന്ന തവളകളായിരുന്നു ഞങ്ങൾ.", "When our eyes went red and everything looked misty, we sat on the stones on the bank to dry, then jumped back into the river again — we were like frogs!", "frog"],
+      ["N", "ആറിലെ വെള്ളം വറ്റിക്കണ്ടിട്ടില്ല.", "I had never seen the river's water dry up.", "frog"],
+      ["N", "ഇപ്പോൾ ചെറുകുഴികളിൽ, ചെറുചാലുകളായി വെള്ളം.", "Now there is water only in small pits and tiny trickles.", "dry"],
+      ["N", "അതും കറുത്തിരുണ്ട ചായപ്പൊടിവെള്ളം!", "And even that is dark, black water, like tea!", "dry"]
+     ]},
+    {"id": "rainland", "title": "The rainiest place", "ml": "ഏറ്റവും മഴയുള്ള നാട്",
+     "art": {"bg": "grey", "ground": "river",
+      "items": [["cloud", 200, 80, 1.4, {"anim": "float"}], ["cloud", 560, 70, 1.4, {"anim": "float", "delay": 1}], ["rain"],
+                ["tree", 70, 330, 1.0], ["tree", 160, 330, 0.9], ["tree", 730, 330, 1.0], ["e", "⛰️", 400, 260, 140]],
+      "fx": {
+        "flow": [["e", "💧", 400, 300, 34, {"anim": "fall"}], ["e", "💧", 360, 340, 30, {"anim": "fall", "delay": 0.4}], ["e", "➡️", 560, 400, 40, {"anim": "slideout"}]],
+        "stones": [["e", "🪨", 250, 400, 46], ["e", "🪨", 420, 410, 46], ["e", "🪨", 600, 400, 46], ["mangrove", 330, 360, 0.6], ["mangrove", 520, 360, 0.6], ["bush", 680, 360, 0.6]]
+      }},
+     "sents": [
+      ["N", "കേരളത്തിൽ ഏറ്റവും കൂടുതൽ മഴപെയ്യുന്ന പ്രദേശമാണിവിടം.", "This is the place that gets the most rain in Kerala."],
+      ["N", "നേര്യമംഗലം സംരക്ഷിത വനമേഖലയോടു ചേർന്നുകിടക്കുന്ന പ്രദേശം.", "It lies next to the Neriyamangalam protected forest."],
+      ["N", "മലയോരപ്രദേശമായതുകൊണ്ട് മഴപെയ്താൽ വെള്ളം ചെറുവുകളിലൂടെ ഒഴുകി നേരെ പുഴയിലേക്കെത്തും.", "Because it is hilly land, when it rains the water runs down the slopes straight into the river.", "flow"],
+      ["N", "പുഴ കുറേ താഴോട്ടൊഴുകി പെരിയാറിലും.", "The river flows a long way down, into the Periyar.", "flow"],
+      ["N", "മുമ്പ് ആറ്റിലൊരുപാടു കല്ലുകളുണ്ടായിരുന്നു.", "Before, there were lots of stones in the river.", "stones"],
+      ["N", "മണൽ തെളിയുന്നിടത്തൊക്കെ കല്ലൂർവഞ്ഞിയും കുഞ്ഞുകണ്ടലുമുണ്ടായിരുന്നു.", "Wherever sand showed, there were kalluruvanji plants and little mangroves.", "stones"],
+      ["N", "വെള്ളം വല്ലാതങ്ങ് ഒഴുകിപ്പോകാതെ തടഞ്ഞുനിൽക്കാൻ ഇതൊക്കെ മതിയായിരുന്നു.", "These were enough to hold the water back, so it did not all rush away.", "stones"],
+      ["N", "ഇപ്പോഴതല്ല അവസ്ഥ.", "That is not how it is now."]
+     ]},
+    {"id": "taken", "title": "Stones, sand and water taken", "ml": "കല്ലും മണലും പോയി", "book": "img/book/p045_page.jpg",
+     "art": {"bg": "day", "ground": "dry",
+      "items": [["sun", 680, 70, {"anim": "pulse"}], ["e", "🏞️", 400, 400, 60]],
+      "fx": {
+        "break": [["p", "man", 200, 335, 1.0, "stand"], ["e", "⛏️", 250, 260, 50, {"anim": "shake"}], ["e", "🪨", 300, 330, 46, {"anim": "shake"}], ["e", "🧱", 120, 330, 50]],
+        "sand": [["e", "🚚", 560, 330, 80, {"anim": "drive"}], ["e", "⏳", 440, 330, 40, {"anim": "shake"}]],
+        "pump": [["e", "🚰", 470, 330, 50, {"anim": "pulse"}], ["e", "💧", 520, 300, 30, {"anim": "rise"}]],
+        "rush": [["e", "💨", 400, 390, 50, {"anim": "slideout"}], ["text", "പെരിയാറിലേക്ക് →", 560, 430, 22, "#1a4f7a"]]
+      }},
+     "sents": [
+      ["N", "കെട്ടിടംപണിക്കും കയ്യാലപ്പണിക്കുമായി കല്ലുകളൊക്കെ പൊട്ടിച്ചെടുത്തു മനുഷ്യർ.", "People broke and took away all the stones, to build buildings and walls.", "break"],
+      ["N", "മണലുമുഴുവൻ കോരിക്കൊണ്ടുപോയി.", "They scooped up and carried away all the sand.", "sand"],
+      ["N", "മാത്രമല്ല, വേനലായാൽ പലരും കൃഷിക്കും മറ്റുമായി പുഴയിൽനിന്ന് വെള്ളം പമ്പുചെയ്തെടുക്കാനും തുടങ്ങി.", "Not only that — in summer, many people started pumping water out of the river for their farms and other things.", "pump"],
+      ["N", "അതോടെ മഴപെയ്യുന്ന വെള്ളം അതേ വേഗത്തിൽ പെരിയാറിൽ ചെന്നുചേരുന്ന സ്ഥിതിയായി.", "Because of that, rain water now rushes into the Periyar just as fast as it falls.", "rush"],
+      ["N", "വർഷത്തിൽ ഒന്നോ രണ്ടോ മാസം മാത്രമാണ് അവിടെ കാര്യമായി മഴയില്ലാത്തത്.", "There are only one or two months a year without much rain there.", "rush"],
+      ["N", "എന്നിട്ടാണ് ഈ അവസ്ഥ!", "And still, this is how things are!", "rush"]
+     ]},
+    {"id": "waste", "title": "Rubbish in the river", "ml": "ആറ്റിലെ മാലിന്യം", "book": "img/book/p045_page.jpg",
+     "art": {"bg": "grey", "ground": "river",
+      "items": [["cloud", 300, 80, 1.2], ["tree", 80, 330, 0.8]],
+      "fx": {
+        "trash": [["e", "🛍️", 300, 400, 40, {"anim": "float"}], ["e", "🧴", 420, 410, 36, {"anim": "float", "delay": 0.4}], ["e", "👕", 540, 400, 40, {"anim": "float", "delay": 0.8}], ["e", "🍶", 640, 410, 34, {"anim": "float", "delay": 1.2}]],
+        "flats": [["building", 560, 330, 90, 220], ["building", 670, 330, 90, 180], ["e", "🚜", 420, 330, 60, {"anim": "shake"}]],
+        "talk": [["p", "man", 200, 335, 1.0, "point"], ["text", "ബ്ലാ ബ്ലാ...", 200, 170, 24, "#555555", {"anim": "pulse"}]]
+      }},
+     "sents": [
+      ["N", "അഴുക്കായ തുണി, പ്ലാസ്റ്റിക്, പൊട്ടിയ പാത്രങ്ങൾ തുടങ്ങി നാട്ടിലെ മാലിന്യങ്ങൾ മുഴുവൻ ആറ്റിലൊഴുക്കുന്നു.", "Dirty clothes, plastic, broken pots — all the rubbish of the village is thrown into the river.", "trash"],
+      ["N", "ആറ്റിറമ്പ് കയ്യേറി ബഹുനിലക്കെട്ടിടങ്ങൾ നിർമ്മിക്കുന്നു.", "People grab the river bank and build tall buildings on it.", "flats"],
+      ["N", "ഇങ്ങനെ നാടിന്റെ പാരിസ്ഥിതികപ്രശ്നങ്ങൾ ഒരുപാടുണ്ട്.", "Like this, the land has lots of environment problems.", "flats"],
+      ["N", "ഒരു വശത്ത് പരിസ്ഥിതി നാശത്തെപ്പറ്റി പറയുകയും മറുവശത്ത് സംരക്ഷണത്തെപ്പറ്റി ക്ലാസുകളും ചർച്ചകളും എങ്ങുമെത്താതെ പോവുകയും ചെയ്യുന്നു.", "On one side people talk about nature being destroyed; on the other side, classes and talks about saving it go nowhere.", "talk"]
+     ]},
+    {"id": "envday", "title": "Environment Day", "ml": "പരിസ്ഥിതിദിനം", "book": "img/book/p044_page.jpg",
+     "art": {"bg": "day", "ground": "grass",
+      "items": [["sun", 700, 70], ["school", 120, 330, 0.7], ["text", "ജൂൺ 5", 650, 170, 28, "#2a7a2a"]],
+      "fx": {
+        "party": [["e", "🎈", 600, 200, 44, {"anim": "float"}], ["e", "🎉", 700, 230, 44, {"anim": "pop"}]],
+        "kids": [["p", "girl", 300, 335, 0.8, "stand"], ["p", "boy", 400, 335, 0.8, "wave"], ["e", "🪧", 400, 220, 50, {"anim": "bob"}], ["text", "ഭൂമിയെ രക്ഷിക്കൂ", 400, 150, 22, "#2a7a2a"],
+                 ["e", "🌱", 480, 330, 40, {"anim": "grow"}]],
+        "plastic": [["e", "🛍️", 540, 330, 36, {"anim": "hop"}], ["e", "🗑️", 590, 330, 44]],
+        "speech": [["p", "teacher", 220, 335, 1.0, "point"], ["e", "🎤", 250, 240, 36, {"anim": "pulse"}]]
+      }},
+     "sents": [
+      ["N", "പതിവുപോലെ പരിസ്ഥിതിദിനങ്ങൾ ആഘോഷങ്ങളിൽ മുഴുകും.", "As usual, Environment Days will be lost in celebrations.", "party"],
+      ["N", "‘ഭൂമിയെ രക്ഷിക്കൂ’ എന്നും മറ്റുമുള്ള പ്ലക്കാർഡുമേന്തി, പച്ചയുടുപ്പിട്ട് കുഞ്ഞുങ്ങൾ മരത്തൈകൾ നടും.", "Little children in green clothes, holding signs like ‘Save the Earth’, will plant tree saplings.", "kids"],
+      ["N", "ചിലപ്പോൾ പ്ലാസ്റ്റിക് ശേഖരിക്കും.", "Sometimes they will collect plastic.", "plastic"],
+      ["N", "പ്രഭാഷണങ്ങൾ നടക്കും.", "Speeches will be made.", "speech"],
+      ["N", "അങ്ങനെയങ്ങനെ.....", "And so on, and so on.....", "speech"]
+     ]},
+    {"id": "earth", "title": "Our amazing Earth in danger", "ml": "നമ്മുടെ ഭൂമി", "book": "img/book/p044_page.jpg",
+     "art": {"bg": "sky", "ground": "none",
+      "items": [["e", "🌍", 400, 280, 120, {"anim": "spin"}], ["stars"]],
+      "fx": {
+        "wonders": [["e", "🏔️", 130, 200, 60, {"anim": "pop"}], ["e", "🌊", 670, 200, 60, {"anim": "pop", "delay": 0.3}], ["e", "🌴", 130, 380, 60, {"anim": "pop", "delay": 0.6}], ["e", "🏜️", 670, 380, 60, {"anim": "pop", "delay": 0.9}]],
+        "danger": [["e", "🔥", 250, 330, 50, {"anim": "flicker"}], ["e", "🏭", 550, 330, 50, {"anim": "shake"}], ["e", "🪓", 320, 180, 40, {"anim": "shake"}], ["e", "⚠️", 480, 170, 44, {"anim": "pulse"}]]
+      }},
+     "sents": [
+      ["N", "അതിമനോഹരമായ ഭൂപ്രദേശങ്ങൾ, വൈവിധ്യമാർന്ന ആവാസവ്യവസ്ഥകൾ, ജീവന്റെ സമ്പന്നമായ ഇടം.", "Very beautiful lands, all kinds of homes for living things, a place rich with life."],
+      ["N", "ഭീമാകാരങ്ങളായ പർവതങ്ങൾമുതൽ വിശാലമായ സമുദ്രങ്ങൾവരെ, സമൃദ്ധമായ മഴക്കാടുകൾമുതൽ വരണ്ട മരുഭൂമികൾവരെ, എത്രയെത്ര വൈവിധ്യങ്ങൾ നിറഞ്ഞതാണ് ഈ ഭൂമി!", "From giant mountains to wide oceans, from thick rainforests to dry deserts — how full of different things this Earth is!", "wonders"],
+      ["N", "മനുഷ്യരുടെ കൈകടത്തൽകൊണ്ടും പ്രകൃതിപ്രതിഭാസങ്ങൾകൊണ്ടും നമ്മുടെ ഭൂമി വലിയ വെല്ലുവിളികൾ നേരിടുന്നു.", "Because of humans meddling, and because of natural events, our Earth faces big challenges.", "danger"],
+      ["N", "കാലാവസ്ഥാവ്യതിയാനം, വനനശീകരണം, മലിനീകരണം, ജൈവവൈവിധ്യത്തിന്റെ നഷ്ടം തുടങ്ങിയ പാരിസ്ഥിതിക പ്രശ്നങ്ങൾ നമ്മുടെ നിലനിൽപ്പുതന്നെ അപകടത്തിലാക്കിയിരിക്കുന്നു.", "Problems like climate change, cutting down forests, pollution and losing many kinds of living things have put our very survival in danger.", "danger"]
+     ]},
+    {"id": "silentspring", "title": "The book that woke the world", "ml": "നിശ്ശബ്ദ വസന്തം",
+     "art": {"bg": "indoor", "ground": "floor",
+      "items": [["table", 400, 330, 260], ["book", 400, 290, 1.2], ["p", "woman", 230, 335, 1.0, "sit"], ["text", "1950...", 650, 120, 30, "#7a4a1a"]],
+      "fx": {
+        "book": [["text", "നിശ്ശബ്ദ വസന്തം", 400, 200, 28, "#2a7a2a"], ["glow", 400, 280, 60], ["e", "🐦", 520, 180, 40, {"anim": "fly"}]],
+        "world": [["e", "🌍", 640, 260, 70, {"anim": "spin"}], ["e", "💬", 580, 180, 40, {"anim": "pop"}], ["e", "💬", 700, 190, 40, {"anim": "pop", "delay": 0.4}]]
+      }},
+     "sents": [
+      ["N", "ആഗോളതലത്തിൽ പരിസ്ഥിതി ഒരു വിഷയമായി മാറുന്നത് 1950-കൾക്കു ശേഷമാണ്.", "Around the world, the environment became an important topic only after the 1950s."],
+      ["N", "പരിസ്ഥിതിയെ നമ്മൾ സംരക്ഷിച്ചില്ലെങ്കിൽ, പുനരുജ്ജീവിപ്പിച്ചില്ലെങ്കിൽ വലിയ പ്രത്യാഘാതങ്ങൾ ഉണ്ടാകുമെന്നു മനസ്സിലായത് ഏതാണ്ട് ആ കാലഘട്ടത്തിലാണ്.", "It was around that time people understood: if we do not protect nature and bring it back to life, terrible things will happen."],
+      ["N", "പ്രധാനമായി വഴിത്തിരിവായത് റേച്ചൽകഴ്സന്റെ 'നിശ്ശബ്ദ വസന്തം' എന്ന പുസ്തകമാണ്.", "The big turning point was Rachel Carson's book 'Silent Spring'.", "book"],
+      ["N", "നാട്ടിലെ പരിസ്ഥിതിപ്രശ്നങ്ങളെപ്പറ്റി ആഴത്തിൽ പഠിക്കുകയും മനസ്സിലാക്കുകയുംചെയ്ത കാര്യങ്ങളുടെ അടിസ്ഥാനത്തിൽ അവർ എഴുതിയതാണത്.", "She wrote it after studying the environment problems of her country very deeply.", "book"],
+      ["N", "ഈ പുസ്തകം ലോകം മുഴുവൻ ചർച്ചചെയ്യപ്പെടുകയും പരിസ്ഥിതി പ്രധാന വിഷയമാണ് എന്നു തിരിച്ചറിയുകയും ചെയ്തു.", "The whole world talked about this book, and realised that the environment is a really important matter.", "world"],
+      ["N", "പരിസ്ഥിതിയെ വേണ്ടവിധത്തിൽ സംരക്ഷിച്ചില്ലെങ്കിൽ മനുഷ്യരാശിയെയും പ്രകൃതിയെയുംതന്നെ ഇല്ലാതാക്കും എന്ന തിരിച്ചറിവുണ്ടാക്കുന്നതിന് ഈ പുസ്തകം വഴിയൊരുക്കി.", "This book helped people understand: if we don't protect nature properly, it will wipe out humans and nature itself.", "world"]
+     ]},
+    {"id": "seattle", "title": "Chief Seattle's question", "ml": "സിയാറ്റിൽ മൂപ്പന്റെ ചോദ്യം",
+     "art": {"bg": "dusk", "ground": "grass",
+      "items": [["sun", 650, 200], ["tree", 90, 330, 1.1], ["e", "⛺", 200, 330, 70], ["p", "oldman", 400, 335, 1.1, "point"], ["e", "🪶", 400, 175, 34, {"anim": "sway"}]],
+      "fx": {
+        "sky": [["cloud", 300, 80, 1.0, {"anim": "float"}], ["birds"], ["e", "❓", 560, 120, 50, {"anim": "pulse"}]],
+        "soil": [["e", "🌱", 560, 330, 44, {"anim": "grow"}], ["e", "☀️", 640, 300, 36]],
+        "water": [["e", "💧", 600, 250, 50, {"anim": "flicker"}], ["e", "🌬️", 700, 180, 44, {"anim": "float"}], ["e", "💰", 520, 280, 40, {"anim": "shake"}], ["e", "🚫", 520, 280, 60]]
+      }},
+     "sents": [
+      ["N", "പല സമൂഹങ്ങളും അതിനുമെത്രയോ മുമ്പുതന്നെ പരിസ്ഥിതി ഒരു വിഷയമായി കണ്ടിരുന്നു.", "But many peoples had cared about the environment long, long before that."],
+      ["N", "പരിസ്ഥിതിപ്രവർത്തകരുടെ മാഗ്നാകാർട്ട എന്നറിയപ്പെടുന്ന, സിയാറ്റിൽ മൂപ്പന്റെ പ്രസംഗം പ്രസിദ്ധമാണ്.", "Chief Seattle's famous speech is called the 'Magna Carta' (great charter) of people who protect nature."],
+      ["N", "റെഡ് ഇന്ത്യക്കാർ എങ്ങനെയാണ് പരിസ്ഥിതിയെ കണ്ടിരുന്നതെന്ന് ആ പ്രസംഗത്തിലൂടെ നമുക്ക് വ്യക്തമായി തിരിച്ചറിയാൻ സാധിക്കും.", "From that speech we can clearly see how the Native American people thought about nature."],
+      ["N", "സിയാറ്റിൽ മൂപ്പൻ ചോദിക്കുന്നു:", "Chief Seattle asks:"],
+      ["SE", "“ആകാശത്തെ വാങ്ങുകയും വിൽക്കുകയും ചെയ്യുന്നതെങ്ങനെ?", "“How can you buy and sell the sky?", "sky"],
+      ["SE", "അല്ലെങ്കിൽ മണ്ണിന്റെ ചൂടിനെ?", "Or the warmth of the soil?", "soil"],
+      ["SE", "ആ ചിന്ത ഞങ്ങൾക്ക് അപരിചിതമാണ്.", "That idea is strange to us.", "soil"],
+      ["SE", "അന്തരീക്ഷത്തിന്റെ നവനൈർമ്മല്യവും വെള്ളത്തിന്റെ വെട്ടിത്തിളക്കവും ഞങ്ങളുടേതല്ലാതിരിക്കെ നിങ്ങൾക്ക് അവ എങ്ങനെ വാങ്ങാൻ കഴിയും?”", "The fresh clean air and the sparkle of the water do not belong to us — so how can you buy them?”", "water"]
+     ]},
+    {"id": "limits", "title": "Nature is not endless", "ml": "പ്രകൃതിക്ക് അതിരുണ്ട്",
+     "art": {"bg": "day", "ground": "grass",
+      "items": [["sun", 120, 80], ["tree", 220, 330, 1.0], ["e", "🐝", 300, 200, 34, {"anim": "fly"}], ["e", "🦋", 480, 180, 34, {"anim": "flutter"}], ["e", "🐘", 600, 330, 70]],
+      "fx": {
+        "endless": [["text", "∞ ?", 400, 140, 50, "#1a4f7a", {"anim": "pulse"}]],
+        "late": [["e", "⏰", 400, 260, 70, {"anim": "shake"}], ["e", "🥀", 280, 330, 44, {"anim": "fall"}]]
+      }},
+     "sents": [
+      ["N", "പ്രകൃതിവിഭവങ്ങൾക്ക് അതിരുകളില്ലെന്ന് നമുക്കൊരു ധാരണയുണ്ട്.", "We have an idea that nature's riches have no limits.", "endless"],
+      ["N", "പ്രകൃതി കനിഞ്ഞേകിയ ജീവനോപാധികൾക്കും ജൈവവൈവിധ്യങ്ങൾക്കും കണക്കില്ലെന്ന് നമ്മൾ വിചാരിച്ചു.", "We thought there was no end to the things nature kindly gave us to live on, and to all its kinds of living things.", "endless"],
+      ["N", "അതൊക്കെ സ്വാഭാവികമായും സംഭവിച്ചുകൊണ്ടിരിക്കുന്ന പ്രതിഭാസമാണെന്നായിരുന്നു വിശ്വാസവും.", "We also believed all of it just keeps happening by itself.", "endless"],
+      ["N", "പക്ഷേ, ഭൂമിയിൽ ജീവനെ താങ്ങിനിർത്തുന്ന ജൈവവൈവിധ്യങ്ങൾ സൂക്ഷിച്ചു കൈകാര്യം ചെയ്തില്ലെങ്കിൽ നശിച്ചുപോകുമെന്നും, ശരിയായ അവബോധമില്ലായ്മയുടെയും അശ്രദ്ധമായ ചെയ്തികളുടെയും ദുരന്തഫലങ്ങളാണ് ഇന്നു ലോകം അനുഭവിച്ചുകൊണ്ടിരിക്കുന്നതെന്നും തിരിച്ചറിയാൻ വൈകിപ്പോയെന്നുമാത്രം.", "But we were too late to realise two things: the living things that hold up life on Earth will be destroyed if we don't care for them, and the world is now suffering because people did not understand and acted carelessly.", "late"]
+     ]},
+    {"id": "humans", "title": "Only humans can choose", "ml": "മനുഷ്യരുടെ കയ്യിൽ",
+     "art": {"bg": "dawn", "ground": "grass",
+      "items": [["sun", 400, 120, {"anim": "rise"}], ["tree", 120, 330, 1.3, {"anim": "sway"}], ["e", "🐜", 260, 330, 30, {"anim": "walk"}], ["e", "🦠", 300, 300, 26, {"anim": "wiggle"}], ["butterflies"]],
+      "fx": {
+        "part": [["p", "girl", 450, 335, 0.9, "stand"], ["p", "boy", 520, 335, 0.9, "stand"], ["e", "🐦", 620, 220, 40, {"anim": "fly"}], ["e", "🐟", 680, 320, 40, {"anim": "swim"}]],
+        "choose": [["e", "🌱", 400, 400, 50, {"anim": "grow"}], ["e", "💚", 470, 230, 50, {"anim": "beat"}], ["text", "രക്ഷിക്കാം? നശിപ്പിക്കാം?", 400, 440, 22, "#2a7a2a"]]
+      }},
+     "sents": [
+      ["N", "പ്രകൃതിയിലെ സമ്പന്നമായ വൈവിധ്യങ്ങളുടെ ഒരു ഭാഗം മാത്രമാണ് മനുഷ്യർ.", "Humans are only one part of nature's rich variety of life.", "part"],
+      ["N", "വൻമരങ്ങൾമുതൽ സൂക്ഷ്മജീവികൾവരെ അടങ്ങുന്ന വൈവിധ്യത്തിലാണ് നമ്മുടെ നിലനിൽപ്പ്.", "Our life depends on all of it — from giant trees to tiny microbes.", "part"],
+      ["N", "എന്നാൽ പ്രകൃതിയെ സംരക്ഷിക്കാനും നശിപ്പിക്കാനുമാകുന്നത് മനുഷ്യർക്കുമാത്രമാണ്.", "But only humans have the power to protect nature — or to destroy it.", "choose"]
+     ]}
+  ],
+  "words": [
+    {"id": "malakal", "ml": "മല", "rom": "mala", "en": "hill / mountain", "emoji": "⛰️", "set": "A"},
+    {"id": "aaru", "ml": "ആറ്", "rom": "aaru", "en": "river", "emoji": "🏞️", "set": "A"},
+    {"id": "neenthal", "ml": "നീന്തണം", "rom": "neenthanam", "en": "want to swim", "emoji": "🏊", "set": "A"},
+    {"id": "thavala", "ml": "തവള", "rom": "thavala", "en": "frog", "emoji": "🐸", "set": "A"},
+    {"id": "kallu", "ml": "കല്ല്", "rom": "kallu", "en": "stone", "emoji": "🪨", "set": "A"},
+    {"id": "manal", "ml": "മണൽ", "rom": "manal", "en": "sand", "emoji": "⏳", "set": "A"},
+    {"id": "mazha", "ml": "മഴ", "rom": "mazha", "en": "rain", "emoji": "🌧️", "set": "A"},
+    {"id": "maalinyam", "ml": "മാലിന്യം", "rom": "maalinyam", "en": "rubbish / waste", "emoji": "🗑️", "set": "A"},
+    {"id": "bhoomi", "ml": "ഭൂമി", "rom": "bhoomi", "en": "Earth", "emoji": "🌍", "set": "B"},
+    {"id": "paristhithi", "ml": "പരിസ്ഥിതി", "rom": "paristhithi", "en": "environment / nature around us", "emoji": "🌳", "set": "B"},
+    {"id": "pusthakam", "ml": "പുസ്തകം", "rom": "pusthakam", "en": "book", "emoji": "📕", "set": "B"},
+    {"id": "aakaasham", "ml": "ആകാശം", "rom": "aakaasham", "en": "sky", "emoji": "🌤️", "set": "B"},
+    {"id": "vellam", "ml": "വെള്ളം", "rom": "vellam", "en": "water", "emoji": "💧", "set": "B"},
+    {"id": "manushyar", "ml": "മനുഷ്യർ", "rom": "manushyar", "en": "humans / people", "emoji": "🧑‍🤝‍🧑", "set": "B"},
+    {"id": "samrakshikkuka", "ml": "സംരക്ഷിക്കുക", "rom": "samrakshikkuka", "en": "to protect", "emoji": "🛡️", "set": "B"}
+  ],
+  "quiz": [
+    {"q": "ദേവിയാർകോളനി എത്ര മലകളുടെ താഴ്‌വരയിലാണ്?", "qe": "Deviyar Colony is in a valley between how many hills?", "o": ["രണ്ട്", "മൂന്ന്", "നാല്", "അഞ്ച്"], "oe": ["Two", "Three", "Four", "Five"], "a": 2, "sec": "A"},
+    {"q": "എഴുത്തുകാരിയുടെ ഏറ്റവും വലിയ മോഹം എന്തായിരുന്നു?", "qe": "What was the writer's biggest wish?", "o": ["ആറ്റിൽ നീന്തുക", "മല കയറുക", "സ്കൂളിൽ പോകുക", "മീൻ പിടിക്കുക"], "oe": ["To swim in the river", "To climb the hill", "To go to school", "To catch fish"], "a": 0, "sec": "A"},
+    {"q": "കുട്ടികൾ എന്തിനെപ്പോലെയായിരുന്നു?", "qe": "The children were like which animal?", "o": ["മീൻ", "തവള", "താറാവ്", "ആമ"], "oe": ["Fish", "Frogs", "Ducks", "Turtles"], "a": 1, "sec": "A"},
+    {"q": "ഇപ്പോൾ ആറ്റിലെ വെള്ളം എങ്ങനെയാണ്?", "qe": "What is the river water like now?", "o": ["തെളിഞ്ഞത്", "നിറഞ്ഞൊഴുകുന്നു", "തണുത്തത്", "കറുത്ത ചായപ്പൊടിവെള്ളം"], "oe": ["Clear", "Overflowing", "Cold", "Dark like tea"], "a": 3, "sec": "A"},
+    {"q": "മനുഷ്യർ ആറ്റിലെ കല്ലുകൾ എന്തിനാണ് എടുത്തത്?", "qe": "Why did people take the stones from the river?", "o": ["കളിക്കാൻ", "വിൽക്കാൻ മാത്രം", "കെട്ടിടംപണിക്കും കയ്യാലപ്പണിക്കും", "മീൻ പിടിക്കാൻ"], "oe": ["To play", "Only to sell", "To build buildings and walls", "To catch fish"], "a": 2, "sec": "A"},
+    {"q": "പരിസ്ഥിതിദിനത്തിൽ കുഞ്ഞുങ്ങൾ എന്തു ചെയ്യും?", "qe": "What do little children do on Environment Day?", "o": ["മരത്തൈകൾ നടും", "നീന്തും", "ഉറങ്ങും", "പാചകം ചെയ്യും"], "oe": ["Plant saplings", "Swim", "Sleep", "Cook"], "a": 0, "sec": "A"},
+    {"q": "ലോകത്തെ ഉണർത്തിയ പുസ്തകം ഏത്?", "qe": "Which book woke up the world?", "o": ["ആതി", "നിശ്ശബ്ദ വസന്തം", "രാമായണം", "പഞ്ചതന്ത്രം"], "oe": ["Aathi", "Silent Spring", "Ramayana", "Panchatantra"], "a": 1, "sec": "B"},
+    {"q": "‘നിശ്ശബ്ദ വസന്തം’ എഴുതിയത് ആര്?", "qe": "Who wrote 'Silent Spring'?", "o": ["സിയാറ്റിൽ മൂപ്പൻ", "മൈന ഉമൈബാൻ", "ഗാന്ധിജി", "റേച്ചൽ കഴ്സൺ"], "oe": ["Chief Seattle", "Maina Umaiban", "Gandhiji", "Rachel Carson"], "a": 3, "sec": "B"},
+    {"q": "പരിസ്ഥിതി ലോകവിഷയമായത് എപ്പോൾ മുതൽ?", "qe": "From when did the environment become a world topic?", "o": ["1950-കൾക്കു ശേഷം", "1800-ൽ", "2020-ൽ", "1000 വർഷം മുമ്പ്"], "oe": ["After the 1950s", "In 1800", "In 2020", "1000 years ago"], "a": 0, "sec": "B"},
+    {"q": "സിയാറ്റിൽ മൂപ്പൻ എന്തിനെക്കുറിച്ചാണ് ചോദിച്ചത്?", "qe": "What did Chief Seattle ask about?", "o": ["സ്വർണ്ണം വാങ്ങുന്നത്", "ആകാശം വാങ്ങുകയും വിൽക്കുകയും ചെയ്യുന്നത്", "കുതിരയെ വിൽക്കുന്നത്", "വീടു പണിയുന്നത്"], "oe": ["Buying gold", "Buying and selling the sky", "Selling horses", "Building houses"], "a": 1, "sec": "B"},
+    {"q": "പ്രകൃതിയെ സംരക്ഷിക്കാനും നശിപ്പിക്കാനും കഴിയുന്നത് ആർക്ക്?", "qe": "Who can protect or destroy nature?", "o": ["മൃഗങ്ങൾക്ക്", "പക്ഷികൾക്ക്", "മനുഷ്യർക്കുമാത്രം", "മരങ്ങൾക്ക്"], "oe": ["Animals", "Birds", "Only humans", "Trees"], "a": 2, "sec": "B"}
+  ],
+  "build": [
+    {"ch": ["നടുവിലൂടെ", "ആറ്", "ഒഴുകുന്നു."], "en": "A river flows through the middle.", "rom": "naduviloode aaru ozhukunnu"},
+    {"ch": ["മണലുമുഴുവൻ", "കോരിക്കൊണ്ടുപോയി."], "en": "They scooped away all the sand.", "rom": "manalumuzhuvan korikkondupoyi"},
+    {"ch": ["മുമ്പ്", "ആറ്റിലൊരുപാടു", "കല്ലുകളുണ്ടായിരുന്നു."], "en": "Before, there were lots of stones in the river.", "rom": "mumbu aattiloru paadu kallukalundaayirunnu"},
+    {"ch": ["ചിലപ്പോൾ", "പ്ലാസ്റ്റിക്", "ശേഖരിക്കും."], "en": "Sometimes they will collect plastic.", "rom": "chilappol plaastik shekharikkum"},
+    {"ch": ["ആ", "ചിന്ത", "ഞങ്ങൾക്ക്", "അപരിചിതമാണ്."], "en": "That idea is strange to us.", "rom": "aa chintha njangalkku aparichithamaanu"}
+  ],
+  "retell": [
+    "The writer grew up in Deviyar Colony, between four hills, with a river in the middle.",
+    "As children they swam in the river all day like frogs — now the river is almost dry and dark.",
+    "People took away the stones and sand, pumped out water and threw rubbish in, so rain water rushes away.",
+    "Environment Days have signs, saplings and speeches, but not much really changes.",
+    "Rachel Carson's book 'Silent Spring' made the whole world care about nature; Chief Seattle asked how anyone can buy the sky.",
+    "Humans are only one part of nature, but only humans can choose to save it or destroy it."
+  ],
+  "write": {
+    "title": "✍️ Save my river",
+    "prompt": "നിങ്ങളുടെ നാട്ടിലെ പുഴയെയോ മരത്തെയോ രക്ഷിക്കാൻ എന്തു ചെയ്യാം? രണ്ടു വാക്യം എഴുതൂ.",
+    "en": "What can you do to protect a river, a tree or a park near you? Write 2 or 3 short sentences. Malayalam, English or mixed is fine.",
+    "starters": ["ഞാൻ ആറ്റിൽ മാലിന്യം ഇടില്ല.", "ഞാൻ ഒരു മരം നടും.", "To save nature, I will..."],
+    "min": 40
+  },
+  "plan": [
+    {"title": "My river village", "ml": "എന്റെ ഗ്രാമം", "icon": "🏞️", "mode": "game",
+     "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 1]}, {"t": "cards", "set": "A"}]},
+    {"title": "Where did the water go?", "ml": "വെള്ളം എവിടെപ്പോയി?", "icon": "💧", "mode": "game",
+     "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [2, 3]}, {"t": "match", "set": "A"}]},
+    {"title": "Rubbish and Environment Day", "ml": "മാലിന്യവും പരിസ്ഥിതിദിനവും", "icon": "🌱", "mode": "game",
+     "steps": [{"t": "story", "scenes": [4, 5]}, {"t": "memory", "set": "A"}, {"t": "quiz", "sec": "A"}]},
+    {"title": "Our Earth and a famous book", "ml": "ഭൂമിയും ഒരു പുസ്തകവും", "icon": "📕", "mode": "game",
+     "steps": [{"t": "story", "scenes": [6, 7]}, {"t": "cards", "set": "B"}, {"t": "warmup", "sets": ["A", "B"]}]},
+    {"title": "Chief Seattle's big question", "ml": "സിയാറ്റിൽ മൂപ്പന്റെ ചോദ്യം", "icon": "🪶", "mode": "game",
+     "steps": [{"t": "story", "scenes": [8, 10]}, {"t": "match", "set": "B"}, {"t": "quiz", "sec": "B"}, {"t": "builder"}]},
+    {"title": "Earth guardian", "ml": "ഭൂമിയുടെ കാവൽക്കാരൻ", "icon": "🏆", "mode": "classic",
+     "steps": [{"t": "warmup", "sets": ["A", "B"]}, {"t": "write"}, {"t": "retell"}, {"t": "final"}]}
+  ]
+}

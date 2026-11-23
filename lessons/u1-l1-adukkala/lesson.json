@@ -1,0 +1,170 @@
+{
+ "id": "u1-l1-adukkala",
+ "unit": 1, "unitMl": "അമൃതം നുകരാം", "unitEn": "Taste the nectar (food)",
+ "order": 1,
+ "title": "അടുക്കള", "titleEn": "The Kitchen",
+ "pages": "9–11", "kind": "poem",
+ "author": "T. P. Rajeevan",
+ "level": "easy",
+ "icon": "🍲",
+ "summaryEn": "<p>This is a short poem about a <b>kitchen</b>. It starts in a rich valley where rice, wheat, sugarcane, grapes and oranges grow, and goats, hens, ducks and pigs feed together.</p><p>The poet asks: who left this kitchen here? Maybe a great-great-great-grandmother, from so long ago that nobody even knows if she lived.</p><p>Then the poem shows the kitchen's never-ending work: chopping, cleaning fish, grinding, tasting, washing, wiping. <b>Someone is always working here.</b> And at the very end — someone is always crying with hunger. Big idea: kitchen work never stops, and it was mostly done by mothers and grandmothers for hundreds of years.</p>",
+ "speakers": {
+  "N": {"name": "Poem reader", "ml": "കവിത ചൊല്ലുന്നയാൾ", "emoji": "📖", "voice": "ml-IN-SobhanaNeural", "rate": "-15%", "pitch": "+0Hz"}
+ },
+ "scenes": [
+  {"id": "valley", "title": "A rich valley", "ml": "സമൃദ്ധമായ താഴ്വര",
+   "art": {"bg": "day", "ground": "field", "items": [
+     ["sun", 680, 80, {"anim": "pulse"}],
+     ["cloud", 200, 90, 1, {"anim": "float"}],
+     ["palm", 80, 330, 1],
+     ["e", "🌾", 180, 320, 60, {"anim": "sway"}],
+     ["e", "🌽", 260, 320, 50, {"anim": "sway", "delay": 0.4}],
+     ["e", "🍇", 340, 300, 46],
+     ["e", "🍊", 400, 300, 44],
+     ["house", 600, 330, 1],
+     ["e", "🐐", 470, 400, 52, {"anim": "walk"}],
+     ["e", "🐔", 560, 410, 44, {"anim": "hop"}],
+     ["e", "🦆", 640, 415, 44, {"anim": "hop", "delay": 0.5}],
+     ["e", "🐖", 730, 410, 50]
+   ], "fx": {
+     "kitchen": [["e", "🍳", 600, 250, 60, {"anim": "pop"}], ["text", "?", 660, 200, 60, "#c0392b"]]
+   }},
+   "sents": [
+    ["N", "നെല്ലും ഗോതമ്പും ചോളവും ബാർളിയും കരിമ്പും മുന്തിരിയും മധുരനാരങ്ങയും", "Rice, wheat, corn and barley, sugarcane, grapes and sweet oranges"],
+    ["N", "മത്സരിച്ചു വിളയുന്ന ഈ താഴ്വരയിൽ,", "— in this valley where they all grow as if in a race,"],
+    ["N", "ആടും കോഴിയും താറാവും പന്നിയും ഒരുമിച്ചു മേയുന്ന ഈ വീട്ടിൽ", "in this house where goats, hens, ducks and pigs all feed together,"],
+    ["N", "ആരു മറന്നുവച്ചു, ഈ അടുക്കള?", "who forgot and left behind this kitchen?", "kitchen"]
+   ]},
+  {"id": "mothers", "title": "Mother's mother's mother...", "ml": "അമ്മയുടെ അമ്മയുടെ അമ്മ",
+   "art": {"bg": "dusk", "ground": "floor", "items": [
+     ["p", "girl", 140, 340, 0.8, "stand"],
+     ["p", "woman", 270, 340, 1, "stand"],
+     ["p", "oldwoman", 400, 340, 1, "stand", {"anim": "bob"}],
+     ["p", "oldwoman", 530, 340, 0.95, "stand", {"anim": "bob", "delay": 0.5}],
+     ["p", "oldwoman", 660, 340, 0.9, "sad", {"anim": "float"}],
+     ["glow", 660, 260, 90]
+   ], "fx": {
+     "ghost": [["text", "?", 720, 160, 70, "#8e44ad"], ["e", "🕯️", 760, 330, 40, {"anim": "flicker"}]]
+   }},
+   "sents": [
+    ["N", "ഒരുപക്ഷേ, എന്റെ അമ്മയുടെ അമ്മയുടെ അമ്മയുടെ", "Maybe it was my mother's mother's mother's"],
+    ["N", "ജീവിച്ചിരുന്നിരിക്കാൻപോലും ഇടയില്ലാത്ത അമ്മയുടെ അമ്മയായിരിക്കാം.", "mother's mother — someone from so long ago, she may not even have lived. (The kitchen is very, very old.)", "ghost"]
+   ]},
+  {"id": "chopping", "title": "Always chopping and grinding", "ml": "എപ്പോഴും നുറുക്കലും അരയ്ക്കലും",
+   "book": "img/book/p009_1.jpg",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 640, 330, 1],
+     ["pot", 640, 255, 1, {"anim": "shake"}],
+     ["fire", 640, 320, 0.8, {"anim": "flicker"}],
+     ["table", 300, 330, 260],
+     ["p", "woman", 300, 380, 1.1, "stand", {"anim": "bob"}],
+     ["e", "🔪", 240, 270, 40, {"anim": "wiggle"}],
+     ["e", "🥬", 190, 275, 40]
+   ], "fx": {
+     "fish": [["e", "🐟", 330, 275, 44, {"anim": "wiggle"}]],
+     "meat": [["e", "🍖", 380, 275, 42, {"anim": "pop"}]],
+     "grind": [["e", "🌾", 120, 400, 40], ["e", "🥣", 160, 420, 50, {"anim": "spin"}]],
+     "chilli": [["e", "🌶️", 430, 270, 40, {"anim": "pop"}]],
+     "ginger": [["e", "🫚", 470, 275, 40, {"anim": "shake"}], ["e", "🌿", 510, 275, 38]]
+   }},
+   "sents": [
+    ["N", "ഇവിടെ എപ്പോഴും ഒരാൾ കരിക്കു നുറുക്കിക്കൊണ്ടിരിക്കുന്നു.", "Here, someone is always chopping things up (probably vegetables for curry)."],
+    ["N", "മീൻ നന്നാക്കിക്കൊണ്ടിരിക്കുന്നു.", "Cleaning fish.", "fish"],
+    ["N", "ഇറച്ചി വെട്ടിക്കൊണ്ടിരിക്കുന്നു.", "Cutting meat.", "meat"],
+    ["N", "അരിയോ ഗോതമ്പോ ആട്ടിക്കൊണ്ടിരിക്കുന്നു.", "Grinding rice or wheat.", "grind"],
+    ["N", "മല്ലിയോ മുളകോ അരച്ചുകൊണ്ടിരിക്കുന്നു.", "Grinding coriander or chillies into paste.", "chilli"],
+    ["N", "ഇഞ്ചിയോ പൊതിനയോ ചതച്ചുകൊണ്ടിരിക്കുന്നു.", "Crushing ginger or mint.", "ginger"]
+   ]},
+  {"id": "tasting", "title": "Tasting the curry", "ml": "പാകം നോക്കുന്നു",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["stove", 420, 330, 1.2],
+     ["pot", 420, 240, 1.2, {"anim": "shake"}],
+     ["fire", 420, 320, 1, {"anim": "flicker"}],
+     ["e", "💨", 420, 170, 50, {"anim": "rise"}],
+     ["p", "woman", 260, 340, 1.1, "point"],
+     ["e", "🥄", 330, 230, 40, {"anim": "wiggle"}]
+   ], "fx": {
+     "flavours": [["e", "🌶️", 560, 160, 36, {"anim": "pop"}], ["e", "🍋", 610, 160, 36, {"anim": "pop", "delay": 0.2}], ["e", "🧂", 660, 160, 36, {"anim": "pop", "delay": 0.4}], ["e", "🍯", 710, 160, 36, {"anim": "pop", "delay": 0.6}]],
+     "wash": [["e", "🚰", 650, 300, 50], ["e", "💧", 650, 340, 30, {"anim": "fall"}], ["e", "👐", 650, 380, 40, {"anim": "shake"}]]
+   }},
+   "sents": [
+    ["N", "അടുപ്പത്തു തിളയ്ക്കുന്നതിൽനിന്നു കുറച്ചെടുത്ത് എരിവും പുളിയും ഉപ്പും മധുരവും", "Taking a little of what is boiling on the stove, the spicy, the sour, the salt and the sweet —", "flavours"],
+    ["N", "പാകംനോക്കിക്കൊണ്ടിരിക്കുന്നു.", "someone is always tasting to check if it's just right.", "flavours"],
+    ["N", "എഴുന്നേറ്റു കൈ കഴുകിക്കൊണ്ടിരിക്കുന്നു.", "Getting up and washing hands, again and again.", "wash"]
+   ]},
+  {"id": "cleaning", "title": "No time to sit", "ml": "ഇരിക്കാൻ സമയമില്ല",
+   "art": {"bg": "kitchen", "ground": "floor", "items": [
+     ["table", 400, 330, 300],
+     ["e", "🍽️", 330, 270, 40],
+     ["e", "🍞", 420, 275, 34],
+     ["p", "woman", 230, 360, 1.1, "run", {"anim": "walk"}],
+     ["e", "🧽", 290, 300, 36, {"anim": "wiggle"}],
+     ["e", "🪑", 640, 350, 60]
+   ], "fx": {
+     "clean": [["e", "✨", 420, 240, 40, {"anim": "pop"}], ["e", "✨", 500, 380, 34, {"anim": "pop", "delay": 0.3}]],
+     "dishes": [["e", "🍽️", 560, 270, 34, {"anim": "slidein"}], ["e", "🥣", 600, 270, 34, {"anim": "slidein", "delay": 0.2}], ["e", "🍽️", 640, 270, 34, {"anim": "slidein", "delay": 0.4}]]
+   }},
+   "sents": [
+    ["N", "ഒന്നിരിക്കാൻപോലും സമയമില്ലാത്ത ധൃതിപോലെ നിലത്തും മേശപ്പുറത്തും ബാക്കിയായവ", "In a rush, with no time even to sit down for a moment, the leftovers on the floor and on the table —"],
+    ["N", "തുടച്ചു വൃത്തിയാക്കിക്കൊണ്ടിരിക്കുന്നു,", "someone is always wiping them clean,", "clean"],
+    ["N", "പാത്രം കഴുകി നിരത്തിവച്ചുകൊണ്ടിരിക്കുന്നു.", "washing the dishes and setting them out in a row.", "dishes"]
+   ]},
+  {"id": "hungry", "title": "Someone is always hungry", "ml": "വിശന്നു നിലവിളിക്കുന്ന ഒരാൾ",
+   "art": {"bg": "night", "ground": "floor", "items": [
+     ["moon", 680, 80],
+     ["stove", 200, 330, 1],
+     ["pot", 200, 255, 1],
+     ["p", "boy", 470, 360, 0.8, "sad", {"anim": "shake"}],
+     ["e", "😭", 470, 220, 50, {"anim": "pulse"}],
+     ["e", "🍽️", 560, 380, 50]
+   ], "fx": {}},
+   "sents": [
+    ["N", "ഇവിടെ എപ്പോഴും ഒരാൾ വിശന്നു നിലവിളിച്ചുകൊണ്ടിരിക്കുന്നു.", "And here, someone is always crying out with hunger. (Even with all this work, hunger is never fully gone.)"]
+   ]}
+ ],
+ "words": [
+  {"id": "adukkala", "ml": "അടുക്കള", "rom": "adukkala", "en": "kitchen", "emoji": "🍳", "set": "A"},
+  {"id": "nellu", "ml": "നെല്ല്", "rom": "nellu", "en": "rice plant / paddy", "emoji": "🌾", "set": "A"},
+  {"id": "gothambu", "ml": "ഗോതമ്പ്", "rom": "gothambu", "en": "wheat", "emoji": "🌾", "set": "A"},
+  {"id": "aadu", "ml": "ആട്", "rom": "aadu", "en": "goat", "emoji": "🐐", "set": "A"},
+  {"id": "kozhi", "ml": "കോഴി", "rom": "kozhi", "en": "hen", "emoji": "🐔", "set": "A"},
+  {"id": "thaaraavu", "ml": "താറാവ്", "rom": "thaaraavu", "en": "duck", "emoji": "🦆", "set": "A"},
+  {"id": "amma", "ml": "അമ്മ", "rom": "amma", "en": "mother", "emoji": "👩", "set": "A"},
+  {"id": "meen", "ml": "മീൻ", "rom": "meen", "en": "fish", "emoji": "🐟", "set": "B"},
+  {"id": "irachi", "ml": "ഇറച്ചി", "rom": "irachi", "en": "meat", "emoji": "🍖", "set": "B"},
+  {"id": "mulaku", "ml": "മുളക്", "rom": "mulaku", "en": "chilli", "emoji": "🌶️", "set": "B"},
+  {"id": "inchi", "ml": "ഇഞ്ചി", "rom": "inchi", "en": "ginger", "emoji": "🫚", "set": "B"},
+  {"id": "uppu", "ml": "ഉപ്പ്", "rom": "uppu", "en": "salt", "emoji": "🧂", "set": "B"},
+  {"id": "paathram", "ml": "പാത്രം", "rom": "paathram", "en": "dish / vessel", "emoji": "🍽️", "set": "B"},
+  {"id": "vishannu", "ml": "വിശന്നു", "rom": "vishannu", "en": "being hungry", "emoji": "😋", "set": "B"}
+ ],
+ "quiz": [
+  {"q": "താഴ്വരയിൽ എന്തെല്ലാം വിളയുന്നു?", "qe": "What grows in the valley?", "o": ["കല്ലും മണലും", "നെല്ലും ഗോതമ്പും", "മരങ്ങൾ മാത്രം", "ഒന്നുമില്ല"], "oe": ["Stones and sand", "Rice and wheat", "Only trees", "Nothing"], "a": 1, "sec": "A"},
+  {"q": "വീട്ടിൽ ഒരുമിച്ചു മേയുന്നത് ആരെല്ലാം?", "qe": "Who feeds together at the house?", "o": ["ആനയും പുലിയും", "പൂച്ചയും പട്ടിയും", "ആടും കോഴിയും താറാവും പന്നിയും", "മീനുകൾ"], "oe": ["Elephant and tiger", "Cat and dog", "Goats, hens, ducks and pigs", "Fish"], "a": 2, "sec": "A"},
+  {"q": "അടുക്കള മറന്നുവച്ചത് ആരായിരിക്കാം എന്നാണ് കവി പറയുന്നത്?", "qe": "Who does the poet think left the kitchen?", "o": ["അമ്മയുടെ അമ്മയുടെ അമ്മ...", "അച്ഛൻ", "ടീച്ചർ", "അയൽക്കാരൻ"], "oe": ["Mother's mother's mother...", "Father", "The teacher", "A neighbour"], "a": 0, "sec": "A"},
+  {"q": "‘ആരു മറന്നുവച്ചു, ഈ അടുക്കള?’ — കവി എന്തിനെക്കുറിച്ചാണ് ചോദിക്കുന്നത്?", "qe": "What is the poet asking about?", "o": ["ഒരു കാർ", "ഒരു സ്കൂൾ", "ഒരു പുസ്തകം", "അടുക്കള"], "oe": ["A car", "A school", "A book", "The kitchen"], "a": 3, "sec": "A"},
+  {"q": "അടുക്കളയിൽ എപ്പോഴും ഒരാൾ എന്തു ചെയ്യുന്നു?", "qe": "What is someone always doing in the kitchen?", "o": ["ഉറങ്ങുന്നു", "മീൻ നന്നാക്കുന്നു", "കളിക്കുന്നു", "ടിവി കാണുന്നു"], "oe": ["Sleeping", "Cleaning fish", "Playing", "Watching TV"], "a": 1, "sec": "B"},
+  {"q": "പാകം നോക്കുന്നത് എന്തെല്ലാം?", "qe": "What tastes are checked?", "o": ["എരിവും പുളിയും ഉപ്പും മധുരവും", "നിറം മാത്രം", "മണം മാത്രം", "ചൂട് മാത്രം"], "oe": ["Spicy, sour, salt and sweet", "Only colour", "Only smell", "Only heat"], "a": 0, "sec": "B"},
+  {"q": "ഇരിക്കാൻ സമയമുണ്ടോ?", "qe": "Is there time to sit down?", "o": ["ധാരാളം സമയം", "എപ്പോഴും ഇരിക്കുന്നു", "ഇരിക്കാൻപോലും സമയമില്ല", "ഉറങ്ങാൻ സമയം"], "oe": ["Lots of time", "Always sitting", "No time even to sit", "Time to sleep"], "a": 2, "sec": "B"},
+  {"q": "കവിതയുടെ അവസാനം എപ്പോഴും ഒരാൾ എന്തു ചെയ്യുന്നു?", "qe": "At the end, what is someone always doing?", "o": ["പാട്ടു പാടുന്നു", "ചിരിക്കുന്നു", "പാത്രം കഴുകുന്നു", "വിശന്നു നിലവിളിക്കുന്നു"], "oe": ["Singing", "Laughing", "Washing dishes", "Crying with hunger"], "a": 3, "sec": "B"}
+ ],
+ "build": [
+  {"ch": ["ആരു", "മറന്നുവച്ചു,", "ഈ", "അടുക്കള?"], "en": "Who forgot and left this kitchen?", "rom": "aaru marannuvachu, ee adukkala?"},
+  {"ch": ["ഇവിടെ", "എപ്പോഴും", "ഒരാൾ"], "en": "Here, always, someone...", "rom": "ivide eppozhum oraal"},
+  {"ch": ["അരിയോ", "ഗോതമ്പോ", "ആട്ടിക്കൊണ്ടിരിക്കുന്നു."], "en": "Grinding rice or wheat.", "rom": "ariyo gothambo aattikkondirikkunnu"},
+  {"ch": ["പാത്രം", "കഴുകി", "നിരത്തിവച്ചുകൊണ്ടിരിക്കുന്നു."], "en": "Washing dishes and setting them in a row.", "rom": "paathram kazhuki nirathivachukondirikkunnu"}
+ ],
+ "retell": [
+  "Named some crops and animals in the rich valley",
+  "Said the poet wonders who left the kitchen there",
+  "Explained the 'mother's mother's mother' line (the kitchen is very old)",
+  "Listed at least three kitchen jobs that never stop",
+  "Told the last line: someone is always crying with hunger"
+ ],
+ "write": {"title": "✍️ Who works in your kitchen?", "prompt": "നിങ്ങളുടെ അടുക്കളയിൽ ആരെല്ലാം പണിയെടുക്കുന്നു? എന്തെല്ലാം പണികൾ?", "en": "Write 2–3 sentences about who works in your kitchen and what jobs they do. Can you help too? Malayalam, English or mixed is fine.", "starters": ["എന്റെ അടുക്കളയിൽ ...", "In our kitchen, ... cooks and I help by ..."], "min": 30},
+ "plan": [
+  {"title": "Meet the kitchen poem", "ml": "അടുക്കളയെ പരിചയപ്പെടാം", "icon": "🎧", "mode": "game", "steps": [{"t": "info"}, {"t": "story"}, {"t": "cards", "set": "A"}, {"t": "match", "set": "A"}]},
+  {"title": "Always working", "ml": "എപ്പോഴും പണി", "icon": "🔪", "mode": "game", "steps": [{"t": "cards", "set": "B"}, {"t": "memory", "set": "B"}, {"t": "quiz", "sec": "A"}, {"t": "retell"}]},
+  {"title": "Build, write and win", "ml": "എഴുതാം, ജയിക്കാം", "icon": "🏆", "mode": "classic", "steps": [{"t": "builder"}, {"t": "quiz", "sec": "B"}, {"t": "write"}, {"t": "final"}]}
+ ]
+}

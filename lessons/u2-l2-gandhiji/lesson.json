@@ -1,0 +1,182 @@
+{
+  "id": "u2-l2-gandhiji",
+  "unit": 2, "unitMl": "നടുകിൽ തിന്നാം", "unitEn": "Work and earn your food (jobs and workers)",
+  "order": 2,
+  "title": "ഗാന്ധിജിയുടെ അതിഥി", "titleEn": "Gandhiji's Guest",
+  "pages": "32–35", "kind": "poem",
+  "author": "Vishnunarayanan Namboothiri",
+  "level": "medium",
+  "icon": "🧵",
+  "summaryEn": "<p>One early morning at Gandhiji's ashram in Wardha, a little boy walks in. His clothes are torn and he is very tired. To everyone's questions he gives just one answer: “I must see Bapu right now!”</p><p>Gandhiji, sitting on a small mat spinning thread, calls the boy close. The boy cries: his father and mother are gone and he has no one. Gandhiji tells him the ashram is his home now. But the boy is worried: “I don't know how to do any work. How can I stay here doing nothing?”</p><p>Gandhiji kisses him with proud tears and says Mother India has room to give work to every one of her children. If little hands become strong enough to wipe away the country's tears, there is no sorrow left. Big idea: everyone, even a small child, can do useful work.</p><p>Bonus: a short true-style story from the book about a boy so busy making chapatis that he didn't notice Gandhiji walk past — and Gandhiji said that boy was the only one who truly “saw” him.</p>",
+  "speakers": {
+    "N": {"name": "Poem reader", "ml": "കവിത ചൊല്ലുന്നയാൾ", "emoji": "📖", "voice": "ml-IN-SobhanaNeural", "rate": "-15%", "pitch": "+0Hz"},
+    "G": {"name": "Gandhiji (Bapu)", "ml": "ഗാന്ധിജി", "emoji": "👴🏽", "voice": "ml-IN-MidhunNeural", "rate": "-18%", "pitch": "-10Hz"},
+    "U": {"name": "The little boy", "ml": "ഉണ്ണി", "emoji": "👦🏽", "voice": "ml-IN-SobhanaNeural", "rate": "-8%", "pitch": "+20Hz"},
+    "C": {"name": "One of the children", "ml": "ഒരു കുട്ടി", "emoji": "🧒🏽", "voice": "ml-IN-SobhanaNeural", "rate": "+0%", "pitch": "+22Hz"}
+  },
+  "scenes": [
+    {"id": "dawn", "title": "Tiny footprints at dawn", "ml": "പുലരിയിലെ കാലടിപ്പാട്",
+     "art": {"bg": "dawn", "ground": "grass",
+       "items": [["sun", 640, 150, {"anim": "rise"}], ["hut", 560, 330, 1.3], ["text", "വാർധ ആശ്രമം", 560, 200, 22, "#6d4c41"], ["fence", 380, 470, 335], ["palm", 120, 330, 1.0], ["tree", 740, 330, 0.8], ["birds"]],
+       "fx": {"steps": [["e", "👣", 220, 380, 30, {"anim": "pop"}], ["e", "👣", 300, 375, 30, {"anim": "pop", "delay": 0.4}], ["e", "👣", 380, 370, 30, {"anim": "pop", "delay": 0.8}], ["p", "boy", 440, 345, 0.65, "stand", false, {"anim": "walk"}]]}},
+     "sents": [
+       ["N", "പുകൾപെറും വാർധയിലൊരു നാൾ പുലരിക്കതിരിനോടൊപ്പമൊപ്പം", "One day in famous Wardha (Gandhiji's ashram), together with the first rays of the morning sun,"],
+       ["N", "പടികടന്നാശ്രമത്തിന്റെ നേർക്കായ് ഒരു പിഞ്ചുകാലടിപ്പാടു കാണായ്.", "tiny little footprints were seen crossing the gate, heading toward the ashram.", "steps"]
+     ]},
+    {"id": "boy", "title": "“I must see Bapu!”", "ml": "ബാപ്പുവെ കാണണം!",
+     "art": {"bg": "day", "ground": "grass",
+       "items": [["sun", 700, 70], ["hut", 640, 330, 1.2], ["p", "boy", 380, 345, 0.75, "sad"]],
+       "fx": {"torn": [["e", "🩹", 375, 270, 24, {"anim": "pulse"}], ["e", "💦", 410, 230, 24, {"anim": "fall"}]],
+              "crowd": [["p", "man", 220, 345, 0.95, "point"], ["p", "woman", 280, 345, 0.9, "stand"], ["p", "man", 500, 345, 0.95, "point", true], ["e", "❓", 220, 170, 34, {"anim": "pop"}], ["e", "❓", 500, 170, 34, {"anim": "pop", "delay": 0.4}]],
+              "bapu": [["p", "boy", 380, 345, 0.75, "point"], ["text", "ബാപ്പു!", 390, 200, 34, "#c0392b"]]}},
+     "sents": [
+       ["N", "കീറിപ്പൊളിഞ്ഞതവന്റെ വേഷം, ഏറെത്തളർന്നു കുഴഞ്ഞ ഭാവം,", "His clothes were torn and ragged; he looked very tired and worn out.", "torn"],
+       ["N", "ചുറ്റുമണഞ്ഞു ചോദ്യങ്ങൾ തൂകും ഉത്സുകരാകും മുഖങ്ങളോടായ്", "To the curious faces that gathered round and showered him with questions,", "crowd"],
+       ["N", "ഉത്തരമൊന്നേ പറഞ്ഞിതുണ്ണി:", "the little boy gave only one answer:", "crowd"],
+       ["U", "“ഇക്ഷണം ബാപ്പുവെ കണ്ടിടേണം!”", "“I must see Bapu (Gandhiji) right now!”", "bapu"]
+     ]},
+    {"id": "spinning", "title": "Bapu at his spinning wheel", "ml": "ചർക്കയിലെ ബാപ്പു", "book": "img/book/p032_1.jpg",
+     "art": {"bg": "indoor", "ground": "floor",
+       "items": [["p", "man", 90, 335, 0.8, "stand"], ["p", "woman", 150, 335, 0.8, "stand"], ["p", "man", 210, 335, 0.8, "stand"], ["p", "man", 700, 335, 0.8, "stand", true], ["p", "woman", 640, 335, 0.8, "stand", true],
+                 ["e", "🟫", 420, 350, 120], ["p", "gandhi", 420, 330, 1.0, "sit"], ["e", "☸️", 500, 320, 50, {"anim": "spin"}]],
+       "fx": {"smile": [["e", "😊", 420, 150, 34, {"anim": "pulse"}], ["e", "🧵", 470, 260, 30, {"anim": "sway"}]],
+              "call": [["p", "boy", 330, 340, 0.6, "sit"]],
+              "stroke": [["e", "🤚", 360, 240, 30, {"anim": "sway"}], ["e", "💧", 335, 255, 18, {"anim": "fall"}]]}},
+     "sents": [
+       ["N", "പത്തുനൂറാൾക്കാർ വരിവരിയായ് തിക്കിനിൽക്കും കാര്യശാലയിങ്കൽ", "In the office hall, where hundreds of people stood crowded in lines,"],
+       ["N", "ഒരു കൊച്ചുപായമേൽ പുഞ്ചിരിനൂൽത്തിരി നൂറ്റിരിക്കുന്ന കർമ്മയോഗി", "sat the karmayogi (a person devoted to good work) on a small mat, spinning a thread of smiles.", "smile"],
+       ["N", "അക്കൊച്ചുസന്ദർശകനെ നേരിൽ വെക്കമെടുക്കൽ വിളിച്ചിരുത്തി", "He quickly called that little visitor to him and sat him close by.", "call"],
+       ["N", "തൂക്കരംകൊണ്ടൊന്നുഴിഞ്ഞവാറേ ഗദ്ഗദംകൊണ്ടു മൊഴിഞ്ഞിതുണ്ണി:", "When he gently stroked him with his kind hand, the boy spoke, his voice choking with tears:", "stroke"]
+     ]},
+    {"id": "alone", "title": "“I have no one”", "ml": "എനിക്കിനിയാരുമില്ല",
+     "art": {"bg": "indoor", "ground": "floor",
+       "items": [["e", "🟫", 420, 350, 120], ["p", "gandhi", 460, 330, 1.0, "sit", true], ["p", "boy", 340, 340, 0.62, "sad"]],
+       "fx": {"gone": [["cloud", 250, 140, 1.4], ["e", "👨🏽", 225, 150, 36, {"anim": "slideout"}], ["e", "👩🏽", 275, 150, 36, {"anim": "slideout", "delay": 0.3}]],
+              "cry": [["e", "💧", 350, 250, 20, {"anim": "fall"}], ["e", "💧", 330, 255, 18, {"anim": "fall", "delay": 0.5}]],
+              "home": [["glow", 400, 240, 90], ["e", "🏡", 600, 200, 60, {"anim": "pop"}], ["e", "🤗", 400, 170, 40, {"anim": "beat"}]]}},
+     "sents": [
+       ["U", "“പോയിതെന്നച്ഛനുമമ്മയും, ഞാൻ ഏകൻ, എനിക്കിനിയാരുമില്ല.”", "“My father and mother are gone. I am alone — I have no one now.”", "gone"],
+       ["N", "തുടരാൻ കഴിഞ്ഞില്ല കണ്ണുനീരാൽ, ഇടറാറ്റുമാറപ്പോളോതി താതൻ:", "His tears would not let him go on. Then, to calm his sobbing, Bapu (the Father) said:", "cry"],
+       ["G", "“കുഞ്ഞേ, നിനക്കുള്ളതാണിക്കാണും ഞങ്ങളും, നമ്മുടെയാശ്രമവും.", "“Child, all of us you see here, and our ashram, belong to you.", "home"],
+       ["G", "ഇവിടെ നീയെന്നോമലുണ്ണി, വേറിട്ടിനിമേൽ നീയെങ്ങുമേ പോയിടേണ്ടേ!”", "Here you are my dear little one. From now on you never need to go anywhere else!”", "home"]
+     ]},
+    {"id": "breeze", "title": "Like a cool breeze after rain", "ml": "മഴ കഴിഞ്ഞുള്ള തെന്നൽ",
+     "art": {"bg": "indoor", "ground": "floor",
+       "items": [["e", "🟫", 420, 350, 120], ["p", "gandhi", 460, 330, 1.0, "sit", true], ["e", "☸️", 540, 320, 50, {"anim": "spin"}], ["p", "boy", 340, 340, 0.62, "sit"],
+                 ["p", "man", 120, 335, 0.85, "stand", true, {"anim": "slideout"}], ["e", "📷", 180, 250, 30, {"anim": "slideout"}], ["p", "man", 680, 335, 0.85, "stand", false, {"anim": "slideout", "delay": 0.3}]],
+       "fx": {"breeze": [["e", "🌧️", 200, 110, 46, {"anim": "float"}], ["e", "🍃", 300, 180, 30, {"anim": "flutter"}], ["e", "🍃", 360, 150, 26, {"anim": "flutter", "delay": 0.5}]],
+              "smile": [["e", "😊", 470, 140, 34, {"anim": "pulse"}]]}},
+     "sents": [
+       ["N", "നേതാക്കൾ, പത്രക്കാർ, ചക്രവർത്തിദൂതന്മാർ, എല്ലാം പിരിഞ്ഞുപോകേ", "As the leaders, the newspaper reporters and the Emperor's messengers all went away,"],
+       ["N", "മഴ പെയ്തുതീർന്നിട്ടും വീശിനിൽക്കും കുളിർതെന്നൽപോലവൻ മാത്രമായി.", "only he was left — like a cool breeze that keeps blowing after the rain has stopped.", "breeze"],
+       ["N", "അക്ഷീണമന്ദസ്മിതവുമായിട്ടപ്പൊഴും നൂൽക്കും ഗുരുവുരച്ചു:", "The great teacher, still spinning, with a gentle smile that never got tired, said:", "smile"]
+     ]},
+    {"id": "nowork", "title": "“I don't know any work”", "ml": "ഒരു വേലപോലും അറിയില്ല",
+     "art": {"bg": "indoor", "ground": "floor",
+       "items": [["e", "🟫", 420, 350, 120], ["p", "gandhi", 470, 330, 1.0, "sit", true], ["e", "☸️", 550, 320, 50, {"anim": "spin"}], ["p", "boy", 360, 340, 0.62, "sit"]],
+       "fx": {"ask": [["e", "💬", 470, 150, 44, {"anim": "pulse"}]],
+              "near": [["p", "boy", 395, 340, 0.62, "sad"]],
+              "worry": [["e", "🔨", 260, 180, 30, {"anim": "pop"}], ["e", "🧵", 300, 150, 30, {"anim": "pop", "delay": 0.3}], ["e", "🌾", 340, 180, 30, {"anim": "pop", "delay": 0.6}], ["e", "❓", 300, 220, 36, {"anim": "pulse"}]],
+              "kiss": [["e", "💧", 450, 170, 18, {"anim": "fall"}], ["e", "💗", 420, 160, 34, {"anim": "beat"}]]}},
+     "sents": [
+       ["G", "“മകനേ, പറഞ്ഞോളൂ വേണ്ടകാര്യം!”", "“Son, tell me what you need!”", "ask"],
+       ["N", "അരികിലണഞ്ഞു പറഞ്ഞിതുണ്ണി:", "The little boy came close and said:", "near"],
+       ["U", "“അറിയില്ലെനിക്കൊരു വേലപോലും, അലസനായെമ്മട്ടു പാർത്തിടും ഞാൻ?”", "“I don't know how to do even one job. How can I live here doing nothing (being lazy)?”", "worry"],
+       ["N", "ഉതിരുമഭിമാനബാഷ്പമോടെ മുകരുകയായ് താതനുണ്ണിതന്നെ:", "With proud tears falling, Bapu kissed the little boy:", "kiss"]
+     ]},
+    {"id": "mother", "title": "Mother India has work for all", "ml": "എല്ലാവർക്കും വേല",
+     "art": {"bg": "day", "ground": "field",
+       "items": [["sun", 680, 70], ["e", "🇮🇳", 400, 120, 70, {"anim": "sway"}], ["p", "gandhi", 400, 345, 1.0, "point"], ["p", "boy", 300, 345, 0.65, "stand"]],
+       "fx": {"crore": [["p", "girl", 120, 345, 0.55, "wave", false, {"anim": "hop"}], ["p", "boy", 180, 345, 0.55, "wave", false, {"anim": "hop", "delay": 0.2}], ["p", "girl", 560, 345, 0.55, "wave", true, {"anim": "hop", "delay": 0.4}], ["p", "boy", 620, 345, 0.55, "wave", true, {"anim": "hop", "delay": 0.6}], ["p", "girl", 690, 345, 0.55, "wave", true, {"anim": "hop", "delay": 0.8}]],
+              "work": [["e", "🧵", 150, 250, 30, {"anim": "pop"}], ["e", "🌾", 210, 250, 30, {"anim": "pop", "delay": 0.2}], ["e", "🧹", 590, 250, 30, {"anim": "pop", "delay": 0.4}], ["e", "📚", 650, 250, 30, {"anim": "pop", "delay": 0.6}]],
+              "wipe": [["e", "✋", 300, 240, 34, {"anim": "wiggle"}], ["e", "💧", 360, 200, 20, {"anim": "slideout"}]],
+              "joy": [["glow", 400, 200, 120], ["e", "😊", 400, 200, 46, {"anim": "beat"}]]}},
+     "sents": [
+       ["G", "“ഒന്നല്ല, പത്തല്ല, കുഞ്ഞേ, മക്കൾ ഒരു നൂറു കോടിയെ പോറ്റിയിട്ടും", "“Child, even after feeding not one, not ten, but a hundred crore (a billion) children,", "crore"],
+       ["G", "ഇനിയുമമ്മയ്ക്കു മടിത്തടത്തിൽ ഇടമുണ്ടു നിങ്ങൾക്കു വേല നൽകാൻ.", "Mother (our country) still has room in her lap to give all of you work.", "work"],
+       ["G", "ഉണ്ണിക്കരമിതു പെറ്റനാടിൻ കണ്ണുനീരൊപ്പാൻ കരുത്തിയന്നാൽ", "If this little hand grows strong enough to wipe away the tears of the land you were born in,", "wipe"],
+       ["G", "അമ്മയ്ക്കു പിന്നെന്തു ദുഃഖം, അമ്മയുള്ളപ്പോൾ നമ്മൾക്കുമെന്തു ദുഃഖം?”", "what sorrow would Mother have then? And while we have Mother, what sorrow can we have?”", "joy"]
+     ]},
+    {"id": "chapati", "title": "Bonus: the chapati boy", "ml": "ചപ്പാത്തിയുണ്ടാക്കുന്ന കുട്ടി", "book": "img/book/p034_1.jpg",
+     "art": {"bg": "indoor", "ground": "floor",
+       "items": [["text", "ബോണസ് വായന", 400, 50, 22, "#8e44ad"], ["wall", 0, 120, 800, 20], ["stove", 560, 335, 1.0], ["fire", 560, 305, 0.8, {"anim": "flicker"}], ["p", "boy", 470, 340, 0.7, "sit"]],
+       "fx": {"chapati": [["e", "🫓", 520, 280, 34, {"anim": "spin"}], ["e", "🫓", 400, 335, 30], ["e", "🫓", 400, 325, 30]],
+              "friends": [["cloud", 200, 150, 1.3], ["e", "🧑🏽‍🔧", 180, 160, 34, {"anim": "bob"}], ["e", "🧑🏽‍🌾", 225, 160, 34, {"anim": "bob", "delay": 0.3}]],
+              "busy": [["e", "🎯", 470, 200, 30, {"anim": "pulse"}]],
+              "pass": [["p", "gandhi", 200, 345, 1.0, "stand", false, {"anim": "walk"}]]}},
+     "sents": [
+       ["N", "വർക്ക്ഷോപ്പിന്റെ ഒരറ്റത്തായി ഒരു അടുപ്പു കത്തിക്കൊണ്ടിരുന്നു.", "At one end of the workshop, a stove was burning."],
+       ["N", "അതിന്റെ മുന്നിൽ ഒരാൺകുട്ടി ചപ്പാത്തിയുണ്ടാക്കിക്കൊണ്ടിരിക്കയാണ്.", "In front of it, a boy was making chapatis.", "chapati"],
+       ["N", "കൂട്ടുകാരെല്ലാം പണിയെടുത്തു ക്ഷീണിച്ചു വരുമ്പോഴേയ്ക്കും ആഹാരം തയ്യാറാക്കണം.", "The food had to be ready by the time all his friends came back tired from work.", "friends"],
+       ["N", "അവൻ ജോലിയിൽ അങ്ങേയറ്റം മുഴുകിയാണിരുന്നത്.", "He was completely lost in his work.", "busy"],
+       ["N", "ഗാന്ധിജി അരികിലൂടെ കടന്നുപോയതൊന്നും ആ ബാലനറിഞ്ഞില്ല.", "The boy didn't even notice Gandhiji walking right past him.", "pass"]
+     ]},
+    {"id": "trulysaw", "title": "Bonus: who really saw Gandhiji?", "ml": "ഗാന്ധിജിയെ കണ്ട കുട്ടി",
+     "art": {"bg": "day", "ground": "grass",
+       "items": [["sun", 700, 70], ["house", 680, 330, 1.0], ["p", "gandhi", 420, 345, 1.0, "stand", true],
+                 ["p", "girl", 180, 345, 0.6, "stand"], ["p", "boy", 240, 345, 0.6, "stand"], ["p", "girl", 300, 345, 0.6, "stand"]],
+       "fx": {"wait": [["e", "👀", 240, 220, 34, {"anim": "pulse"}]],
+              "tease": [["p", "boy", 240, 345, 0.6, "point"], ["e", "😮", 240, 220, 30, {"anim": "pop"}]],
+              "smile": [["e", "😁", 420, 150, 40, {"anim": "beat"}]],
+              "only": [["p", "gandhi", 420, 345, 1.0, "point"], ["e", "🫓", 620, 290, 40, {"anim": "pulse"}], ["glow", 620, 290, 50]]}},
+     "sents": [
+       ["N", "ഗാന്ധിജി വർക്ക്ഷോപ്പിനു പുറത്തേക്കു കടന്നു.", "Gandhiji stepped out of the workshop."],
+       ["N", "അവിടെ മറ്റെല്ലാ കുട്ടികളും അദ്ദേഹത്തെ കാത്തുനിൽക്കുകയാണ്.", "All the other children were waiting there for him.", "wait"],
+       ["C", "“കണ്ടോ, അവന്റെയൊരു കാര്യം?", "“Look at him!", "tease"],
+       ["C", "ഇത്ര അടുത്തുകൂടി പോയിട്ടും അവൻമാത്രം ഗാന്ധിജിയെ കണ്ടില്ല.”", "Gandhiji passed so close, and he is the only one who didn't see Gandhiji!”", "tease"],
+       ["N", "കുട്ടികളിലൊരാൾ പറഞ്ഞു.", "one of the children said.", "tease"],
+       ["N", "ഗാന്ധിജി അതു കേട്ടു.", "Gandhiji heard that.", "tease"],
+       ["N", "എല്ലാവരെയും നോക്കി പല്ലില്ലാത്ത മോണ കാട്ടി ചിരിച്ചുകൊണ്ടു പറഞ്ഞു:", "He looked at them all, smiled his toothless smile, and said:", "smile"],
+       ["G", "“മോനേ, ഇവിടെ എന്നെ ശരിയായി കണ്ടത് അതാ, അവൻ മാത്രമാണ്!”", "“My child, the only one here who truly saw me is him, over there!” (he means: doing your work with your whole heart is the real way to know Gandhiji)", "only"]
+     ]}
+  ],
+  "words": [
+    {"id": "ashramam", "ml": "ആശ്രമം", "rom": "aashramam", "en": "ashram (Gandhiji's home and community)", "emoji": "🏡", "set": "A"},
+    {"id": "bappu", "ml": "ബാപ്പു", "rom": "baappu", "en": "Bapu (father — Gandhiji's nickname)", "emoji": "👴🏽", "set": "A"},
+    {"id": "unni", "ml": "ഉണ്ണി", "rom": "unni", "en": "little boy", "emoji": "👦🏽", "set": "A"},
+    {"id": "vesham", "ml": "വേഷം", "rom": "vesham", "en": "clothes, outfit", "emoji": "👕", "set": "A"},
+    {"id": "chodyam", "ml": "ചോദ്യം", "rom": "chodyam", "en": "question", "emoji": "❓", "set": "A"},
+    {"id": "punchiri", "ml": "പുഞ്ചിരി", "rom": "punchiri", "en": "smile", "emoji": "😊", "set": "A"},
+    {"id": "nool", "ml": "നൂൽ", "rom": "nool", "en": "thread", "emoji": "🧵", "set": "A"},
+    {"id": "kannuneer", "ml": "കണ്ണുനീർ", "rom": "kannuneer", "en": "tears", "emoji": "😢", "set": "A"},
+    {"id": "mazha", "ml": "മഴ", "rom": "mazha", "en": "rain", "emoji": "🌧️", "set": "B"},
+    {"id": "thennal", "ml": "തെന്നൽ", "rom": "thennal", "en": "breeze", "emoji": "🍃", "set": "B"},
+    {"id": "vela", "ml": "വേല", "rom": "vela", "en": "work, job", "emoji": "🛠️", "set": "B"},
+    {"id": "amma", "ml": "അമ്മ", "rom": "amma", "en": "mother", "emoji": "👩🏽", "set": "B"},
+    {"id": "chappathi", "ml": "ചപ്പാത്തി", "rom": "chappaathi", "en": "chapati (flat bread)", "emoji": "🫓", "set": "B"},
+    {"id": "aduppu", "ml": "അടുപ്പ്", "rom": "aduppu", "en": "stove, cooking fire", "emoji": "🔥", "set": "B"}
+  ],
+  "quiz": [
+    {"q": "കുട്ടി എവിടേക്കാണ് വന്നത്?", "qe": "Where did the boy come to?", "o": ["സ്കൂളിലേക്ക്", "വാർധയിലെ ആശ്രമത്തിലേക്ക്", "ചന്തയിലേക്ക്", "കടപ്പുറത്തേക്ക്"], "oe": ["A school", "The ashram at Wardha", "A market", "The beach"], "a": 1, "sec": "A"},
+    {"q": "കുട്ടിയുടെ വേഷം എങ്ങനെയായിരുന്നു?", "qe": "What were the boy's clothes like?", "o": ["കീറിപ്പൊളിഞ്ഞത്", "പുതിയത്", "പട്ടുവസ്ത്രം", "യൂണിഫോം"], "oe": ["Torn and ragged", "New", "Silk", "A uniform"], "a": 0, "sec": "A"},
+    {"q": "ചോദ്യങ്ങൾ ചോദിച്ചവരോട് കുട്ടി എന്തു പറഞ്ഞു?", "qe": "What did the boy say to the people asking questions?", "o": ["എനിക്കു വിശക്കുന്നു", "എനിക്കു വീട്ടിൽ പോകണം", "ഇക്ഷണം ബാപ്പുവെ കാണണം", "എനിക്കു കളിക്കണം"], "oe": ["I'm hungry", "I want to go home", "I must see Bapu right now", "I want to play"], "a": 2, "sec": "A"},
+    {"q": "ഗാന്ധിജി എന്തു ചെയ്യുകയായിരുന്നു?", "qe": "What was Gandhiji doing?", "o": ["എഴുതുന്നു", "ഉറങ്ങുന്നു", "പാചകം ചെയ്യുന്നു", "നൂൽ നൂൽക്കുന്നു"], "oe": ["Writing", "Sleeping", "Cooking", "Spinning thread"], "a": 3, "sec": "A"},
+    {"q": "കുട്ടിയുടെ സങ്കടം എന്തായിരുന്നു?", "qe": "Why was the boy sad?", "o": ["അച്ഛനും അമ്മയും പോയി, ആരുമില്ല", "കളിപ്പാട്ടം പൊട്ടി", "പരീക്ഷയിൽ തോറ്റു", "വഴി തെറ്റി"], "oe": ["His father and mother were gone; he had no one", "His toy broke", "He failed a test", "He got lost"], "a": 0, "sec": "A"},
+    {"q": "എല്ലാവരും പോയിട്ടും അവൻ നിന്നത് എന്തുപോലെ?", "qe": "When everyone left, the boy stayed — like what?", "o": ["ഒരു മരം", "മഴയ്ക്കു ശേഷമുള്ള കുളിർതെന്നൽ", "ഒരു പക്ഷി", "ഒരു നക്ഷത്രം"], "oe": ["A tree", "A cool breeze after rain", "A bird", "A star"], "a": 1, "sec": "B"},
+    {"q": "കുട്ടി ഗാന്ധിജിയോടു പറഞ്ഞ വിഷമം എന്ത്?", "qe": "What worry did the boy tell Gandhiji?", "o": ["എനിക്കു പേടിയാണ്", "എനിക്കു പണം വേണം", "എനിക്ക് ഒരു വേലയും അറിയില്ല", "എനിക്ക് ഉറക്കം വരുന്നു"], "oe": ["I'm scared", "I need money", "I don't know any work", "I'm sleepy"], "a": 2, "sec": "B"},
+    {"q": "കവിതയുടെ അവസാനം 'അമ്മ' എന്നു പറയുന്നത് ആരെയാണ്?", "qe": "At the end of the poem, who is 'Mother'?", "o": ["ഗാന്ധിജിയുടെ അമ്മ", "നമ്മുടെ നാട്", "കുട്ടിയുടെ അമ്മ", "ടീച്ചർ"], "oe": ["Gandhiji's mother", "Our country (India)", "The boy's mother", "A teacher"], "a": 1, "sec": "B"},
+    {"q": "വർക്ക്ഷോപ്പിൽ ആൺകുട്ടി എന്തുണ്ടാക്കുകയായിരുന്നു?", "qe": "What was the boy in the workshop making?", "o": ["ചോറ്", "പായസം", "ചായ", "ചപ്പാത്തി"], "oe": ["Rice", "Payasam", "Tea", "Chapatis"], "a": 3, "sec": "B"},
+    {"q": "തന്നെ ശരിയായി കണ്ടത് ആരെന്നാണ് ഗാന്ധിജി പറഞ്ഞത്?", "qe": "Who did Gandhiji say truly saw him?", "o": ["ചപ്പാത്തിയുണ്ടാക്കിയ കുട്ടി", "എല്ലാ കുട്ടികളും", "ആരും കണ്ടില്ല", "ടീച്ചർ"], "oe": ["The boy making chapatis", "All the children", "Nobody", "The teacher"], "a": 0, "sec": "B"}
+  ],
+  "build": [
+    {"ch": ["ഇക്ഷണം", "ബാപ്പുവെ", "കണ്ടിടേണം!"], "en": "I must see Bapu right now!", "rom": "Ikshanam baappuve kandidenam!"},
+    {"ch": ["ഞാൻ", "ഏകൻ,", "എനിക്കിനിയാരുമില്ല"], "en": "I am alone; I have no one now.", "rom": "Njaan ekan, enikkiniyaarumilla"},
+    {"ch": ["മകനേ,", "പറഞ്ഞോളൂ", "വേണ്ടകാര്യം!"], "en": "Son, tell me what you need!", "rom": "Makane, paranjolu vendakaaryam!"},
+    {"ch": ["അതിന്റെ", "മുന്നിൽ", "ഒരാൺകുട്ടി", "ചപ്പാത്തിയുണ്ടാക്കിക്കൊണ്ടിരിക്കയാണ്"], "en": "In front of it, a boy is making chapatis.", "rom": "Athinte munnil oraankutti chappaathiyundaakkikkondirikkayaanu"}
+  ],
+  "retell": [
+    "A tired little boy in torn clothes comes to Gandhiji's ashram at dawn.",
+    "He tells everyone he must see Bapu right now.",
+    "Gandhiji, spinning thread, calls him close; the boy cries that his parents are gone.",
+    "Gandhiji says the ashram is his home now.",
+    "The boy worries he knows no work; Gandhiji says Mother India has work for every child.",
+    "Bonus: the chapati boy was the only one who truly 'saw' Gandhiji."
+  ],
+  "write": {"title": "✍️ A job I can do", "prompt": "നിനക്കു ചെയ്യാൻ കഴിയുന്ന ഒരു ജോലി ഏതാണ്? എഴുതൂ.", "en": "The boy thought he couldn't do any work. Gandhiji said every child can help. Write about one job you can do to help at home or help others.", "starters": ["എനിക്ക് ... ചെയ്യാൻ കഴിയും.", "I can help by ..."], "min": 30},
+  "plan": [
+    {"title": "Meet the little guest", "ml": "കുഞ്ഞതിഥി", "icon": "👣", "mode": "game", "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 3]}, {"t": "cards", "set": "A"}]},
+    {"title": "Work for every child", "ml": "എല്ലാവർക്കും വേല", "icon": "🧵", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [4, 6]}, {"t": "match", "set": "A"}, {"t": "quiz", "sec": "A"}]},
+    {"title": "The chapati boy", "ml": "ചപ്പാത്തിക്കുട്ടി", "icon": "🫓", "mode": "game", "steps": [{"t": "story", "scenes": [7, 8]}, {"t": "cards", "set": "B"}, {"t": "memory", "set": "B"}, {"t": "builder"}]},
+    {"title": "Tell and write", "ml": "പറയാം, എഴുതാം", "icon": "🏆", "mode": "classic", "steps": [{"t": "quiz", "sec": "B"}, {"t": "retell"}, {"t": "write"}, {"t": "final"}]}
+  ]
+}

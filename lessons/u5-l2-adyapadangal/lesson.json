@@ -1,0 +1,316 @@
+{
+ "id": "u5-l2-adyapadangal",
+ "unit": 5, "unitMl": "ഉണർന്നുയരാം", "unitEn": "Wake up and rise (childhood and play)",
+ "order": 2,
+ "title": "ആദ്യപാഠങ്ങൾ", "titleEn": "First Lessons",
+ "pages": "75–80", "kind": "memoir",
+ "author": "From Helen Keller's life story (retold by Prof. Geethalayam Geethakrishnan)",
+ "level": "medium",
+ "icon": "🌳",
+ "summaryEn": "<p>Helen Keller could not see or hear. But with her teacher, Miss Sullivan, she learned about the world by touching, smelling and feeling. In this true story, Helen tells us about her first lessons — and they all happened outdoors!</p><p>Sitting in sunny fields by the Tennessee River, she learns how plants grow, how birds build nests and how animals find food. Then one day nature shows its scary side: Helen is alone in a cherry tree when a big storm comes, and she is terrified until her teacher rescues her.</p><p>She also feels flowers wet with dew, picks peaches and apples, builds dams and islands out of pebbles, touches mud maps of mountains and rivers, and watches (with her fingers!) a tadpole that jumps out of its bowl and later grows into a singing frog.</p><p>Big idea: learning is everywhere in nature, and you can learn with all your senses — even while playing.</p>",
+ "speakers": {
+  "N": {"name": "Helen (storyteller)", "ml": "ഹെലൻ", "emoji": "👧", "voice": "ml-IN-SobhanaNeural", "rate": "-12%", "pitch": "+6Hz"}
+ },
+ "scenes": [
+  {"id": "meadow", "title": "Lessons in the sunny fields", "ml": "പുൽപ്പരപ്പിലെ പാഠങ്ങൾ",
+   "book": "img/book/p075_1.jpg",
+   "art": {"bg": "day", "ground": "grass",
+    "items": [
+     ["sun", 680, 70, {"anim": "pulse"}],
+     ["flower", 120, 330, 0.8, "#ffffff"], ["flower", 160, 330, 0.7, "#f4d03f"], ["flower", 700, 330, 0.8, "#f4d03f"],
+     ["p", "teacher", 330, 335, 1, "point"],
+     ["p", "girl", 410, 335, 0.8, "sit"],
+     ["p", "farmer", 640, 335, 0.9, "stand", true, {"anim": "bob"}]
+    ],
+    "fx": {
+     "grow": [["e", "🌱", 520, 330, 40, {"anim": "grow"}], ["rain"]],
+     "birds": [["birds"], ["e", "🪺", 200, 150, 40, {"anim": "pop"}]],
+     "animals": [["e", "🐿️", 120, 325, 40, {"anim": "hop"}], ["e", "🦌", 560, 325, 50, {"anim": "walk"}], ["e", "🦁", 740, 325, 50, {"anim": "bob"}]],
+     "happy": [["e", "😊", 410, 220, 36, {"anim": "pop"}]]
+    }},
+   "sents": [
+    ["N", "ഡെയ്സികളും ബട്ടർകപ്പ് ചെടികളും മറ്റും പൂത്ത കാലത്ത് മിസ്സ് സള്ളിവൻ എന്റെ കൈപിടിച്ചുകൊണ്ട് പാടത്തേക്കുപോയി.", "When the daisies and buttercups were in flower, Miss Sullivan held my hand and took me to the fields."],
+    ["N", "ടെന്നസി നദീതീരത്ത് കർഷകർ വിത്തിറക്കാൻ ഭൂമി പാകപ്പെടുത്തുന്നുണ്ടായിരുന്നു.", "On the bank of the Tennessee River, farmers were getting the land ready to plant seeds."],
+    ["N", "അവിടത്തെ സൂര്യപ്രകാശമേറ്റ സമൃദ്ധമായ പുൽപ്പരപ്പിലിരുന്ന് പ്രകൃതിയുടെ നന്മയെക്കുറിച്ചുള്ള ആദ്യപാഠങ്ങൾ ഞാൻ പഠിച്ചു.", "Sitting on the thick, sunny grass there, I learned my first lessons about the goodness of nature."],
+    ["N", "ഓരോ ചെടിയും ഭൂമിയിൽനിന്നു പൊട്ടിമുളയ്ക്കാനായി സൂര്യനും മഴയും എങ്ങനെയാണു സഹായിക്കുന്നത് എന്നും പക്ഷികൾ കൂടുണ്ടാക്കുന്നതും ഒരിടത്തുനിന്നു മറ്റൊരിടത്തേക്കു മാറിത്താമസിക്കുന്നതും എങ്ങനെയെന്നും ഞാൻ മനസ്സിലാക്കി.", "I understood how the sun and rain help every plant sprout out of the earth, and how birds build nests and move from one place to another.", "grow"],
+    ["N", "അണ്ണാനും മാനും സിംഹവും മറ്റു മൃഗങ്ങളും ആഹാരം കണ്ടെത്തുന്നതും താമസിക്കുന്നതും എങ്ങനെയെന്നും എനിക്കറിയാൻ കഴിഞ്ഞു.", "I also learned how squirrels, deer, lions and other animals find food and where they live.", "animals"],
+    ["N", "വസിക്കുന്ന ലോകത്തെക്കുറിച്ച് അറിഞ്ഞ ഞാൻ സന്തോഷവതിയായി.", "Knowing about the world I live in made me happy.", "happy"]
+   ]},
+  {"id": "world", "title": "Equal joy for all", "ml": "എല്ലാവർക്കും തുല്യസന്തോഷം",
+   "art": {"bg": "day", "ground": "grass",
+    "items": [
+     ["tree", 120, 330, 1.2], ["tree", 220, 330, 1], ["tree", 700, 330, 1.2],
+     ["e", "🌍", 420, 120, 70, {"anim": "spin"}],
+     ["p", "teacher", 380, 335, 1, "stand"],
+     ["p", "girl", 460, 335, 0.8, "stand", true],
+     ["e", "🌿", 480, 300, 30, {"anim": "sway"}]
+    ],
+    "fx": {
+     "hand": [["e", "👶", 560, 300, 40, {"anim": "pop"}], ["e", "✋", 520, 270, 30, {"anim": "wiggle"}]],
+     "all": [["birds"], ["butterflies"], ["flower", 600, 330, 0.8, "#e74c3c"], ["e", "💛", 420, 200, 36, {"anim": "beat"}]],
+     "storm": [["cloud", 640, 90, 1.3], ["e", "⚡", 650, 150, 40, {"anim": "flicker"}]]
+    }},
+   "sents": [
+    ["N", "ഭൂമിയുടെ ആകൃതിയെക്കുറിച്ചു വിവരിക്കാൻ എനിക്കായി.", "I became able to describe the shape of the earth."],
+    ["N", "സുഗന്ധപൂരിതമായ കാടുകളുടെ ഭംഗിയെക്കുറിച്ച് മിസ് സള്ളിവൻ എന്നെ പഠിപ്പിച്ചു.", "Miss Sullivan taught me about the beauty of sweet-smelling forests."],
+    ["N", "ഓരോ പുല്ലിന്റെയും ഇലതൊട്ട് എന്റെ കൊച്ചനിയത്തിയുടെ കൈയിലുള്ള വരകളും നുണക്കുഴികളുംവരെ ടീച്ചർ എനിക്കു വിവരിച്ചുതന്നു.", "From every blade of grass to the lines and dimples on my baby sister's hand — my teacher described it all to me.", "hand"],
+    ["N", "പക്ഷികളും പൂക്കളും ഞാനും എല്ലാം തുല്യസന്തോഷത്തോടെ കഴിയേണ്ടവരാണ് എന്ന ചിന്ത എന്നിൽ ഉളവാക്കി.", "It made me feel that birds, flowers and I all should live with equal happiness.", "all"],
+    ["N", "പ്രകൃതി എല്ലായ്പ്പോഴും കനിവാർന്നവളല്ലെന്ന് ഇതേസമയംതന്നെ ഒരനുഭവം എന്നെ പഠിപ്പിച്ചു.", "But at the same time, something that happened taught me that nature is not always kind.", "storm"]
+   ]},
+  {"id": "cherry", "title": "Up the cherry tree", "ml": "ചെറിമരത്തിൽ",
+   "art": {"bg": "day", "ground": "grass",
+    "items": [
+     ["sun", 100, 70],
+     ["house", 700, 330, 0.7],
+     ["tree", 380, 330, 1.6],
+     ["e", "🍒", 330, 160, 30], ["e", "🍒", 440, 140, 30], ["e", "🍒", 400, 200, 26],
+     ["p", "teacher", 300, 335, 1, "stand"]
+    ],
+    "fx": {
+     "climb": [["p", "girl", 400, 230, 0.6, "sit", false, {"anim": "rise"}]],
+     "lunch": [["e", "🧺", 260, 320, 40, {"anim": "pop"}]],
+     "go": [["p", "teacher", 600, 335, 1, "stand", false, {"anim": "slideout"}]]
+    }},
+   "sents": [
+    ["N", "ഒരു ദിവസത്തെ നീണ്ട നടത്തത്തിനുശേഷം ഞാനും ടീച്ചറും തിരിച്ചുവരികയായിരുന്നു.", "One day, after a long walk, my teacher and I were coming back."],
+    ["N", "വിശ്രമിക്കാനായി വഴിയരികിൽ കണ്ട മരച്ചുവടുകളിൽ ഒന്നുരണ്ടു തവണ ഞങ്ങൾ ഇരിക്കുകയുണ്ടായി.", "Once or twice we sat under trees by the road to rest."],
+    ["N", "വീട്ടിൽനിന്ന് അല്പം അകലെയായുള്ള ഒരു വലിയ ചെറിമരത്തിന്റെ ചുവട്ടിലാണ് അവസാനം ഞങ്ങൾ ഇരുന്നത്.", "The last place we sat was under a big cherry tree, a little way from home."],
+    ["N", "കനത്ത ശിഖരങ്ങളുള്ള ആ മരത്തിൽ കയറാൻ വളരെ എളുപ്പമായിരുന്നു.", "That tree had thick branches, so it was very easy to climb."],
+    ["N", "ടീച്ചറുടെ സഹായത്തോടെ അതിന്റെ ശിഖരത്തിലേക്ക് അള്ളിപ്പിടിച്ചു കയറിയിരിക്കാൻ എനിക്കുകഴിഞ്ഞു.", "With my teacher's help, I clung on and climbed up to sit on one of its branches.", "climb"],
+    ["N", "നല്ല തണുത്ത അന്തരീക്ഷമായതിനാൽ ഉച്ചഭക്ഷണം അവിടെയാകാമെന്ന് ടീച്ചർ നിർദ്ദേശിച്ചു.", "The air was nice and cool, so my teacher said we could have lunch right there.", "lunch"],
+    ["N", "വീട്ടിൽപ്പോയി ടീച്ചർ ഭക്ഷണമെടുത്തുകൊണ്ടുവരുംവരെ ഞാൻ അവിടെ അടങ്ങിയിരുന്നുകൊള്ളാമെന്ന് വാക്കുകൊടുത്തു.", "I promised to sit still there until she went home and brought the food back.", "go"]
+   ]},
+  {"id": "darkens", "title": "The sky goes dark", "ml": "ആകാശം കറുക്കുന്നു",
+   "book": "img/book/p076_1.jpg",
+   "art": {"bg": "grey", "ground": "grass",
+    "items": [
+     ["cloud", 200, 70, 1.4], ["cloud", 520, 60, 1.6],
+     ["tree", 400, 330, 1.6],
+     ["p", "girl", 400, 230, 0.6, "sit"],
+     ["e", "🍒", 340, 170, 26], ["e", "🍒", 460, 150, 26]
+    ],
+    "fx": {
+     "smell": [["e", "〰️", 250, 300, 34, {"anim": "rise"}], ["e", "〰️", 560, 300, 34, {"anim": "rise", "delay": 0.4}]],
+     "fear": [["e", "😨", 440, 180, 34, {"anim": "shake"}]],
+     "wait": [["e", "🙏", 360, 190, 28, {"anim": "pulse"}]]
+    }},
+   "sents": [
+    ["N", "എന്നാൽ, പെട്ടെന്നാണ് ആ മരത്തിന് ഒരു മാറ്റം സംഭവിച്ചത്.", "But suddenly, something changed around that tree."],
+    ["N", "അന്തരീക്ഷത്തിലെ സൂര്യന്റെ ചൂട് കുറഞ്ഞു.", "The warmth of the sun in the air went down."],
+    ["N", "ആകാശം കറുക്കുകയാണെന്നു മനസ്സിലായി.", "I understood the sky was going dark."],
+    ["N", "വെളിച്ചമെന്നു കരുതിയ ചൂട് അന്തരീക്ഷത്തിൽനിന്ന് ഒഴിഞ്ഞുകഴിഞ്ഞിരുന്നു.", "The warmth, which I took to mean light, had left the air. (She can't see, so warmth tells her it is light.)"],
+    ["N", "ഭൂമിയിൽനിന്ന് ഒരു പ്രത്യേകതരം ഗന്ധം ഉയർന്നുവരാൻ തുടങ്ങി.", "A special kind of smell began to rise from the earth.", "smell"],
+    ["N", "കൊടുങ്കാറ്റിനു മുമ്പുള്ള ഗന്ധമാണ് അതെന്ന് എനിക്കറിയാമായിരുന്നു.", "I knew it was the smell that comes before a storm."],
+    ["N", "പറഞ്ഞറിയിക്കാനാവാത്ത ഒരു ഭയം എന്നെ പിടികൂടി.", "A fear too big for words grabbed me.", "fear"],
+    ["N", "കൂട്ടുകാരിൽനിന്നുതന്നെയല്ല, ഭൂമിയിൽനിന്നുതന്നെ ഒറ്റപ്പെട്ടവളായെന്ന് എനിക്കുതോന്നി.", "I felt cut off — not just from my friends, but from the whole earth."],
+    ["N", "എങ്കിലും പ്രതീക്ഷയോടെ ഞാൻ അനങ്ങാതെ ഇരുന്നു.", "Still, I sat without moving, full of hope.", "wait"],
+    ["N", "ടീച്ചർ മടങ്ങിവന്ന് എത്രയും വേഗം മരത്തിൽനിന്ന് ഇറങ്ങണമെന്ന് ഞാൻ ആഗ്രഹിച്ചു.", "I wished my teacher would come back quickly so I could get down from the tree."]
+   ]},
+  {"id": "storm", "title": "The storm shakes the tree", "ml": "കൊടുങ്കാറ്റ്",
+   "art": {"bg": "night", "ground": "grass",
+    "items": [
+     ["cloud", 200, 70, 1.5], ["cloud", 560, 60, 1.6],
+     ["rain"],
+     ["tree", 400, 330, 1.6, {"anim": "shake"}],
+     ["p", "girl", 400, 230, 0.6, "sad", false, {"anim": "shake"}],
+     ["e", "🍃", 200, 160, 30, {"anim": "fly"}], ["e", "🍃", 600, 200, 30, {"anim": "fly", "delay": 0.5}]
+    ],
+    "fx": {
+     "wind": [["e", "💨", 150, 200, 60, {"anim": "slidein"}], ["e", "💨", 650, 140, 50, {"anim": "slidein", "delay": 0.3}]],
+     "twigs": [["e", "🌿", 380, 260, 26, {"anim": "fall"}], ["e", "🌿", 440, 240, 24, {"anim": "fall", "delay": 0.6}]],
+     "crack": [["e", "💥", 600, 260, 40, {"anim": "pop"}], ["e", "⚡", 620, 120, 44, {"anim": "flicker"}]],
+     "rescue": [["p", "teacher", 300, 335, 1, "point", false, {"anim": "slidein"}]],
+     "safe": [["p", "girl", 360, 335, 0.8, "wave", false, {"anim": "hop"}], ["e", "💛", 330, 200, 36, {"anim": "beat"}]]
+    }},
+   "sents": [
+    ["N", "അപകടകരമായ ഒരു നിശ്ശബ്ദത അവിടെ നിറഞ്ഞു.", "A dangerous silence filled the place."],
+    ["N", "ഇലകളെല്ലാം അതിശക്തമായി ഇളകാൻ തുടങ്ങി.", "All the leaves began to shake very hard."],
+    ["N", "മരം ആകെത്തന്നെ കുലുങ്ങാൻ തുടങ്ങി.", "The whole tree began to shake."],
+    ["N", "എന്നെ താഴേക്ക് എറിയത്തക്കവണ്ണം ഒരു കാറ്റ് ആഞ്ഞുവീശി.", "A wind blew so hard it could have thrown me down.", "wind"],
+    ["N", "ശിഖരത്തിൽ അള്ളിപ്പിടിച്ചിരുന്നില്ലായിരുന്നെങ്കിൽ താഴെ വീണുപോകുമായിരുന്നു.", "If I hadn't clung tight to the branch, I would have fallen."],
+    ["N", "മരമാകെ ആടിയുലഞ്ഞു.", "The whole tree swayed and rocked."],
+    ["N", "താഴേക്കു ചാടിയാലോ എന്ന ചിന്ത എന്നിൽ ഉണ്ടായി.", "I thought about jumping down."],
+    ["N", "എന്നാൽ കനത്ത ഭയം എന്നെ അതിൽനിന്നു തടഞ്ഞു.", "But my great fear stopped me."],
+    ["N", "മരത്തിന്റെ കവട്ടയിൽ ഞാൻ കമിഴ്ന്നു കിടന്നു.", "I lay face-down in the fork of the tree."],
+    ["N", "എന്റെ ശരീരത്തെ തഴുകിക്കൊണ്ട് ചെറിയ ചില്ലകൾ താഴേയ്ക്കു വീഴുന്നുണ്ടായിരുന്നു.", "Small twigs kept falling down, brushing against my body.", "twigs"],
+    ["N", "ഇടയ്ക്കിടെ ഉണ്ടാകുന്ന കനത്ത ശബ്ദം ഞാൻ തിരിച്ചറിഞ്ഞു.", "I could make out a heavy crashing sound now and then. (She feels the sound as a shake.)", "crack"],
+    ["N", "ഞാനും മരവും ഒരുമിച്ചു നിലംപൊത്തുമോ എന്നു ഭയന്നു.", "I was afraid the tree and I would crash to the ground together."],
+    ["N", "ആ സമയം ടീച്ചർ വന്നു.", "Just then, my teacher came.", "rescue"],
+    ["N", "കൈപിടിച്ച് താഴെയിറങ്ങാൻ എന്നെ സഹായിച്ചു.", "She held my hand and helped me climb down."],
+    ["N", "അവരെ അള്ളിപ്പിടിച്ച് കാലുകൾ ഭൂമിയിൽ സ്പർശിച്ചുനിന്നപ്പോൾ ഞാൻ ആനന്ദംകൊണ്ടു മതിമറന്നുപോയി.", "Holding on tight to her, when my feet touched the ground, I was wild with joy.", "safe"]
+   ]},
+  {"id": "garden", "title": "Learning by touch in the garden", "ml": "തോട്ടത്തിലെ പഠനം",
+   "art": {"bg": "day", "ground": "grass",
+    "items": [
+     ["sun", 680, 70],
+     ["house", 120, 330, 0.7],
+     ["p", "girl", 360, 335, 0.8, "sit"],
+     ["p", "teacher", 300, 335, 1, "sit"],
+     ["e", "🦗", 520, 320, 30, {"anim": "hop"}],
+     ["e", "🐸", 580, 325, 34, {"anim": "hop", "delay": 0.4}],
+     ["e", "🐥", 640, 325, 34, {"anim": "bob"}]
+    ],
+    "fx": {
+     "seeds": [["e", "🌱", 420, 320, 30, {"anim": "grow"}], ["e", "☁️", 460, 260, 26, {"anim": "float"}]],
+     "corn": [["e", "🌽", 720, 320, 50, {"anim": "sway"}], ["e", "🌽", 760, 320, 46, {"anim": "sway", "delay": 0.3}]],
+     "pony": [["e", "🐴", 480, 325, 60, {"anim": "bob"}], ["e", "🌾", 430, 290, 26, {"anim": "pop"}]]
+    }},
+   "sents": [
+    ["N", "വീടിനു പുറത്തുള്ള സൂര്യപ്രകാശം അടിക്കുന്ന ചെറിയ തോട്ടങ്ങളിലാണ് ഞങ്ങൾ വായനയും പഠനവുമൊക്കെ നടത്തിയിരുന്നത്.", "We did our reading and studying in the small sunny gardens outside the house."],
+    ["N", "മൂളുന്നതും മുരളുന്നതും പാടുന്നതുമായ ചീവീടും തവളകളും കോഴിക്കുഞ്ഞുങ്ങളും വിരിയുന്ന പൂക്കളും വിത്തുകളും ചെടികളുമെല്ലാം ഞാൻ കൈയിലെടുത്തു പരിശോധിച്ചിരുന്നു.", "Humming crickets, croaking frogs, chirping chicks, opening flowers, seeds and plants — I held them all in my hands to study them."],
+    ["N", "മുളപൊട്ടുന്ന ഉന്നക്കായകളും അവയുടെ നനുത്ത പഞ്ഞിനാരുകളും മൃദുവായ വിത്തുകളും ഞാൻ സ്പർശിച്ചറിഞ്ഞു.", "By touching, I got to know bursting cotton pods, their soft fluffy threads and their soft seeds.", "seeds"],
+    ["N", "ചോളക്കതിരുകൾക്കിടയിലൂടെ കടന്നുവരുന്ന കാറ്റിന്റെ സീൽക്കാരവും അവയുടെ നീണ്ട ഇലകളുണ്ടാക്കുന്ന മർമ്മരവും ഞാൻ അനുഭവിച്ചറിഞ്ഞു.", "I felt the whistle of the wind through the corn and the rustle of its long leaves.", "corn"],
+    ["N", "പുൽപ്പരപ്പിൽവച്ച് എന്റെ കുതിരക്കുട്ടിയെ പിടിച്ച് അതിന്റെ വായിൽ അല്പം പുല്ലു തിരുകുമ്പോൾ ചീറുന്ന ശബ്ദവും ഞാനറിഞ്ഞു.", "In the meadow, when I caught my pony and pushed a little grass into its mouth, I felt it snort.", "pony"],
+    ["N", "അവന്റെ ശ്വാസത്തിന്റെ ആസ്വാദ്യമായ ഗന്ധം ഞാൻ ശരിക്കും ഓർക്കുന്നു.", "I still clearly remember the lovely smell of his breath."]
+   ]},
+  {"id": "dew", "title": "Dewy morning flowers", "ml": "മഞ്ഞുവീണ പ്രഭാതം",
+   "art": {"bg": "dawn", "ground": "grass",
+    "items": [
+     ["sun", 120, 120],
+     ["flower", 300, 330, 1, "#e74c3c", {"anim": "sway"}],
+     ["flower", 360, 330, 0.9, "#ff8fab", {"anim": "sway", "delay": 0.3}],
+     ["flower", 560, 330, 1, "#ffffff", {"anim": "sway", "delay": 0.6}],
+     ["e", "💧", 300, 230, 20, {"anim": "pulse"}],
+     ["p", "girl", 440, 335, 0.8, "stand", false, {"anim": "walk"}]
+    ],
+    "fx": {
+     "rose": [["e", "🌹", 470, 260, 36, {"anim": "pop"}]],
+     "lily": [["e", "🪷", 570, 220, 36, {"anim": "sway"}]],
+     "bug": [["e", "🐞", 480, 240, 24, {"anim": "flutter"}]]
+    }},
+   "sents": [
+    ["N", "ചിലപ്പോൾ പ്രഭാതത്തിൽ ഞാൻ പൂക്കളിലും ഇലകളിലും മറ്റും കനത്ത മഞ്ഞു വീണുകിടക്കുന്ന തോട്ടത്തിലേക്ക് പതുക്കെ ചെല്ലും.", "Sometimes in the early morning, I would walk slowly into the garden, where heavy dew lay on the flowers and leaves."],
+    ["N", "മൃദുവായി എന്റെ കൈകളിൽ അമർത്തുന്ന റോസാപ്പൂക്കളും രാവിലത്തെ ഇളങ്കാറ്റിൽ ഇളകിയാടുന്ന ലില്ലിപ്പൂക്കളും മറ്റും എത്രമാത്രം സന്തോഷകരമാണ്!", "Roses pressing softly into my hands, lilies swaying in the gentle morning breeze — what a joy they are!", "rose"],
+    ["N", "ഞാൻ പറിച്ചെടുക്കുന്ന പൂവിൽ ഒരു പ്രാണി ഉണ്ടെന്നുവരാം.", "Sometimes there was an insect in a flower I picked.", "bug"],
+    ["N", "പെട്ടെന്നുള്ള ഭയത്തിൽ വിറയ്ക്കുന്ന അതിന്റെ ചിറകുകളുടെ തളർന്ന അനക്കത്തിലൂടെ ഞാനത് തിരിച്ചറിഞ്ഞിരുന്നു.", "I could tell from the faint flutter of its wings, trembling in sudden fear."]
+   ]},
+  {"id": "orchard", "title": "The fruit orchard", "ml": "കായ്‌കനിത്തോട്ടം",
+   "art": {"bg": "day", "ground": "grass",
+    "items": [
+     ["sun", 680, 70],
+     ["tree", 200, 330, 1.3], ["tree", 560, 330, 1.3],
+     ["e", "🍑", 180, 170, 30], ["e", "🍑", 230, 200, 28],
+     ["e", "🍎", 540, 170, 30], ["e", "🍎", 590, 190, 28],
+     ["p", "girl", 380, 335, 0.8, "stand"],
+     ["house", 740, 330, 0.5]
+    ],
+    "fx": {
+     "peach": [["e", "🍑", 360, 230, 30, {"anim": "pop"}]],
+     "fall": [["e", "🍎", 420, 200, 30, {"anim": "fall"}], ["e", "🍎", 340, 180, 28, {"anim": "fall", "delay": 0.5}]],
+     "run": [["p", "girl", 600, 335, 0.8, "run", false, {"anim": "slideout"}], ["e", "😄", 380, 220, 34, {"anim": "pop"}]]
+    }},
+   "sents": [
+    ["N", "ജൂലൈമാസത്തിൽ വിളഞ്ഞുപഴുക്കുന്ന പഴങ്ങളുള്ള കായ്‌കനിത്തോട്ടമാണ് ഞാൻ പോകാനിഷ്ടപ്പെട്ടിരുന്ന മറ്റൊരു സ്ഥലം.", "Another place I loved to go was the fruit orchard, where the fruit grew ripe in July."],
+    ["N", "വലിയ പതംവന്ന പീച്ച് പഴങ്ങൾ എന്റെ കൈകൾക്ക് എത്തുമായിരുന്നു.", "Big, ripe peaches were low enough for my hands to reach.", "peach"],
+    ["N", "മന്ദമാരുതൻ വീശുമ്പോൾ ആപ്പിൾപ്പഴങ്ങൾ എന്റെ കാൽച്ചുവട്ടിൽ വന്നുവീഴുമായിരുന്നു.", "When a gentle breeze blew, apples would drop down at my feet.", "fall"],
+    ["N", "ആ പഴങ്ങളെല്ലാം പെറുക്കി എന്റെ മേൽക്കുപ്പായത്തിൽ സമാഹരിക്കുമ്പോഴും സൂര്യപ്രകാശത്തിൽ ഇളംചൂടേറ്റു നിൽക്കുന്ന ആപ്പിളിന്റെ തുടുത്ത കവിളിൽ മുഖമമർത്തുമ്പോഴും", "Picking up all that fruit and gathering it in my pinafore, pressing my face against an apple's rosy cheek, warm from the sun,"],
+    ["N", "പിന്നെ വീട്ടിലേക്കു കുതിക്കുമ്പോഴുമൊക്കെ അനുഭവിച്ചിരുന്ന സന്തോഷം എത്രമാത്രമായിരുന്നു എന്നു പറഞ്ഞറിയിക്കാനാവില്ല.", "and then racing home — I can't tell you how happy I felt.", "run"]
+   ]},
+  {"id": "bridge", "title": "Playing geography by the river", "ml": "പുഴക്കരയിലെ കളിയും പഠനവും",
+   "art": {"bg": "day", "ground": "river",
+    "items": [
+     ["sun", 700, 70],
+     ["wall", 80, 280, 300, 16],
+     ["e", "🪵", 120, 300, 40], ["e", "🪵", 300, 300, 40, {"anim": "wiggle"}],
+     ["p", "teacher", 520, 335, 1, "point"],
+     ["p", "girl", 600, 335, 0.8, "sit"],
+     ["e", "🪨", 660, 330, 26], ["e", "🪨", 690, 330, 22]
+    ],
+    "fx": {
+     "build": [["e", "🏝️", 680, 300, 40, {"anim": "pop"}], ["e", "🪨", 720, 330, 24, {"anim": "hop"}]],
+     "volcano": [["e", "🌋", 220, 160, 60, {"anim": "pulse"}], ["e", "🏚️", 340, 170, 40, {"anim": "pop"}], ["e", "🧊", 440, 160, 40, {"anim": "float"}]],
+     "map": [["e", "⛰️", 640, 290, 40, {"anim": "pop"}], ["e", "✋", 610, 270, 30, {"anim": "wiggle"}]]
+    }},
+   "sents": [
+    ["N", "ടെന്നസി നദിക്കരയിൽ പട്ടാളക്കാർ ഉപയോഗിച്ചിരുന്ന തടികൊണ്ടുള്ള ഒരു പാലമുണ്ടായിരുന്നു.", "On the bank of the Tennessee River there was a wooden bridge that soldiers had used."],
+    ["N", "തകർന്നടിഞ്ഞുകൊണ്ടിരുന്ന ആ പാലമുള്ളിടം നടത്തത്തിന് ഞങ്ങൾക്കു പ്രിയങ്കരമായ സ്ഥലമായിരുന്നു.", "That falling-apart old bridge was our favourite place to walk."],
+    ["N", "മണിക്കൂറുകൾ ഞങ്ങൾ അവിടെ ചെലവിട്ടു.", "We spent hours there."],
+    ["N", "അവിടെവച്ച് ഭൂമിശാസ്ത്രം കളികളിലൂടെ പഠിച്ചു.", "There I learned geography through games."],
+    ["N", "ചെറുകല്ലുകൾകൊണ്ട് ഞാൻ ഡാമുകളും ദ്വീപുകളും തടാകങ്ങളും നദീതീരങ്ങളും ഉണ്ടാക്കി.", "With pebbles I built dams, islands, lakes and river banks.", "build"],
+    ["N", "പഠിക്കുകയാണെന്ന് യാതൊരു ചിന്തയുമില്ലാതെ തമാശക്കായി ചെയ്ത അതെല്ലാം പഠനത്തിന്റെ ഭാഗമാണെന്ന് ഞാൻ സ്വപ്നത്തിൽപ്പോലും വിചാരിച്ചിരുന്നില്ല.", "I did it all for fun, never thinking I was studying — I never even dreamed it was part of learning."],
+    ["N", "ഉരുണ്ട വലിയ ഭൂമിയെക്കുറിച്ചും അതിലെ അഗ്നിപർവതങ്ങളെക്കുറിച്ചും തകർന്നടിഞ്ഞ പട്ടണങ്ങളെക്കുറിച്ചും ചലിക്കുന്ന മഞ്ഞുനദിയെക്കുറിച്ചും വിചിത്രമായ മറ്റു പല കാര്യങ്ങളെക്കുറിച്ചും മിസ് സള്ളിവൻ വിവരിക്കുന്നത് വളരെ അദ്ഭുതത്തോടെ ഞാൻ കേട്ടിരുന്നു.", "With great wonder, I listened as Miss Sullivan told me about the big round earth, its volcanoes, buried cities, moving rivers of ice (glaciers) and many other strange things.", "volcano"],
+    ["N", "മണ്ണിൽ അവരുണ്ടാക്കിയ ഭൂപടങ്ങളിലെ പർവതങ്ങളും നദികളും താഴ്‌വാരങ്ങളും മറ്റും എനിക്ക് തൊട്ടറിയാൻ കഴിഞ്ഞിരുന്നു.", "She made maps in the mud, and I could feel the mountains, rivers and valleys on them with my fingers.", "map"]
+   ]},
+  {"id": "tadpoles", "title": "The tadpole's big jump", "ml": "വാൽമാക്രിയുടെ കുതിപ്പ്",
+   "book": "img/book/p078_2.jpg",
+   "art": {"bg": "indoor", "ground": "floor",
+    "items": [
+     ["wall", 560, 60, 200, 180],
+     ["table", 360, 330, 260],
+     ["e", "🫙", 360, 270, 90],
+     ["e", "🪷", 360, 190, 34, {"anim": "sway"}],
+     ["fish", 345, 250, 0.3, {"anim": "swim"}],
+     ["fish", 380, 235, 0.3, {"anim": "swim", "delay": 0.5}],
+     ["p", "girl", 520, 335, 0.8, "point", true]
+    ],
+    "fx": {
+     "jump": [["fish", 450, 320, 0.3, {"anim": "hop"}]],
+     "back": [["e", "💦", 360, 200, 30, {"anim": "pop"}]],
+     "frog": [["e", "🐸", 680, 320, 50, {"anim": "hop"}], ["e", "🎵", 720, 250, 30, {"anim": "float"}], ["moon", 680, 90]]
+    }},
+   "sents": [
+    ["N", "ജനലിന്നരികിൽ ചെടികൾ നിറച്ചുവച്ചിരുന്ന ഒരു സ്ഫടികപ്പാത്രത്തിൽ പതിനൊന്നു വാൽമാക്രികളുണ്ടായിരുന്നു.", "Near the window, in a glass bowl full of plants, there were eleven tadpoles."],
+    ["N", "എന്റെ വിരലുകൾ ആ പാത്രത്തിലേക്കിടുമ്പോൾ വാൽമാക്രികൾ തുള്ളിക്കളിക്കുന്നതും വിരലുകൾക്കിടയിലൂടെ നീന്തുന്നതുമൊക്കെ എനിക്ക് രസകരമായി അനുഭവപ്പെട്ടു.", "When I put my fingers into the bowl, it was such fun to feel the tadpoles wriggling and swimming between my fingers."],
+    ["N", "ഒരു ദിവസം അതിലൊരുവൻ ആ പാത്രത്തിൽനിന്നു പുറത്തേക്കു ചാടി തറയിൽ വീണു.", "One day, one of them jumped out of the bowl and fell on the floor.", "jump"],
+    ["N", "അത് ചത്തുവെന്നുതന്നെയാണ് എനിക്കു തോന്നിയത്.", "I really thought it had died."],
+    ["N", "വാൽ ഒന്നനക്കുന്നതുമാത്രമാണ് ജീവൻ ഉണ്ടെന്നതിന്റെ തെളിവായി അവനിൽ അവശേഷിച്ചിരുന്നത്.", "The only sign it was still alive was a tiny flick of its tail."],
+    ["N", "എന്നാൽ എങ്ങനെയോ അവൻ പെട്ടെന്നുതന്നെ പാത്രത്തിലേക്കു തിരിച്ചുചാടി ആഹ്ലാദത്തോടെ നീന്തിത്തുടിക്കാൻ തുടങ്ങി.", "But somehow it quickly jumped back into the bowl and started swimming about happily.", "back"],
+    ["N", "അവന്റേതായ ഒരു കുതിപ്പു നടത്തി വലിയ ലോകം കണ്ടതിനുശേഷം മനോഹരമായ സ്ഫടിക ഗൃഹത്തിൽ സംതൃപ്തിയോടെ മടങ്ങിയെത്തി.", "It had made its own big leap and seen the wide world, and then came back, content, to its lovely glass home."],
+    ["N", "ഒരു തവളയാവുക എന്ന അന്തസ്സുനേടി.", "Later it earned the honour of becoming a frog."],
+    ["N", "പിന്നെ തോട്ടത്തിന്റെ അങ്ങേയറ്റത്തെ ഇലകൾ നിറഞ്ഞ തടാകത്തിലേക്ക് നീങ്ങി അവിടെ തന്റെ വിചിത്രമായ ഗാനങ്ങൾ ഉതിർത്തുകൊണ്ട് വേനൽക്കാലരാത്രികൾ സംഗീതസാന്ദ്രമാക്കി.", "Then it moved to the leafy pond at the far end of the garden, and filled the summer nights with its strange songs.", "frog"]
+   ]}
+ ],
+ "words": [
+  {"id": "teacher", "ml": "ടീച്ചർ", "rom": "teacher", "en": "teacher", "emoji": "👩‍🏫", "set": "A"},
+  {"id": "prakruthi", "ml": "പ്രകൃതി", "rom": "prakrithi", "en": "nature", "emoji": "🌳", "set": "A"},
+  {"id": "pakshi", "ml": "പക്ഷി", "rom": "pakshi", "en": "bird", "emoji": "🐦", "set": "A"},
+  {"id": "maram", "ml": "മരം", "rom": "maram", "en": "tree", "emoji": "🌳", "set": "A"},
+  {"id": "sikharam", "ml": "ശിഖരം", "rom": "shikharam", "en": "branch", "emoji": "🌿", "set": "A"},
+  {"id": "aakaasam", "ml": "ആകാശം", "rom": "aakaasham", "en": "sky", "emoji": "🌥️", "set": "A"},
+  {"id": "kodunkaattu", "ml": "കൊടുങ്കാറ്റ്", "rom": "kodunkaattu", "en": "storm", "emoji": "🌪️", "set": "A"},
+  {"id": "bhayam", "ml": "ഭയം", "rom": "bhayam", "en": "fear", "emoji": "😨", "set": "A"},
+  {"id": "thottam", "ml": "തോട്ടം", "rom": "thottam", "en": "garden", "emoji": "🌷", "set": "B"},
+  {"id": "manju", "ml": "മഞ്ഞ്", "rom": "manju", "en": "dew, mist, snow", "emoji": "💧", "set": "B"},
+  {"id": "pazham", "ml": "പഴം", "rom": "pazham", "en": "fruit", "emoji": "🍑", "set": "B"},
+  {"id": "paalam", "ml": "പാലം", "rom": "paalam", "en": "bridge", "emoji": "🌉", "set": "B"},
+  {"id": "kallu", "ml": "കല്ല്", "rom": "kallu", "en": "stone", "emoji": "🪨", "set": "B"},
+  {"id": "vaalmaakri", "ml": "വാൽമാക്രി", "rom": "vaalmaakri", "en": "tadpole", "emoji": "🐟", "set": "B"},
+  {"id": "thavala", "ml": "തവള", "rom": "thavala", "en": "frog", "emoji": "🐸", "set": "B"},
+  {"id": "sparsham", "ml": "സ്പർശിച്ചറിഞ്ഞു", "rom": "sparshichu arinju", "en": "knew by touching", "emoji": "✋", "set": "B"}
+ ],
+ "quiz": [
+  {"q": "ഹെലനെ പഠിപ്പിച്ച ടീച്ചറുടെ പേരെന്ത്?", "qe": "What is the name of Helen's teacher?", "o": ["മിസ് സള്ളിവൻ", "മിസ് ടെന്നസി", "മിസ് ഡെയ്സി", "മിസ് ലില്ലി"], "oe": ["Miss Sullivan", "Miss Tennessee", "Miss Daisy", "Miss Lily"], "a": 0, "sec": "A"},
+  {"q": "ഹെലൻ ആദ്യപാഠങ്ങൾ പഠിച്ചത് എവിടെയിരുന്നാണ്?", "qe": "Where did Helen learn her first lessons?", "o": ["ക്ലാസ് മുറിയിൽ", "സൂര്യപ്രകാശമേറ്റ പുൽപ്പരപ്പിൽ", "ലൈബ്രറിയിൽ", "തീവണ്ടിയിൽ"], "oe": ["In a classroom", "On the sunny grass", "In a library", "On a train"], "a": 1, "sec": "A"},
+  {"q": "ഹെലൻ കയറിയിരുന്നത് ഏതു മരത്തിലാണ്?", "qe": "Which tree did Helen climb?", "o": ["മാവ്", "തെങ്ങ്", "ചെറിമരം", "ആപ്പിൾമരം"], "oe": ["Mango tree", "Coconut tree", "Cherry tree", "Apple tree"], "a": 2, "sec": "A"},
+  {"q": "ടീച്ചർ വീട്ടിലേക്കു പോയത് എന്തിനാണ്?", "qe": "Why did the teacher go home?", "o": ["ഉറങ്ങാൻ", "കുട എടുക്കാൻ", "ടീച്ചറെ വിളിക്കാൻ", "ഉച്ചഭക്ഷണം എടുക്കാൻ"], "oe": ["To sleep", "To get an umbrella", "To call someone", "To bring lunch"], "a": 3, "sec": "A"},
+  {"q": "കൊടുങ്കാറ്റ് വരുന്നു എന്ന് ഹെലൻ അറിഞ്ഞത് എങ്ങനെ?", "qe": "How did Helen know a storm was coming?", "o": ["ഭൂമിയിൽനിന്നുള്ള പ്രത്യേക ഗന്ധം കൊണ്ട്", "ഇടിമിന്നൽ കണ്ട്", "ടീച്ചർ പറഞ്ഞ്", "റേഡിയോ കേട്ട്"], "oe": ["From a special smell rising from the earth", "By seeing lightning", "Her teacher told her", "From the radio"], "a": 0, "sec": "A"},
+  {"q": "കാലുകൾ ഭൂമിയിൽ തൊട്ടപ്പോൾ ഹെലന് എന്തു തോന്നി?", "qe": "How did Helen feel when her feet touched the ground?", "o": ["ദേഷ്യം", "വിശപ്പ്", "വലിയ സന്തോഷം", "ഉറക്കം"], "oe": ["Angry", "Hungry", "Wild with joy", "Sleepy"], "a": 2, "sec": "A"},
+  {"q": "ഹെലൻ പൂവിലെ പ്രാണിയെ തിരിച്ചറിഞ്ഞത് എങ്ങനെ?", "qe": "How did Helen know there was an insect in the flower?", "o": ["അതിനെ കണ്ട്", "ചിറകുകളുടെ അനക്കം കൊണ്ട്", "അതിന്റെ പാട്ട് കേട്ട്", "ടീച്ചർ പറഞ്ഞ്"], "oe": ["She saw it", "By the flutter of its wings", "She heard it sing", "Her teacher told her"], "a": 1, "sec": "B"},
+  {"q": "ഹെലൻ ചെറുകല്ലുകൾകൊണ്ട് എന്തുണ്ടാക്കി?", "qe": "What did Helen build with pebbles?", "o": ["വീടുകൾ", "കാറുകൾ", "പാവകൾ", "ഡാമുകളും ദ്വീപുകളും"], "oe": ["Houses", "Cars", "Dolls", "Dams and islands"], "a": 3, "sec": "B"},
+  {"q": "സ്ഫടികപ്പാത്രത്തിൽ എത്ര വാൽമാക്രികളുണ്ടായിരുന്നു?", "qe": "How many tadpoles were in the glass bowl?", "o": ["പതിനൊന്ന്", "രണ്ട്", "അഞ്ച്", "ഇരുപത്"], "oe": ["Eleven", "Two", "Five", "Twenty"], "a": 0, "sec": "B"},
+  {"q": "പുറത്തുചാടിയ വാൽമാക്രി അവസാനം എന്തായി?", "qe": "What did the tadpole that jumped out finally become?", "o": ["ഒരു മീൻ", "ഒരു പക്ഷി", "ഒരു തവള", "ഒരു പ്രാണി"], "oe": ["A fish", "A bird", "A frog", "An insect"], "a": 2, "sec": "B"}
+ ],
+ "build": [
+  {"ch": ["ടീച്ചർ", "എന്റെ", "കൈപിടിച്ചു"], "en": "The teacher held my hand.", "rom": "teacher ente kaipidichu"},
+  {"ch": ["ആകാശം", "കറുക്കുകയാണ്"], "en": "The sky is getting dark.", "rom": "aakaasham karukkukayaanu"},
+  {"ch": ["മരം", "ആകെത്തന്നെ", "കുലുങ്ങാൻ", "തുടങ്ങി"], "en": "The whole tree began to shake.", "rom": "maram aakethanne kulungaan thudangi"},
+  {"ch": ["ആ സമയം", "ടീച്ചർ", "വന്നു"], "en": "Just then the teacher came.", "rom": "aa samayam teacher vannu"},
+  {"ch": ["ഒരു", "തവളയാവുക", "എന്ന", "അന്തസ്സുനേടി"], "en": "It earned the honour of becoming a frog.", "rom": "oru thavalayaavuka enna anthassu nedi"}
+ ],
+ "retell": [
+  "Miss Sullivan took Helen to sunny fields, where she learned how plants grow and how birds and animals live.",
+  "Helen climbed a cherry tree and waited while her teacher went to get lunch.",
+  "The sky went dark, a storm came, and the tree shook — Helen was very scared until her teacher helped her down.",
+  "In the garden, Helen learned by touching: crickets, frogs, chicks, cotton seeds, corn, her pony, roses and lilies.",
+  "She picked peaches and apples, and learned geography by building pebble dams and islands by the river.",
+  "A tadpole jumped out of its bowl, jumped back in, and later grew into a frog that sang on summer nights."
+ ],
+ "write": {"title": "✍️ My nature moment", "prompt": "പ്രകൃതിയിൽ നിന്നുള്ള നിന്റെ ഒരു അനുഭവം എഴുതൂ.", "en": "Helen learned by touching and smelling. Write about one time you felt, smelled or touched something in nature (rain, a flower, an animal, mud...). Malayalam, English or mixed is fine.", "starters": ["ഒരു ദിവസം ഞാൻ...", "One day I touched..."], "min": 40},
+ "plan": [
+  {"title": "Meet Helen", "ml": "ഹെലനെ പരിചയപ്പെടാം", "icon": "👧", "mode": "game", "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 2]}, {"t": "cards", "set": "A"}]},
+  {"title": "The storm", "ml": "കൊടുങ്കാറ്റ്", "icon": "🌪️", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [3, 4]}, {"t": "match", "set": "A"}, {"t": "quiz", "sec": "A"}]},
+  {"title": "Gardens and fruit", "ml": "തോട്ടവും പഴങ്ങളും", "icon": "🍑", "mode": "game", "steps": [{"t": "story", "scenes": [5, 7]}, {"t": "cards", "set": "B"}, {"t": "memory", "set": "A"}]},
+  {"title": "Pebbles and tadpoles", "ml": "കല്ലുകളും വാൽമാക്രികളും", "icon": "🐸", "mode": "game", "steps": [{"t": "warmup", "sets": ["A", "B"]}, {"t": "story", "scenes": [8, 9]}, {"t": "match", "set": "B"}, {"t": "quiz", "sec": "B"}]},
+  {"title": "Tell it, write it", "ml": "പറയാം, എഴുതാം", "icon": "🏆", "mode": "classic", "steps": [{"t": "builder"}, {"t": "write"}, {"t": "retell"}, {"t": "final"}]}
+ ]
+}

@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Build the read-along story: one Malayalam MP3 per sentence + word timings.
+
+Reads  tools/story_source.json
+Writes audio/story/sNNN.mp3  and  story-data.js  (const STORY = {...})
+
+Needs:  pip install edge-tts   (uses Microsoft's online neural voices, ml-IN)
+Run:    python3 tools/build_story.py            (only missing/changed sentences are re-made)
+        python3 tools/build_story.py --force    (re-make all audio)
+"""
+import asyncio, hashlib, json, os, re, sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+SRC = os.path.join(HERE, 'story_source.json')
+AUDIO_DIR = os.path.join(ROOT, 'audio', 'story')
+CACHE = os.path.join(HERE, '.story_cache.json')
+OUT = os.path.join(ROOT, 'story-data.js')
+BYTES_PER_SEC = 48000 / 8  # edge-tts default: 24kHz 48kbit/s mono mp3
+PUNCT = re.compile(r'[\s“”"‘’\'!?.,;:…()\-–—]+')
+
+
+def core(tok):
+    return PUNCT.sub('', tok)
+
+
+def align(tokens, marks, dur):
+    """Give every display token a start/end time using the TTS word boundaries."""
+    out = [{'t': t, 's': None, 'e': None} for t in tokens]
+    j = 0
+    ok = True
+    for i, t in enumerate(tokens):
+        c = core(t)
+        if not c:
+            continue
+        if j >= len(marks):
+            ok = False
+            break
+        start, end, got = marks[j][0], marks[j][1], core(marks[j][2])
+        j += 1
+        # TTS sometimes splits one written word into pieces: swallow them
+        while got != c and j < len(marks) and len(got) < len(c) and c.startswith(got + core(marks[j][2])[:1]):
+            got += core(marks[j][2])
+            end = marks[j][1]
+            j += 1
+        out[i]['s'], out[i]['e'] = round(start, 3), round(end, 3)
+    if not ok or j < len(marks) - 1:
+        # fallback: share the time by letter count
+        total = sum(max(1, len(core(t))) for t in tokens)
+        acc = 0.15
+        span = max(0.5, dur - 0.3)
+        for o in out:
+            d = span * max(1, len(core(o['t']))) / total
+            o['s'], o['e'] = round(acc, 3), round(acc + d, 3)
+            acc += d
+        return out, False
+    # tokens that are only punctuation take the previous word's time
+    last = 0.0
+    for o in out:
+        if o['s'] is None:
+            o['s'] = o['e'] = last
+        last = o['e']
+    return out, True
+
+
+async def synth(text, sp, path):
+    import edge_tts
+    c = edge_tts.Communicate(text, sp['voice'], rate=sp['rate'], pitch=sp['pitch'], boundary='WordBoundary')
+    audio = bytearray()
+    marks = []
+    async for ch in c.stream():
+        if ch['type'] == 'audio':
+            audio += ch['data']
+        elif ch['type'] == 'WordBoundary':
+            s = ch['offset'] / 1e7
+            marks.append((s, s + ch['duration'] / 1e7, ch['text']))
+    with open(path, 'wb') as f:
+        f.write(audio)
+    return marks, len(audio) / BYTES_PER_SEC
+
+
+async def main(force):
+    src = json.load(open(SRC, encoding='utf-8'))
+    os.makedirs(AUDIO_DIR, exist_ok=True)
+    cache = {} if force or not os.path.exists(CACHE) else json.load(open(CACHE))
+    sents = []
+    n = 0
+    for sc in src['scenes']:
+        for row in sc['sents']:
+            n += 1
+            sp, ml, en = row[0], row[1], row[2]
+            fx = row[3] if len(row) > 3 else ''
+            sents.append({'id': f's{n:03d}', 'scene': sc['id'], 'sp': sp, 'ml': ml, 'en': en, 'fx': fx})
+    sem = asyncio.Semaphore(4)
+
+    async def one(s):
+        sp = src['speakers'][s['sp']]
+        key = hashlib.sha1(json.dumps([s['ml'], sp], ensure_ascii=False).encode()).hexdigest()
+        fn = s['id'] + '.mp3'
+        path = os.path.join(AUDIO_DIR, fn)
+        c = cache.get(s['id'])
+        if not (c and c['key'] == key and os.path.exists(path)):
+            async with sem:
+                for attempt in range(3):
+                    try:
+                        marks, dur = await synth(s['ml'], sp, path)
+                        break
+                    except Exception as e:  # network hiccup: retry
+                        if attempt == 2:
+                            raise
+                        await asyncio.sleep(2)
+            c = cache[s['id']] = {'key': key, 'marks': marks, 'dur': dur}
+            print('made', s['id'], f"{dur:.1f}s", s['ml'][:40])
+        words, exact = align(s['ml'].split(), c['marks'], c['dur'])
+        if not exact:
+            print('  ! word timing estimated for', s['id'])
+        s.update(audio='audio/story/' + fn, dur=round(c['dur'], 2), words=words)
+
+    await asyncio.gather(*(one(s) for s in sents))
+    json.dump(cache, open(CACHE, 'w'), ensure_ascii=False)
+    data = {
+        'title': src['title'], 'credit': src['credit'],
+        'speakers': {k: {kk: v[kk] for kk in ('name', 'ml', 'emoji')} for k, v in src['speakers'].items()},
+        'scenes': [{'id': s['id'], 'title': s['title'], 'ml': s['ml'], 'art': s['art']} for s in src['scenes']],
+        'sents': sents,
+    }
+    with open(OUT, 'w', encoding='utf-8') as f:
+        f.write('/* Generated by tools/build_story.py - edit tools/story_source.json instead. */\n')
+        f.write('var STORY = ' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    print(f'wrote {OUT}: {len(sents)} sentences, {sum(s["dur"] for s in sents)/60:.1f} min of audio')
+
+
+if __name__ == '__main__':
+    asyncio.run(main('--force' in sys.argv))

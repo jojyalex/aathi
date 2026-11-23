@@ -1,0 +1,185 @@
+{
+ "id": "u4-l1-sasthram",
+ "unit": 4, "unitMl": "അറിഞ്ഞു വിടരാം", "unitEn": "Know, and bloom (discovery and science)",
+ "order": 1,
+ "title": "ശാസ്ത്രം മുന്നേറുന്നു", "titleEn": "Science Marches On",
+ "pages": "57–61", "kind": "letter",
+ "author": "Jawaharlal Nehru (Malayalam by V. Ramanunni Menon)",
+ "level": "hard",
+ "icon": "🔭",
+ "summaryEn": "<p>This is part of a <b>letter</b> that Jawaharlal Nehru, India's first Prime Minister, wrote from jail (1930–33) to his daughter <b>Indira</b>, who was 10 years old. His letters became a book called <i>Glimpses of World History</i>.</p><p>Nehru says humans are special because they have a <b>curious mind</b> — the wish to ask, search and understand. A baby stares at the world and a little girl asks so many questions. Early humans were like that too: they had nobody to ask, so they used their minds and slowly learned.</p><p>In the 1800s science sped up: the telegraph, telephone, car and aeroplane came one after another. Science made life easier, but people also used it to make weapons. Nehru says that was not science's fault — people did not know how to <b>control themselves</b>. And science never rests: a new machine is old in just a year or two!</p>",
+ "speakers": {
+  "N": {"name": "Nehru (letter reader)", "ml": "നെഹ്റു", "emoji": "✉️", "voice": "ml-IN-MidhunNeural", "rate": "-12%", "pitch": "-4Hz"}
+ },
+ "scenes": [
+  {"id": "letter", "title": "A letter from jail", "ml": "ജയിലിൽനിന്ന് ഒരു കത്ത്", "art": {
+   "bg": "indoor", "ground": "floor",
+   "items": [["wall", 560, 60, 180, 140], ["e", "🌙", 650, 120, 40, {"anim": "pulse"}], ["table", 330, 330, 260], ["p", "man", 250, 330, 1.1, "sit"], ["e", "📜", 360, 255, 50], ["e", "🖋️", 400, 250, 40, {"anim": "wiggle"}], ["e", "🕯️", 450, 260, 40, {"anim": "flicker"}]],
+   "fx": {"pictures": [["e", "💭", 160, 120, 80, {"anim": "pop"}], ["e", "🏛️", 130, 115, 30, {"anim": "float"}], ["e", "🐘", 175, 110, 28, {"anim": "float", "delay": 0.4}]],
+          "girl": [["p", "girl", 680, 330, 0.8, "wave", true, {"anim": "slidein"}], ["e", "💌", 600, 230, 44, {"anim": "fly"}]]}},
+   "sents": [
+    ["N", "ഓമനേ, നിനക്കു ഞാൻ എന്തെഴുതട്ടെ!", "My dear, what shall I write to you!", "girl"],
+    ["N", "ഞാൻ എവിടെനിന്നു തുടങ്ങട്ടെ!", "Where shall I begin!"],
+    ["N", "ഭൂതകാലത്തെപ്പറ്റി ഓർക്കുമ്പോൾ അനവധി ചിത്രങ്ങൾ എന്റെ മനസ്സിലൂടെ കുതിച്ചുപായുന്നു.", "When I think about the past, many pictures race through my mind.", "pictures"],
+    ["N", "എനിക്ക് ഏറ്റവും പ്രിയപ്പെട്ടവയാണ് അവയിൽ ചിലത്.", "Some of them are my very favourites."],
+    ["N", "ഉടൻ ഞാൻ അവയെക്കുറിച്ച് മനോരാജ്യംകൊള്ളുകയായി.", "At once I start daydreaming about them."],
+    ["N", "മിക്കവാറും അറിയാതെതന്നെ.", "Almost without noticing it."],
+    ["N", "കഴിഞ്ഞുപോയ സംഭവങ്ങളെ ഇന്ന് നടക്കുന്നവയുമായി താരതമ്യപ്പെടുത്തി അതിൽനിന്ന് നിനക്കു മാർഗനിർദേശം നൽകാൻ കഴിയുന്ന ചില പാഠങ്ങൾ കുറിക്കട്ടെ.", "Let me compare things that happened long ago with what is happening today, and write down some lessons that can guide you."]
+   ]},
+  {"id": "mind", "title": "The curious mind", "ml": "ജിജ്ഞാസയുള്ള മനസ്സ്", "book": "img/book/p057_2.jpg", "art": {
+   "bg": "day", "ground": "grass",
+   "items": [["sun", 700, 80], ["tree", 400, 330, 1.3, {"anim": "sway"}], ["e", "🐘", 120, 330, 70], ["e", "🦒", 680, 330, 80, {"anim": "bob"}], ["e", "🐒", 450, 200, 40, {"anim": "hop"}], ["birds"]],
+   "fx": {"human": [["p", "boy", 260, 335, 1.0, "point", false, {"anim": "slidein"}], ["e", "❓", 300, 180, 50, {"anim": "pop"}]],
+          "brain": [["e", "🧠", 260, 150, 60, {"anim": "pulse"}], ["e", "🔍", 330, 260, 44, {"anim": "wiggle"}]]}},
+   "sents": [
+    ["N", "മനുഷ്യർ എത്രയോ മുമ്പു ജീവിച്ചിരുന്ന എല്ലാത്തരം തിര്യക്കുകളെക്കാൾ കൗതുകകരമായൊരു ജീവിയാണ്.", "Humans are a more interesting creature than all the kinds of animals that lived long, long before them.", "human"],
+    ["N", "കാരണം, മറ്റൊരു ജീവിക്കുമില്ലാത്ത ഒരു വിശേഷവസ്തുവുംകൊണ്ടാണ് അവൻ വന്നത്.", "Because humans came with a special thing that no other creature has."],
+    ["N", "മനസ്സ് - ജിജ്ഞാസ - അന്വേഷിക്കുവാനും മനസ്സിലാക്കുവാനുമുള്ള ആഗ്രഹമാണ് അത്.", "That is the mind — curiosity — the wish to search and to understand.", "brain"],
+    ["N", "അങ്ങനെ ആദികാലംമുതൽക്കുതന്നെ മനുഷ്യരുടെ അന്വേഷണം ആരംഭിച്ചു.", "So, from the very earliest times, humans began searching for answers."]
+   ]},
+  {"id": "baby", "title": "A baby and a little girl", "ml": "ശിശുവും ചെറിയ പെൺകുട്ടിയും", "art": {
+   "bg": "indoor", "ground": "floor",
+   "items": [["e", "👶", 220, 320, 90, {"anim": "bob"}], ["e", "🧸", 120, 330, 50], ["e", "🌼", 320, 330, 40, {"anim": "sway"}], ["p", "woman", 90, 330, 1.0, "stand"]],
+   "fx": {"see": [["e", "👀", 220, 190, 50, {"anim": "pulse"}]],
+          "girl": [["p", "girl", 560, 330, 1.0, "point", false, {"anim": "hop"}], ["e", "❓", 520, 170, 44, {"anim": "pop"}], ["e", "❓", 600, 140, 54, {"anim": "pop", "delay": 0.3}], ["e", "❓", 680, 180, 40, {"anim": "pop", "delay": 0.6}]]}},
+   "sents": [
+    ["N", "ഒരു ശിശുവിനെ സൂക്ഷിച്ചുനോക്കൂ.", "Watch a baby carefully."],
+    ["N", "അതെങ്ങനെ തന്റെ ചുറ്റുപാടുമുള്ള നൂതനവും ആശ്ചര്യകരവുമായ ലോകത്തെ മിഴിച്ചുനോക്കുന്നു?", "See how it stares, wide-eyed, at the new and amazing world around it?", "see"],
+    ["N", "എങ്ങനെ ആളുകളെയും പദാർഥങ്ങളെയും തിരിച്ചറിയാൻ തുടങ്ങുന്നു?", "How it begins to recognise people and things?"],
+    ["N", "എങ്ങനെ ഓരോന്ന് മനസ്സിലാക്കുന്നു?", "How it understands each thing?"],
+    ["N", "ഒരു ചെറിയ പെൺകുട്ടിയെ എടുക്കൂ.", "Take a little girl.", "girl"],
+    ["N", "ആരോഗ്യവും പ്രസരിപ്പുമുള്ള ഒരു കുട്ടിയാണ് അവളെങ്കിൽ എന്തെല്ലാം കാര്യങ്ങളെക്കുറിച്ച് എന്തൊക്കെ ചോദ്യങ്ങൾ അവൾ ചോദിക്കും!", "If she is a healthy, lively child, she will ask so many questions about so many things!"]
+   ]},
+  {"id": "early", "title": "The first humans wonder", "ml": "ആദ്യകാല മനുഷ്യർ", "art": {
+   "bg": "dusk", "ground": "dry",
+   "items": [["moon", 680, 80], ["tree", 100, 330, 1.1], ["bush", 700, 330, 1.0], ["e", "🪨", 560, 330, 70], ["p", "man", 330, 330, 1.0, "point", false, {"anim": "bob"}], ["e", "🌋", 160, 220, 60]],
+   "fx": {"scary": [["e", "⚡", 450, 120, 60, {"anim": "flicker"}], ["e", "🐺", 640, 330, 60, {"anim": "shake"}]],
+          "ask": [["e", "❓", 330, 170, 50, {"anim": "pop"}], ["e", "❓", 390, 140, 40, {"anim": "pop", "delay": 0.4}]],
+          "mind": [["glow", 330, 200, 60], ["e", "🧠", 330, 190, 50, {"anim": "pulse"}]],
+          "learn": [["fire", 450, 330, 0.8, {"anim": "flicker"}], ["e", "🪓", 260, 320, 40, {"anim": "wiggle"}]]}},
+   "sents": [
+    ["N", "ഇതേവിധംതന്നെ ചുറ്റുമുള്ള ലോകം നൂതനവും ആശ്ചര്യകരവും ഒട്ടേറെ ഭയജനകവും ആയിരുന്ന ആ ചരിത്രാരംഭത്തിൽ ശിശുപ്രായരായ മനുഷ്യർ അദ്ഭുതത്തോടെ ചുറ്റുപാടും മിഴിച്ചുനോക്കിട്ടുണ്ടാവാം;", "In the same way, at the start of history, when the world was new, amazing and very scary, the first humans — still like children — must have stared around in wonder;", "scary"],
+    ["N", "പല ചോദ്യങ്ങൾ ചോദിച്ചിട്ടുണ്ടാവും.", "they must have asked many questions.", "ask"],
+    ["N", "എന്നാൽ അവൻ തന്നോടല്ലാതെ ആരോടു ചോദിക്കാനാണ്?", "But whom could he ask, except himself?"],
+    ["N", "വേറെ ആരുണ്ട് അന്നു മറുപടി പറയാൻ?", "Who else was there in those days to answer?"],
+    ["N", "എങ്കിലും അവന്റെ പക്കൽ വിസ്മയാവഹമായ ഒരു വസ്തു ഉണ്ടായിരുന്നു - മനസ്സ്.", "Still, he had one wonderful thing — the mind.", "mind"],
+    ["N", "ഇതിന്റെ സഹായത്തോടുകൂടി സാവധാനത്തിലും പണിപ്പെട്ടും അവൻ അനുഭവങ്ങൾ ശേഖരിച്ചുതുടങ്ങുകയും അവയിൽനിന്ന് പലതും പഠിക്കുകയുംചെയ്തു.", "With its help, slowly and with hard work, he began to collect experiences and learned many things from them.", "learn"],
+    ["N", "അങ്ങനെ ആദ്യകാലംമുതൽക്ക് ഇന്നോളം മനുഷ്യരുടെ അന്വേഷണം തുടർന്നുപോയി.", "So, from the earliest times until today, the human search has gone on."],
+    ["N", "പലതും അവർ ഇതിനിടയ്ക്കു കണ്ടുപിടിച്ചു.", "Along the way, they discovered many things."]
+   ]},
+  {"id": "inventions", "title": "A parade of inventions", "ml": "കണ്ടുപിടുത്തങ്ങളുടെ ഘോഷയാത്ര", "book": "img/book/p058_1.jpg", "art": {
+   "bg": "day", "ground": "road",
+   "items": [["sun", 90, 80], ["cloud", 300, 80, 1.0, {"anim": "float"}], ["building", 620, 330, 120, 150], ["e", "⚙️", 200, 200, 50, {"anim": "spin"}], ["e", "💡", 330, 180, 50, {"anim": "pulse"}]],
+   "fx": {"telegraph": [["e", "📠", 120, 320, 50, {"anim": "pop"}], ["text", "കമ്പി", 120, 250, 22, "#333"]],
+          "phone": [["e", "☎️", 250, 320, 50, {"anim": "shake"}]],
+          "car": [["car", 420, 360, 0.9, {"anim": "drive"}]],
+          "plane": [["plane", 560, 130, 0.9, {"anim": "fly"}]],
+          "people": [["p", "woman", 720, 330, 0.9, "wave", true, {"anim": "hop"}]]}},
+   "sents": [
+    ["N", "പത്തൊമ്പതാംനൂറ്റാണ്ട് പുരോഗമിച്ചതോടെ മാറ്റത്തിന്റെ ഗതിക്കു വേഗത കൂടി.", "As the 19th century (the 1800s) went on, things began to change faster."],
+    ["N", "ശാസ്ത്രം ഒന്നിനൊന്നു പുറകേ പല അദ്ഭുതങ്ങളും സാധിച്ചു.", "Science did many wonders, one after another."],
+    ["N", "കണ്ടുപിടുത്തത്തിന്റെയും നിർമ്മാണത്തിന്റെയും ഈ നിരവസാനമായ ഘോഷയാത്ര ആളുകളുടെ കണ്ണഞ്ചിപ്പിച്ചു.", "This never-ending parade of inventions and new things dazzled people's eyes."],
+    ["N", "ഈ കണ്ടുപിടുത്തങ്ങളിൽ പലതും ജനങ്ങളുടെ ജീവിതത്തിൽ വമ്പിച്ച മാറ്റങ്ങൾ വരുത്തി.", "Many of these inventions made huge changes in people's lives.", "people"],
+    ["N", "കമ്പി, ദൂരശ്രവണയന്ത്രം, മോട്ടോർ വാഹനം, അവസാനമായി വിമാനം എന്നിവ വഴിക്കുവഴിയേ പ്രത്യക്ഷപ്പെട്ടു.", "The telegraph, the telephone, the motor car, and last of all the aeroplane appeared one after another.", "plane"]
+   ]},
+  {"id": "measure", "title": "From stars to atoms", "ml": "നക്ഷത്രംമുതൽ പരമാണുവരെ", "art": {
+   "bg": "night", "ground": "city",
+   "items": [["stars"], ["moon", 680, 70], ["e", "🔭", 180, 300, 80, {"anim": "wiggle"}], ["e", "🪐", 420, 100, 50, {"anim": "spin"}], ["e", "⚛️", 600, 250, 60, {"anim": "spin"}], ["e", "🔬", 690, 310, 60]],
+   "fx": {"easy": [["house", 340, 330, 0.8], ["e", "🛋️", 420, 330, 40], ["e", "😊", 340, 200, 40, {"anim": "pop"}]],
+          "people": [["p", "man", 480, 335, 0.7, "stand"], ["p", "woman", 520, 335, 0.7, "stand"], ["p", "boy", 560, 335, 0.6, "wave"], ["p", "girl", 600, 335, 0.6, "wave", true]],
+          "weapon": [["e", "💣", 260, 200, 50, {"anim": "shake"}], ["e", "💥", 300, 160, 50, {"anim": "pop"}]],
+          "notfault": [["text", "ശാസ്ത്രത്തിന്റെ തെറ്റല്ല", 400, 420, 24, "#ffd84d"]]}},
+   "sents": [
+    ["N", "അങ്ങേയറ്റത്ത് ഏറ്റവും വിദൂരവർത്തിയായ ജ്യോതിർഗോളങ്ങളെയും ഇങ്ങേയറ്റത്ത് അദൃശ്യമായ പരമാണുവിനെയും അതിന്റെ അവാന്തരഘടകങ്ങളെപ്പോലും അളന്നു തിട്ടപ്പെടുത്താൻ ശാസ്ത്രം സാഹസപ്പെട്ടു.", "Science dared to measure everything — at one end the farthest stars, at the other end the invisible atom and even the tiny parts inside it."],
+    ["N", "അത് മനുഷ്യരുടെ ക്ലേശങ്ങളെ ലഘൂകരിച്ചു.", "It made people's hardships lighter.", "easy"],
+    ["N", "അനേകലക്ഷം ആളുകൾക്ക് ജീവിതം കൂടുതൽ ശ്രമരഹിതവും സുഖകരവുമായിത്തീർന്നു.", "For many lakhs (hundreds of thousands) of people, life became easier and more comfortable."],
+    ["N", "ലോകത്തിന്റെ ജനസംഖ്യ ഗണ്യമായി വർധിക്കാൻ തുടങ്ങി; വ്യവസായ പ്രധാനമായ രാജ്യങ്ങളിൽ വിശേഷിച്ചും.", "The number of people in the world began to grow a lot — especially in countries with many factories.", "people"],
+    ["N", "അതോടൊപ്പംതന്നെ ശാസ്ത്രം നശീകരണത്തിനുള്ള ഏറ്റവും സമർഥമായ സാമഗ്രികളും സൃഷ്ടിച്ചുവച്ചു.", "At the same time, science also made the cleverest tools for destroying things (like weapons).", "weapon"],
+    ["N", "എന്നാൽ ഇത് ശാസ്ത്രത്തിന്റെ തെറ്റായിരുന്നില്ല.", "But this was not science's fault.", "notfault"]
+   ]},
+  {"id": "control", "title": "Power over nature", "ml": "പ്രകൃതിയുടെമേൽ ആജ്ഞാശക്തി", "art": {
+   "bg": "day", "ground": "river",
+   "items": [["sun", 700, 70], ["cloud", 200, 90, 1.1, {"anim": "float"}], ["e", "🌊", 140, 330, 60, {"anim": "bob"}], ["e", "⛰️", 620, 300, 100], ["p", "man", 380, 330, 1.1, "point", false]],
+   "fx": {"power": [["e", "⚡", 280, 160, 60, {"anim": "flicker"}], ["e", "🏗️", 520, 300, 70, {"anim": "pop"}]],
+          "wrong": [["e", "😠", 380, 150, 50, {"anim": "shake"}], ["e", "🎁", 470, 300, 40, {"anim": "fall"}]],
+          "march": [["e", "🚩", 250, 300, 60, {"anim": "sway"}], ["e", "🚀", 600, 140, 60, {"anim": "rise"}]]}},
+   "sents": [
+    ["N", "പ്രകൃതിയുടെ മേലുള്ള മനുഷ്യന്റെ ആജ്ഞാശക്തിയെ വർധിപ്പിക്കുകയായിരുന്നു ശാസ്ത്രത്തിന്റെ ജോലി.", "Science's job was to increase people's power to control nature.", "power"],
+    ["N", "ആ ജോലി അത് മുറ്റു നിർവഹിച്ചു.", "It did that job completely."],
+    ["N", "എന്നാൽ, പ്രകൃതിയുടെമേൽ ഇത്രയും ആജ്ഞാശക്തി നേടിയ മനുഷ്യനാകട്ടെ, തന്നത്താൻ ആജ്ഞാപിക്കേണ്ടതെങ്ങനെയെന്ന് അറിഞ്ഞുകൂടായിരുന്നതാനും.", "But humans, who got so much power over nature, did not know how to control themselves."],
+    ["N", "അതിനാൽ അയാൾ പലപ്പോഴും പിഴച്ചു പെരുമാറുകയും ശാസ്ത്രത്തിന്റെ സമ്മാനങ്ങളെ ദുരുപയോഗപ്പെടുത്തുകയുംചെയ്തു.", "So people often behaved wrongly and misused the gifts of science.", "wrong"],
+    ["N", "എന്നിട്ടും ശാസ്ത്രം അതിന്റെ മുന്നോട്ടുള്ള ജൈത്രയാത്ര മുറ്റുതുടർന്നു.", "Even so, science kept going on its winning march forward.", "march"],
+    ["N", "വെറും ഒരു നൂറ്റമ്പതു വർഷത്തിനിടയ്ക്ക് അത് അതിനുമുമ്പുണ്ടായ എല്ലാ സഹസ്രാബ്ദങ്ങൾക്കുംകൂടി ഒട്ടാകെ സാധിച്ചതിലേറെ ലോകത്തെ ആകെ മാറ്റിമറിക്കുകയുംചെയ്തു.", "In just 150 years, it changed the world more than all the thousands of years before it put together."],
+    ["N", "ഏതു വഴിക്കു നോക്കിയാലും, ജീവിതത്തിന്റെ ഏതു തുറയെടുത്താലും ശാസ്ത്രം ലോകത്തിൽ വിപ്ലവകരമായ മാറ്റങ്ങൾ വരുത്തിയിട്ടുള്ളതായി കാണാം.", "Wherever you look, whatever part of life you take, you can see that science has made huge, revolutionary changes in the world."]
+   ]},
+  {"id": "norest", "title": "Science never rests", "ml": "ശാസ്ത്രത്തിനു വിശ്രമമില്ല", "art": {
+   "bg": "day", "ground": "field",
+   "items": [["sun", 90, 70], ["cloud", 500, 80, 1.2, {"anim": "float"}], ["fence", 0, 800, 345], ["e", "⏩", 400, 150, 60, {"anim": "pulse"}]],
+   "fx": {"rail": [["e", "🚂", 200, 330, 80, {"anim": "drive"}], ["e", "🛤️", 330, 345, 60]],
+          "old": [["e", "🕸️", 170, 260, 40, {"anim": "pop"}], ["text", "പഴഞ്ചൻ!", 200, 210, 28, "#a33"]],
+          "machine": [["e", "⚙️", 560, 300, 70, {"anim": "spin"}], ["p", "man", 650, 335, 0.9, "point", true]],
+          "newer": [["e", "🤖", 470, 320, 70, {"anim": "slidein"}], ["e", "✨", 470, 230, 40, {"anim": "pop"}]]}},
+   "sents": [
+    ["N", "ശാസ്ത്രത്തിന്റെ ഈ മുന്നേറ്റം ഇന്നും തുടർന്നുവരികയാണ്.", "This march of science is still going on today."],
+    ["N", "അത് അധികമധികം വേഗത്തിൽ മുമ്പോട്ടു കുതിച്ചുകൊണ്ടിരിക്കുന്നു.", "It keeps rushing forward, faster and faster."],
+    ["N", "അതിനു വിശ്രമമില്ല.", "It never rests."],
+    ["N", "ഒരു തീവണ്ടിപ്പാത നിർമ്മിക്കുന്നു.", "A railway line is built.", "rail"],
+    ["N", "മുഴുമിച്ച് പ്രവർത്തിക്കാറാവുമ്പോഴേക്കുതന്നെ അത് പഴഞ്ചനായിക്കഴിഞ്ഞു!", "By the time it is finished and ready to run, it is already old-fashioned!", "old"],
+    ["N", "നാം ഒരു യന്ത്രം വാങ്ങി സ്ഥാപിക്കുന്നു.", "We buy a machine and set it up.", "machine"],
+    ["N", "ഒന്നോ രണ്ടോ കൊല്ലം കഴിയുമ്പോഴേക്ക് അതേ തരത്തിലുള്ള കൂടുതൽ നൂതനവും പ്രവർത്തനക്ഷമവുമായ യന്ത്രങ്ങൾ വരികയായി.", "In just a year or two, newer and better machines of the same kind come along.", "newer"],
+    ["N", "അങ്ങനെ പോകുന്നു പുരോഗതിയുടെ ഈ തുടർച്ച.", "And so this chain of progress goes on and on."]
+   ]}
+ ],
+ "words": [
+  {"id": "ezhuthu", "ml": "എഴുതട്ടെ", "rom": "ezhuthatte", "en": "shall I write", "emoji": "✍️", "set": "A"},
+  {"id": "manass", "ml": "മനസ്സ്", "rom": "manassu", "en": "mind", "emoji": "🧠", "set": "A"},
+  {"id": "jijnasa", "ml": "ജിജ്ഞാസ", "rom": "jijnaasa", "en": "curiosity", "emoji": "🔍", "set": "A"},
+  {"id": "sisu", "ml": "ശിശു", "rom": "shishu", "en": "baby", "emoji": "👶", "set": "A"},
+  {"id": "penkutti", "ml": "പെൺകുട്ടി", "rom": "penkutti", "en": "girl", "emoji": "👧", "set": "A"},
+  {"id": "chodyam", "ml": "ചോദ്യം", "rom": "chodyam", "en": "question", "emoji": "❓", "set": "A"},
+  {"id": "lokam", "ml": "ലോകം", "rom": "lokam", "en": "world", "emoji": "🌍", "set": "A"},
+  {"id": "sasthram", "ml": "ശാസ്ത്രം", "rom": "shaasthram", "en": "science", "emoji": "🔬", "set": "B"},
+  {"id": "vimanam", "ml": "വിമാനം", "rom": "vimaanam", "en": "aeroplane", "emoji": "✈️", "set": "B"},
+  {"id": "prakruthi", "ml": "പ്രകൃതി", "rom": "prakruthi", "en": "nature", "emoji": "🌳", "set": "B"},
+  {"id": "yanthram", "ml": "യന്ത്രം", "rom": "yanthram", "en": "machine", "emoji": "⚙️", "set": "B"},
+  {"id": "theevandi", "ml": "തീവണ്ടി", "rom": "theevandi", "en": "train", "emoji": "🚂", "set": "B"},
+  {"id": "maattam", "ml": "മാറ്റം", "rom": "maattam", "en": "change", "emoji": "🔄", "set": "B"},
+  {"id": "vishramam", "ml": "വിശ്രമം", "rom": "vishramam", "en": "rest", "emoji": "😴", "set": "B"}
+ ],
+ "quiz": [
+  {"q": "ഈ കത്ത് നെഹ്റു ആർക്കാണ് എഴുതിയത്?", "qe": "Who did Nehru write this letter to?", "o": ["മകൾ ഇന്ദിരയ്ക്ക്", "ഗാന്ധിജിക്ക്", "ഒരു അധ്യാപകന്", "ഒരു സുഹൃത്തിന്"], "oe": ["His daughter Indira", "Gandhiji", "A teacher", "A friend"], "a": 0, "sec": "A"},
+  {"q": "മറ്റു ജീവികൾക്കില്ലാത്ത എന്തു വിശേഷവസ്തുവാണ് മനുഷ്യനുള്ളത്?", "qe": "What special thing do humans have that other creatures don't?", "o": ["വലിയ പല്ലുകൾ", "ചിറകുകൾ", "മനസ്സ് - ജിജ്ഞാസ", "നീണ്ട വാൽ"], "oe": ["Big teeth", "Wings", "A mind — curiosity", "A long tail"], "a": 2, "sec": "A"},
+  {"q": "ആരോഗ്യമുള്ള ചെറിയ പെൺകുട്ടി എന്തു ചെയ്യും?", "qe": "What will a healthy little girl do?", "o": ["ഉറങ്ങും", "ഒരുപാട് ചോദ്യങ്ങൾ ചോദിക്കും", "കരയും", "ഓടിപ്പോകും"], "oe": ["Sleep", "Ask lots of questions", "Cry", "Run away"], "a": 1, "sec": "A"},
+  {"q": "ആദ്യകാല മനുഷ്യർക്ക് ചോദ്യങ്ങൾക്ക് ഉത്തരം പറയാൻ ആരുണ്ടായിരുന്നു?", "qe": "Who was there to answer the first humans' questions?", "o": ["അധ്യാപകർ", "പുസ്തകങ്ങൾ", "മുത്തശ്ശി", "ആരുമില്ല - സ്വന്തം മനസ്സ് മാത്രം"], "oe": ["Teachers", "Books", "Grandma", "Nobody — only their own mind"], "a": 3, "sec": "A"},
+  {"q": "ഏതു നൂറ്റാണ്ടിലാണ് മാറ്റത്തിന് വേഗത കൂടിയത്?", "qe": "In which century did change speed up?", "o": ["പത്താം നൂറ്റാണ്ട്", "പത്തൊമ്പതാം നൂറ്റാണ്ട്", "ഒന്നാം നൂറ്റാണ്ട്", "പതിനഞ്ചാം നൂറ്റാണ്ട്"], "oe": ["10th century", "19th century", "1st century", "15th century"], "a": 1, "sec": "B"},
+  {"q": "കണ്ടുപിടുത്തങ്ങളിൽ അവസാനമായി വന്നത് ഏതാണ്?", "qe": "Which invention came last in Nehru's list?", "o": ["കമ്പി", "മോട്ടോർ വാഹനം", "വിമാനം", "ദൂരശ്രവണയന്ത്രം"], "oe": ["Telegraph", "Motor car", "Aeroplane", "Telephone"], "a": 2, "sec": "B"},
+  {"q": "ശാസ്ത്രത്തിന്റെ സമ്മാനങ്ങൾ ദുരുപയോഗം ചെയ്തത് എന്തുകൊണ്ട്?", "qe": "Why were science's gifts misused?", "o": ["ശാസ്ത്രം മോശമായതുകൊണ്ട്", "മനുഷ്യന് തന്നത്താൻ നിയന്ത്രിക്കാൻ അറിയാത്തതുകൊണ്ട്", "യന്ത്രങ്ങൾ പഴയതായതുകൊണ്ട്", "മഴ പെയ്തതുകൊണ്ട്"], "oe": ["Because science is bad", "Because people didn't know how to control themselves", "Because machines got old", "Because it rained"], "a": 1, "sec": "B"},
+  {"q": "എത്ര വർഷംകൊണ്ടാണ് ശാസ്ത്രം ലോകത്തെ ആകെ മാറ്റിമറിച്ചത്?", "qe": "In how many years did science change the whole world?", "o": ["പത്ത്", "ആയിരം", "നൂറ്റമ്പത്", "അമ്പത്"], "oe": ["10", "1000", "150", "50"], "a": 2, "sec": "B"},
+  {"q": "പുതിയ തീവണ്ടിപ്പാത പൂർത്തിയാകുമ്പോഴേക്കും എന്തു സംഭവിക്കും?", "qe": "What happens by the time a new railway line is finished?", "o": ["അത് പഴഞ്ചനാകും", "അത് പൊട്ടിപ്പോകും", "അത് സ്വർണമാകും", "ആരും ഉപയോഗിക്കില്ല"], "oe": ["It is already old-fashioned", "It breaks", "It turns to gold", "Nobody uses it"], "a": 0, "sec": "B"}
+ ],
+ "build": [
+  {"ch": ["ഒരു", "ശിശുവിനെ", "സൂക്ഷിച്ചുനോക്കൂ"], "en": "Watch a baby carefully.", "rom": "Oru shishuvine sookshichunokkoo"},
+  {"ch": ["പലതും", "അവർ", "ഇതിനിടയ്ക്കു", "കണ്ടുപിടിച്ചു"], "en": "Along the way they discovered many things.", "rom": "Palathum avar ithinidaykku kandupidichu"},
+  {"ch": ["എന്നാൽ", "ഇത്", "ശാസ്ത്രത്തിന്റെ", "തെറ്റായിരുന്നില്ല"], "en": "But this was not science's fault.", "rom": "Ennaal ithu shaasthrathinte thettaayirunnilla"},
+  {"ch": ["നാം", "ഒരു", "യന്ത്രം", "വാങ്ങി", "സ്ഥാപിക്കുന്നു"], "en": "We buy a machine and set it up.", "rom": "Naam oru yanthram vaangi sthaapikkunnu"},
+  {"ch": ["അതിനു", "വിശ്രമമില്ല"], "en": "It never rests.", "rom": "Athinu vishramamilla"}
+ ],
+ "retell": [
+  "Who wrote the letter, and to whom (Nehru to his 10-year-old daughter Indira, from jail)",
+  "What makes humans special: a curious mind that wants to search and understand",
+  "The baby staring and the little girl asking lots of questions — early humans were like that too",
+  "Inventions of the 1800s: telegraph, telephone, motor car, aeroplane",
+  "Science made life easier but was also used for weapons — not science's fault; people must control themselves",
+  "Science never rests: new machines get old in a year or two"
+ ],
+ "write": {"title": "✍️ My question box", "prompt": "നിനക്ക് അറിയാൻ ആഗ്രഹമുള്ള ഒരു ചോദ്യം എഴുതൂ. ഏതു കണ്ടുപിടുത്തമാണ് നിനക്ക് ഏറ്റവും ഇഷ്ടം?", "en": "Like the curious little girl, write one question you really want answered. Then name your favourite invention and why (Malayalam, English or mixed).", "starters": ["എനിക്ക് അറിയണം...", "എന്റെ ഇഷ്ട കണ്ടുപിടുത്തം..."], "min": 40},
+ "plan": [
+  {"title": "Meet Nehru's letter", "ml": "കത്ത് പരിചയപ്പെടാം", "icon": "✉️", "mode": "game", "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 1]}, {"t": "cards", "set": "A"}]},
+  {"title": "Curious babies and first humans", "ml": "ജിജ്ഞാസ", "icon": "❓", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [2, 3]}, {"t": "match", "set": "A"}]},
+  {"title": "Check part one", "ml": "ഒന്നാം ഭാഗം", "icon": "🧠", "mode": "classic", "steps": [{"t": "story", "scenes": [0, 3]}, {"t": "quiz", "sec": "A"}, {"t": "memory", "set": "A"}]},
+  {"title": "The parade of inventions", "ml": "കണ്ടുപിടുത്തങ്ങൾ", "icon": "✈️", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [4, 5]}, {"t": "cards", "set": "B"}]},
+  {"title": "Science never rests", "ml": "ശാസ്ത്രത്തിനു വിശ്രമമില്ല", "icon": "🚂", "mode": "game", "steps": [{"t": "story", "scenes": [6, 7]}, {"t": "match", "set": "B"}, {"t": "quiz", "sec": "B"}]},
+  {"title": "Build, write and tell", "ml": "എഴുതാം, പറയാം", "icon": "✍️", "mode": "classic", "steps": [{"t": "warmup", "sets": ["A", "B"]}, {"t": "builder"}, {"t": "write"}, {"t": "retell"}]},
+  {"title": "Final challenge", "ml": "അവസാന പരീക്ഷ", "icon": "🏆", "mode": "game", "steps": [{"t": "story"}, {"t": "final"}]}
+ ]
+}

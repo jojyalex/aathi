@@ -1,0 +1,125 @@
+{
+ "id": "u4-l3-panthangal",
+ "unit": 4, "unitMl": "അറിഞ്ഞു വിടരാം", "unitEn": "Know, and bloom (discovery and science)",
+ "order": 3,
+ "title": "പന്തങ്ങൾ", "titleEn": "Torches",
+ "pages": "67–69", "kind": "poem",
+ "author": "Vyloppilli Sreedhara Menon",
+ "level": "medium",
+ "icon": "🔥",
+ "summaryEn": "<p>This poem by <b>Vyloppilli Sreedhara Menon</b> calls out to young people: <b>come and carry these torches!</b> The torches have been carried by many, many generations before.</p><p>Long ago, in the middle of the forest, our ancestors' thoughts \"rubbed together\" (like stones making sparks), and a <b>flame</b> was born. The darkness got scared, and people saw a promise of a better world in the fire's smile.</p><p>Crowds of young people carried thousands of torches down the long road of time. With fire they cleared land for golden crops, melted iron to make tools, lit the lamps of knowledge, and warmed up the arts. The torches lifted the human spirit and made beautiful <b>new dawns</b> in the darkness. Big idea: fire stands for knowledge, and now it is your turn to carry it.</p>",
+ "speakers": {
+  "N": {"name": "Poem reader", "ml": "കവിത ചൊല്ലുന്നയാൾ", "emoji": "📜", "voice": "ml-IN-MidhunNeural", "rate": "-15%", "pitch": "+0Hz"}
+ },
+ "scenes": [
+  {"id": "call", "title": "Come, carry the torches!", "ml": "പന്തങ്ങൾ ഏന്തുക", "book": "img/book/p067_page.jpg", "art": {
+   "bg": "dusk", "ground": "grass",
+   "items": [["moon", 680, 70], ["tree", 90, 330, 1.0], ["p", "oldman", 230, 330, 1.0, "stand"], ["torch", 270, 290, 1.0, {"anim": "flicker"}]],
+   "fx": {"hands": [["p", "boy", 420, 330, 0.9, "wave", false, {"anim": "hop"}], ["p", "girl", 520, 330, 0.9, "wave", true, {"anim": "hop", "delay": 0.3}], ["torch", 470, 290, 0.9, {"anim": "flicker"}]],
+          "generations": [["p", "man", 620, 330, 0.8, "stand"], ["p", "woman", 700, 330, 0.8, "stand"], ["glow", 470, 250, 80], ["e", "✨", 470, 180, 40, {"anim": "pop"}]]}},
+   "sents": [
+    ["N", "ഒരറിവിൽനിന്ന് പല അനുഭവങ്ങളിലേക്ക്... അനുഭവങ്ങളിൽനിന്ന് പുതിയ അറിവുകളിലേക്ക്... ഇങ്ങനെയാണ് നമ്മുടെ ജീവിതം ഇന്നത്തെ നിലയിലെത്തിയത്.", "From one piece of knowledge to many experiences... from experiences to new knowledge... that is how our life got to where it is today."],
+    ["N", "ചോരതുടിക്കും ചെറുകൈയുകളേ, പേറുക വന്നീപ്പന്തങ്ങൾ.", "O little hands, full of young, warm blood — come and carry these torches!", "hands"],
+    ["N", "ഏറിയ തലമുറയേന്തിയ പാരിൻ വാരൊളിമംഗളകന്ദങ്ങൾ!", "Many generations have carried them — the world's bright, blessed sources of light! (meaning not fully clear)", "generations"]
+   ]},
+  {"id": "firstflame", "title": "The first flame", "ml": "ആദ്യത്തെ തീനാളം", "art": {
+   "bg": "night", "ground": "soil",
+   "items": [["stars"], ["tree", 100, 330, 1.2, {"anim": "sway"}], ["tree", 700, 330, 1.2, {"anim": "sway", "delay": 0.5}], ["bush", 400, 335, 1.0], ["p", "man", 300, 330, 1.0, "sit"], ["p", "woman", 500, 330, 1.0, "sit", true]],
+   "fx": {"rub": [["e", "🪨", 380, 300, 34, {"anim": "shake"}], ["e", "🪨", 420, 300, 34, {"anim": "shake", "delay": 0.2}], ["e", "💭", 400, 200, 50, {"anim": "pop"}]],
+          "flame": [["fire", 400, 330, 1.2, {"anim": "flicker"}], ["glow", 400, 280, 90], ["e", "🗡️", 400, 170, 44, {"anim": "pulse"}]]}},
+   "sents": [
+    ["N", "പണ്ടു പിതാമഹർ കാട്ടിൻ നടുവിൽച്ചിന്തകളുരസിടുമക്കാലം", "Long ago, in the middle of the forest, when our ancestors' thoughts rubbed together (like stones rubbed to make a spark),", "rub"],
+    ["N", "വന്നു പിറന്നിതു ചെന്നിണമോലും വാളു കണക്കൊരു തീനാളം.", "a flame was born — like a sword dripping red blood.", "flame"]
+   ]},
+  {"id": "darkness", "title": "The darkness is scared", "ml": "ഇരുട്ട് പേടിക്കുന്നു", "art": {
+   "bg": "night", "ground": "soil",
+   "items": [["tree", 120, 330, 1.1], ["tree", 680, 330, 1.1], ["fire", 400, 330, 1.2, {"anim": "flicker"}], ["glow", 400, 270, 110, {"anim": "pulse"}]],
+   "fx": {"scared": [["e", "🌑", 120, 120, 50, {"anim": "slideout"}], ["e", "🌑", 680, 120, 50, {"anim": "slideout", "delay": 0.3}], ["e", "😨", 250, 200, 40, {"anim": "shake"}]],
+          "smile": [["e", "😊", 400, 180, 50, {"anim": "pop"}], ["p", "man", 280, 330, 0.9, "point"], ["p", "woman", 520, 330, 0.9, "stand", true], ["e", "🌈", 400, 90, 60, {"anim": "grow"}]]}},
+   "sents": [
+    ["N", "സഞ്ചിതമാകുമിരുട്ടുകളെല്ലാം സംഭ്രമമാർന്നോരന്നേരം", "At that moment, when all the piled-up darkness got frightened and confused,", "scared"],
+    ["N", "മാനവർകണ്ടാ,രഗ്നിസ്മിതമതിൽ മന്നിലെ വിണ്ണിൻ വാഗ്ദാനം.", "people saw, in the smile of the fire, a promise of heaven here on earth.", "smile"]
+   ]},
+  {"id": "parade", "title": "Youth on the road of time", "ml": "കാലപ്പെരുവഴിയിലൂടെ", "art": {
+   "bg": "dusk", "ground": "road",
+   "items": [["moon", 700, 70], ["torch", 120, 300, 0.9, {"anim": "flicker"}], ["torch", 680, 300, 0.9, {"anim": "flicker", "delay": 0.4}]],
+   "fx": {"thousand": [["glow", 250, 220, 50], ["glow", 400, 200, 50], ["glow", 550, 220, 50], ["e", "🔥", 250, 220, 40, {"anim": "flicker"}], ["e", "🔥", 400, 200, 40, {"anim": "flicker", "delay": 0.2}], ["e", "🔥", 550, 220, 40, {"anim": "flicker", "delay": 0.4}]],
+          "youth": [["p", "boy", 250, 340, 0.9, "run", false, {"anim": "walk"}], ["p", "girl", 330, 340, 0.9, "run", false, {"anim": "walk", "delay": 0.2}], ["p", "boy", 410, 340, 0.9, "run", false, {"anim": "walk", "delay": 0.4}], ["p", "girl", 490, 340, 0.9, "run", false, {"anim": "walk", "delay": 0.6}], ["e", "🎵", 370, 150, 40, {"anim": "float"}]],
+          "road": [["e", "⏳", 640, 200, 44, {"anim": "spin"}], ["e", "✨", 400, 120, 40, {"anim": "pop"}]]}},
+   "sents": [
+    ["N", "ആയിരമായിരമാത്തീ ചുംബിച്ചാളിവിടർന്നൊരു പന്തങ്ങൾ", "Thousands and thousands of torches, kissed by that fire, burst into flame;", "thousand"],
+    ["N", "പാണിയിലേന്തിപ്പാടിപ്പാടിപ്പാരിലെ യുവജനവൃന്ദങ്ങൾ", "holding them in their hands, singing and singing, the crowds of young people of the world", "youth"],
+    ["N", "കാലപ്പെരുവഴിയൂടേ പോന്നിതു കാണെക്കാണെക്കമനീയം.", "came along the great highway of time — more beautiful the more you watch.", "road"]
+   ]},
+  {"id": "work", "title": "Fire at work", "ml": "തീ പണിയെടുക്കുന്നു", "art": {
+   "bg": "day", "ground": "field",
+   "items": [["sun", 700, 70], ["cloud", 300, 80, 1.0, {"anim": "float"}], ["bush", 120, 335, 1.0], ["fire", 160, 330, 1.0, {"anim": "flicker"}]],
+   "fx": {"crops": [["e", "🌾", 330, 330, 60, {"anim": "sway"}], ["e", "🌾", 390, 330, 60, {"anim": "sway", "delay": 0.3}], ["e", "🌾", 450, 330, 60, {"anim": "sway", "delay": 0.6}], ["p", "farmer", 250, 335, 0.9, "stand"]],
+          "iron": [["stove", 600, 330, 0.9], ["e", "🔨", 640, 240, 44, {"anim": "shake"}], ["e", "⛏️", 700, 310, 40, {"anim": "pop"}], ["p", "man", 560, 335, 0.9, "point", false]]}},
+   "sents": [
+    ["N", "കാടും പടലും വെണ്ണീറാക്കിക്കനകക്കതിരിനു വളമേകി,", "They burned forest and bushes to ash and gave that as fertiliser to the golden grain,", "crops"],
+    ["N", "കഠിനമിരിമ്പു കുഴമ്പാക്കിപ്പലകരുനിരവാർത്തു പണിക്കേകി,", "they melted hard iron into a paste and cast many tools for work,", "iron"]
+   ]},
+  {"id": "dawn", "title": "Knowledge, wings and new dawns", "ml": "പുത്തൻ പുലരികൾ", "art": {
+   "bg": "dawn", "ground": "city",
+   "items": [["sun", 400, 300, {"anim": "rise"}], ["school", 150, 330, 0.8], ["building", 640, 330, 110, 130]],
+   "fx": {"knowledge": [["e", "🪔", 300, 320, 44, {"anim": "flicker"}], ["book", 360, 320, 0.8], ["e", "🎨", 460, 300, 40, {"anim": "wiggle"}], ["e", "🎶", 520, 250, 40, {"anim": "float"}]],
+          "wings": [["e", "🕊️", 400, 160, 60, {"anim": "rise"}], ["e", "🪽", 470, 190, 40, {"anim": "flutter"}]],
+          "flag": [["e", "🚩", 560, 190, 60, {"anim": "sway"}], ["torch", 250, 290, 1.0, {"anim": "flicker"}]],
+          "dawns": [["birds"], ["glow", 400, 260, 120], ["text", "പുത്തൻ പുലരി!", 400, 420, 26, "#c0601a"]]}},
+   "sents": [
+    ["N", "അറിവിൻതിരികൾ കൊളുത്തി,ക്കലകൾക്കാവേശത്തിൻ ചൂടേകി,", "they lit the wicks (lamps) of knowledge, and gave the warmth of excitement to the arts,", "knowledge"],
+    ["N", "മാലോടിഴയും മർത്ത്യാത്മാവിനു മേലോട്ടുയരാൻ ചിറകുതകി,", "they gave wings to the human spirit, which was crawling in sorrow, so it could rise up high,", "wings"],
+    ["N", "പാരിൽ മനുഷ്യപുരോഗമനക്കൊടി പാറിച്ചവയീപ്പന്തങ്ങൾ,", "these torches made the flag of human progress fly across the world,", "flag"],
+    ["N", "മെത്തിടുമിരുളിതിലെത്ര ചമച്ചു പുത്തൻ പുലരിച്ചന്തങ്ങൾ!", "and in this thick darkness, how many beautiful new dawns they made!", "dawns"]
+   ]}
+ ],
+ "words": [
+  {"id": "pantham", "ml": "പന്തം", "rom": "pantham", "en": "torch", "emoji": "🔥", "set": "A"},
+  {"id": "kai", "ml": "കൈ", "rom": "kai", "en": "hand", "emoji": "✋", "set": "A"},
+  {"id": "kaad", "ml": "കാട്", "rom": "kaadu", "en": "forest", "emoji": "🌳", "set": "A"},
+  {"id": "chintha", "ml": "ചിന്ത", "rom": "chintha", "en": "thought", "emoji": "💭", "set": "A"},
+  {"id": "theenaalam", "ml": "തീനാളം", "rom": "theenaalam", "en": "flame", "emoji": "🕯️", "set": "A"},
+  {"id": "vaal", "ml": "വാൾ", "rom": "vaal", "en": "sword", "emoji": "🗡️", "set": "A"},
+  {"id": "iruttu", "ml": "ഇരുട്ട്", "rom": "iruttu", "en": "darkness", "emoji": "🌑", "set": "A"},
+  {"id": "aayiram", "ml": "ആയിരം", "rom": "aayiram", "en": "thousand", "emoji": "🔢", "set": "B"},
+  {"id": "kathir", "ml": "കതിര്", "rom": "kathiru", "en": "ear of grain", "emoji": "🌾", "set": "B"},
+  {"id": "irumbu", "ml": "ഇരിമ്പ്", "rom": "irimbu", "en": "iron", "emoji": "🔩", "set": "B"},
+  {"id": "arivu", "ml": "അറിവ്", "rom": "arivu", "en": "knowledge", "emoji": "📚", "set": "B"},
+  {"id": "chirak", "ml": "ചിറക്", "rom": "chiraku", "en": "wing", "emoji": "🪽", "set": "B"},
+  {"id": "kodi", "ml": "കൊടി", "rom": "kodi", "en": "flag", "emoji": "🚩", "set": "B"},
+  {"id": "pulari", "ml": "പുലരി", "rom": "pulari", "en": "dawn", "emoji": "🌅", "set": "B"}
+ ],
+ "quiz": [
+  {"q": "ചെറുകൈയുകളോട് കവി എന്താണ് ആവശ്യപ്പെടുന്നത്?", "qe": "What does the poet ask the little hands to do?", "o": ["പന്തങ്ങൾ ഏന്താൻ", "ഉറങ്ങാൻ", "കളിക്കാൻ", "പാട്ടുപാടാൻ"], "oe": ["Carry the torches", "Sleep", "Play", "Sing a song"], "a": 0, "sec": "A"},
+  {"q": "തീനാളം പിറന്നത് എവിടെയാണ്?", "qe": "Where was the flame born?", "o": ["കടലിൽ", "നഗരത്തിൽ", "കാടിന്റെ നടുവിൽ", "ആകാശത്തിൽ"], "oe": ["In the sea", "In a city", "In the middle of the forest", "In the sky"], "a": 2, "sec": "A"},
+  {"q": "എന്തുരസിയപ്പോഴാണ് തീനാളം പിറന്നത്?", "qe": "What rubbed together when the flame was born?", "o": ["കൈകൾ", "ചിന്തകൾ", "മരങ്ങൾ", "മേഘങ്ങൾ"], "oe": ["Hands", "Thoughts", "Trees", "Clouds"], "a": 1, "sec": "A"},
+  {"q": "തീനാളത്തെ എന്തിനോടാണ് ഉപമിച്ചിരിക്കുന്നത്?", "qe": "The flame is compared to what?", "o": ["ഒരു പൂവ്", "ഒരു പക്ഷി", "ഒരു നക്ഷത്രം", "ചോരപുരണ്ട വാൾ"], "oe": ["A flower", "A bird", "A star", "A bloody sword"], "a": 3, "sec": "A"},
+  {"q": "തീ കണ്ടപ്പോൾ ആരാണ് സംഭ്രമിച്ചത്?", "qe": "Who got frightened when the fire came?", "o": ["ഇരുട്ടുകൾ", "കുട്ടികൾ", "മൃഗങ്ങൾ", "പക്ഷികൾ"], "oe": ["The darkness", "The children", "The animals", "The birds"], "a": 0, "sec": "A"},
+  {"q": "പന്തങ്ങൾ കയ്യിലേന്തി കാലപ്പെരുവഴിയിലൂടെ വന്നത് ആര്?", "qe": "Who came down the road of time carrying torches?", "o": ["രാജാക്കന്മാർ", "യുവജനവൃന്ദങ്ങൾ", "മുത്തശ്ശിമാർ", "പടയാളികൾ"], "oe": ["Kings", "Crowds of young people", "Grandmothers", "Soldiers"], "a": 1, "sec": "B"},
+  {"q": "കാടും പടലും വെണ്ണീറാക്കി എന്തിനാണ് വളമേകിയത്?", "qe": "The ash from burned forest gave fertiliser to what?", "o": ["പൂക്കൾക്ക്", "മരങ്ങൾക്ക്", "കനകക്കതിരിന് (ധാന്യം)", "പുല്ലിന്"], "oe": ["Flowers", "Trees", "Golden grain", "Grass"], "a": 2, "sec": "B"},
+  {"q": "ഇരിമ്പ് കുഴമ്പാക്കി എന്താണ് ഉണ്ടാക്കിയത്?", "qe": "What was made by melting iron?", "o": ["പണിയായുധങ്ങൾ", "പാത്രങ്ങൾ മാത്രം", "ആഭരണങ്ങൾ", "വീടുകൾ"], "oe": ["Tools for work", "Only pots", "Jewellery", "Houses"], "a": 0, "sec": "B"},
+  {"q": "പന്തങ്ങൾ ഇരുട്ടിൽ എന്താണ് ചമച്ചത്?", "qe": "What did the torches make in the darkness?", "o": ["പുക", "പുത്തൻ പുലരികൾ", "മഴ", "നിഴലുകൾ"], "oe": ["Smoke", "Beautiful new dawns", "Rain", "Shadows"], "a": 1, "sec": "B"}
+ ],
+ "build": [
+  {"ch": ["ചോരതുടിക്കും", "ചെറുകൈയുകളേ,", "പേറുക", "വന്നീപ്പന്തങ്ങൾ"], "en": "O little hands full of young blood, come and carry these torches.", "rom": "Choratthudikkum cherukaiyukale, peruka vanneeppanthangal"},
+  {"ch": ["വന്നു", "പിറന്നിതു", "ചെന്നിണമോലും", "വാളു", "കണക്കൊരു", "തീനാളം"], "en": "A flame was born, like a sword dripping red blood.", "rom": "Vannu piranithu chenninamolum vaalu kanakkoru theenaalam"},
+  {"ch": ["പാരിൽ", "മനുഷ്യപുരോഗമനക്കൊടി", "പാറിച്ചവയീപ്പന്തങ്ങൾ"], "en": "These torches flew the flag of human progress across the world.", "rom": "Paaril manushyapurogamanakkodi paarichavayeeppanthangal"},
+  {"ch": ["മെത്തിടുമിരുളിതിലെത്ര", "ചമച്ചു", "പുത്തൻ", "പുലരിച്ചന്തങ്ങൾ"], "en": "In this thick darkness, how many beautiful new dawns they made!", "rom": "Metthidumirulithilethra chamachu putthan pularichanthangal"}
+ ],
+ "retell": [
+  "The poet calls young people (little hands) to come and carry the torches",
+  "Long ago in the forest, ancestors' thoughts rubbed together and a flame was born, like a red sword",
+  "The darkness got scared; people saw a promise of a better world in the fire's smile",
+  "Crowds of young people carried thousands of torches, singing, down the road of time",
+  "Fire helped grow crops, make iron tools, light the lamps of knowledge and warm the arts",
+  "The torches lifted people up and made beautiful new dawns — fire means knowledge"
+ ],
+ "write": {"title": "✍️ What would my torch light up?", "prompt": "നീ ഒരു പന്തം ഏന്തിയാൽ ഏത് ഇരുട്ടിനെ മാറ്റും? എഴുതൂ.", "en": "If you carried a torch of knowledge, what 'darkness' would you light up? (Something people don't know yet, a problem to solve, something to invent.) Write in Malayalam, English or mixed.", "starters": ["എന്റെ പന്തം...", "ഞാൻ കണ്ടുപിടിക്കും..."], "min": 30},
+ "plan": [
+  {"title": "The first flame", "ml": "ആദ്യത്തെ തീനാളം", "icon": "🔥", "mode": "game", "steps": [{"t": "info"}, {"t": "story", "scenes": [0, 2]}, {"t": "cards", "set": "A"}]},
+  {"title": "Torches down the ages", "ml": "പന്തങ്ങളുടെ യാത്ര", "icon": "🌅", "mode": "game", "steps": [{"t": "warmup", "sets": ["A"]}, {"t": "story", "scenes": [3, 5]}, {"t": "cards", "set": "B"}, {"t": "match", "set": "A"}]},
+  {"title": "Sing it and play", "ml": "ചൊല്ലാം, കളിക്കാം", "icon": "🎵", "mode": "game", "steps": [{"t": "story"}, {"t": "memory", "set": "B"}, {"t": "quiz", "sec": "A"}, {"t": "builder"}]},
+  {"title": "Write, tell and final", "ml": "എഴുതാം, പറയാം", "icon": "🏆", "mode": "classic", "steps": [{"t": "quiz", "sec": "B"}, {"t": "write"}, {"t": "retell"}, {"t": "final"}]}
+ ]
+}
